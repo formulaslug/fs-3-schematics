@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "ETC PCB")
-		(date "2024-10-14")
-		(rev "1.0.0")
+		(date "2024-10-20")
+		(rev "1.1.0")
 		(company "Formula Slug")
 	)
 	(layers
@@ -10789,12 +10789,12 @@
 		(uuid "22a4ffdf-b5dc-41c4-89da-af851397a89c")
 	)
 	(segment
-		(start 157.863591 82.323591)
-		(end 155.4473 82.323591)
+		(start 161.19 71.5)
+		(end 161.19 66.55)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "23720cfb-15c5-40f5-9ade-84b7a086d278")
+		(uuid "232fc2fe-c4c8-4950-97cd-d53f6235154c")
 	)
 	(segment
 		(start 190.175 81.4)
@@ -10830,11 +10830,11 @@
 	)
 	(segment
 		(start 161.19 76.6)
-		(end 161.19 66.55)
+		(end 161.19 71.5)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "3c7bc8f3-b004-428d-8501-bf009ef0f56d")
+		(uuid "38b73ac6-36bb-4ea2-93d2-8e00a2f46d2e")
 	)
 	(segment
 		(start 149.9273 74.643591)
@@ -10875,14 +10875,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "5147bbab-e7a5-4a52-8438-79eb7146deb8")
-	)
-	(segment
-		(start 161.19 85.65)
-		(end 157.863591 82.323591)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "559a75a5-b203-4c60-bd1f-e839335fdfd6")
 	)
 	(segment
 		(start 156.5973 79.611091)
@@ -11091,6 +11083,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "fd0e3fab-3dc9-43bd-b2a0-042c161f3cac")
+	)
+	(via
+		(at 161.19 71.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 2)
+		(uuid "077b216b-bb29-4696-beb3-0c9ea0009e81")
 	)
 	(segment
 		(start 179.585 107.3)
