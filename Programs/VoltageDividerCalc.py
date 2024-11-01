@@ -42,7 +42,9 @@ def find (input, output):
                 storage = (vA,vB)
             # print(vA,vB)
     storageOut = (storage[0] * 100**decimals, storage[1])
-    print(f"R1: {storageOut[0]}, R2: {storageOut[1]}, Error%: {round(errorVar,3)}")
+
+    v_actual = (storageOut[1]/(storageOut[0] + storageOut[1])) * Vin
+    print(f"R1: {storageOut[0]}Ω, R2: {storageOut[1]}Ω, Error%: {round(errorVar,3)}%, Actaully Voltage Output: {round(v_actual,3)}V")
     return storageOut, errorVar
 
 
