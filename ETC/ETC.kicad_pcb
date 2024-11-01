@@ -2450,7 +2450,7 @@
 		(descr "SOT-363, SC-70-6, Handsoldering")
 		(tags "SOT-363 SC-70-6 Handsoldering")
 		(property "Reference" "U7"
-			(at 0 -2.25 360)
+			(at 3.62 0.8 0)
 			(layer "F.SilkS")
 			(uuid "34925f12-765b-46e0-87f8-fb204449a0f9")
 			(effects
@@ -2461,7 +2461,7 @@
 			)
 		)
 		(property "Value" "SSM6N37FU_LF"
-			(at 0 2 360)
+			(at 0 -2.4 0)
 			(layer "F.Fab")
 			(uuid "952a1d02-220d-4a54-b440-91827fc07335")
 			(effects
@@ -10911,6 +10911,19 @@
 				(bold yes)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "N-ch\nFET"
+		(at 114 95.2 0)
+		(layer "F.SilkS")
+		(uuid "5d7160eb-219a-40d2-aefc-4665a754aa74")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.09)
+				(bold yes)
+			)
+			(justify right bottom)
 		)
 	)
 	(gr_text "5V\nLinear\nRegulator"
