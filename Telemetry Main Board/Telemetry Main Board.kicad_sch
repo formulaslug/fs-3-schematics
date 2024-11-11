@@ -4988,6 +4988,12 @@
 		(uuid "ac1aaff4-6328-46d8-a473-6f4798d7b5e2")
 	)
 	(junction
+		(at 259.08 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af736c7d-ea7e-4299-9f62-9d3289b88435")
+	)
+	(junction
 		(at 50.8 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5040,6 +5046,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6c88191-8420-4d5b-a581-e4e1ca3cc186")
+	)
+	(junction
+		(at 260.35 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e96fd8a4-77eb-46e8-bc95-9f654b21b57b")
 	)
 	(junction
 		(at 58.42 149.86)
@@ -5275,6 +5287,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 88.9) (xy 246.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12150155-611c-474f-9565-2d8d2f9cfd6f")
+	)
+	(wire
+		(pts
 			(xy 116.84 50.8) (xy 120.65 50.8)
 		)
 		(stroke
@@ -5335,6 +5357,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 86.36) (xy 260.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df6c6f4-6ac1-4448-bf5b-99b785b1ad6d")
+	)
+	(wire
+		(pts
 			(xy 114.3 88.9) (xy 119.38 88.9)
 		)
 		(stroke
@@ -5392,6 +5424,16 @@
 			(type default)
 		)
 		(uuid "461ed149-29f7-4361-b7aa-0ad1ee13810d")
+	)
+	(wire
+		(pts
+			(xy 259.08 129.54) (xy 259.08 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46389002-5381-47d1-8250-3c14c16927b2")
 	)
 	(wire
 		(pts
@@ -5575,6 +5617,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 86.36) (xy 260.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7946efa2-fb1f-4f27-839d-47a0efe8d688")
+	)
+	(wire
+		(pts
 			(xy 116.84 100.33) (xy 120.65 100.33)
 		)
 		(stroke
@@ -5615,6 +5667,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 96.52) (xy 259.08 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c94ede-b338-4a44-9b90-03518eed6478")
+	)
+	(wire
+		(pts
 			(xy 114.3 91.44) (xy 116.84 91.44)
 		)
 		(stroke
@@ -5632,6 +5694,26 @@
 			(type default)
 		)
 		(uuid "8a179acc-429a-4916-b51b-e2646411c92f")
+	)
+	(wire
+		(pts
+			(xy 259.08 139.7) (xy 257.81 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0cb087-f369-4962-9d64-4d9dff13ba05")
+	)
+	(wire
+		(pts
+			(xy 245.11 129.54) (xy 259.08 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6feded-2351-4263-bbe9-4d67812c72cd")
 	)
 	(wire
 		(pts
@@ -5685,6 +5767,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 139.7) (xy 259.08 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5431c09-0e32-4083-a55f-4f9b64126d6a")
+	)
+	(wire
+		(pts
 			(xy 83.82 77.47) (xy 83.82 82.55)
 		)
 		(stroke
@@ -5712,6 +5804,16 @@
 			(type default)
 		)
 		(uuid "a90638d7-b031-4905-b97b-338c9b7e276e")
+	)
+	(wire
+		(pts
+			(xy 245.11 132.08) (xy 245.11 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95d4fdb-4398-497f-9995-3c1f6fdbdff5")
 	)
 	(wire
 		(pts
@@ -5882,6 +5984,16 @@
 			(type default)
 		)
 		(uuid "efb1abc5-6d61-4224-bdfc-a5d8c2102789")
+	)
+	(wire
+		(pts
+			(xy 261.62 96.52) (xy 260.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d01a1b-d595-4363-a975-c57211d3bc8c")
 	)
 	(wire
 		(pts
@@ -10037,7 +10149,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1 Ω"
 			(at 248.412 134.874 0)
 			(effects
 				(font
@@ -10772,7 +10884,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 259.08 96.52 270)
+		(at 261.62 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10781,7 +10893,7 @@
 		(fields_autoplaced yes)
 		(uuid "88a6b6ee-8ac9-48cd-b4b4-8a3636440d7a")
 		(property "Reference" "#PWR054"
-			(at 255.27 96.52 0)
+			(at 257.81 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10790,7 +10902,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 262.89 96.5199 90)
+			(at 265.43 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10799,7 +10911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 96.52 0)
+			(at 261.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10808,7 +10920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 96.52 0)
+			(at 261.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10817,7 +10929,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 96.52 0)
+			(at 261.62 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11114,7 +11226,7 @@
 				)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "2 μf"
 			(at 240.03 145.542 0)
 			(effects
 				(font
@@ -11758,72 +11870,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 245.11 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bad0825f-81d6-4018-ba4b-3ebd4cec0dde")
-		(property "Reference" "#PWR022"
-			(at 245.11 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 245.11 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b611dae-d24d-41b3-9411-597bb97742f1")
-		)
-		(instances
-			(project "Telemetry Main Board"
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 71.12 17.78 270)
 		(unit 1)
@@ -11905,7 +11951,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1 Ω"
 			(at 249.682 91.694 0)
 			(effects
 				(font
@@ -12325,7 +12371,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 257.81 139.7 270)
+		(at 260.35 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12334,7 +12380,7 @@
 		(fields_autoplaced yes)
 		(uuid "d09e285d-2876-4814-aa5e-2f43df6774e4")
 		(property "Reference" "#PWR032"
-			(at 254 139.7 0)
+			(at 256.54 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12343,7 +12389,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 261.62 139.6999 90)
+			(at 264.16 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12352,7 +12398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 139.7 0)
+			(at 260.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12361,7 +12407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 139.7 0)
+			(at 260.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12370,7 +12416,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 139.7 0)
+			(at 260.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13615,72 +13661,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 246.38 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f020339c-5114-41db-ad3d-8295ba0474e0")
-		(property "Reference" "#PWR052"
-			(at 246.38 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 246.38 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d555882-5519-4e9d-9b27-addf0dd2b142")
-		)
-		(instances
-			(project "Telemetry Main Board"
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+9V")
 		(at 71.12 22.86 90)
 		(unit 1)
@@ -13764,7 +13744,7 @@
 				)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "2 μf"
 			(at 241.3 102.362 0)
 			(effects
 				(font
