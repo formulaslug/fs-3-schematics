@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "cd827802-ab32-49ad-ad84-bccf81c569e7")
 	(paper "A4")
+	(title_block
+		(title "PD BOARD")
+		(date "2024-11-11")
+		(rev "1.1")
+		(company "Formula Slug")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
@@ -736,10 +742,6 @@
 			)
 		)
 	)
-	(no_connect
-		(at 262.89 71.12)
-		(uuid "349d057b-2e81-4da9-808e-227332219157")
-	)
 	(global_label "CAN H"
 		(shape output)
 		(at 260.35 71.12 270)
@@ -938,6 +940,50 @@
 			)
 		)
 	)
+	(global_label "brake_pressure_sensor_9v"
+		(shape output)
+		(at 273.05 71.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d497111-c0e3-4f04-989a-404093801127")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.05 98.7188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "brake_pressure_sensor_9v"
+		(shape output)
+		(at 262.89 71.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84fd1a60-8601-46c1-affe-4b0741c59cc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.89 98.7188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "dash_out"
 		(shape output)
 		(at 231.14 66.04 270)
@@ -973,28 +1019,6 @@
 		(uuid "a0cdaca8-7c4e-4b37-84f9-adca298b8434")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.59 82.5716 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "brake_pressure_sensor_9v"
-		(shape output)
-		(at 273.05 71.12 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b9708227-38ef-44e0-9e52-c8eebca9444a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 98.7188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
