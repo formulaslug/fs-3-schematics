@@ -2015,9 +2015,9 @@
 	(footprint "FS_3_Global_Footprint_Library:ATM13-8PA-BM03"
 		(layer "F.Cu")
 		(uuid "13cecce1-fe4c-4ae9-a9f3-55e6e0360d3b")
-		(at 96.25 109.1)
+		(at 137.45 133.75 90)
 		(property "Reference" "J1"
-			(at 15.367 -4.826 0)
+			(at 15.367 -4.826 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7ee7ae65-acc9-4998-8915-6a1836efda39")
@@ -2029,7 +2029,7 @@
 			)
 		)
 		(property "Value" "8 pin ATM connector"
-			(at 0 -0.7 0)
+			(at 0 -0.7 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ef6cfc5a-edf4-4224-bbd6-5346222a291a")
@@ -2041,7 +2041,7 @@
 			)
 		)
 		(property "Footprint" "FS_3_Global_Footprint_Library:ATM13-8PA-BM03"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2054,7 +2054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0.3 0 0)
+			(at 0.3 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2067,7 +2067,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 0.3 0 0)
+			(at 0.3 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2096,7 +2096,7 @@
 			(uuid "1f044a87-cbd7-4a1f-b705-8365e039fa20")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.8 0)
+			(at 0 0.8 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "8ff994bb-36e8-4801-8e62-19b984a9fb8a")
@@ -2108,28 +2108,28 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 1.8 -1.5)
+			(at 1.8 -1.5 90)
 			(size 2.79 2.79)
 			(drill 2.79)
 			(layers "*.Mask")
 			(uuid "5d3a06d7-af8d-47fd-b5d3-b0e611ef6cfb")
 		)
 		(pad "" np_thru_hole circle
-			(at 15 -13.85)
+			(at 15 -13.85 90)
 			(size 2.79 2.79)
 			(drill 2.79)
 			(layers "*.Mask")
 			(uuid "967ec5f9-4b37-487f-8ea6-16bfa3921835")
 		)
 		(pad "" np_thru_hole circle
-			(at 28.2 -1.5)
+			(at 28.2 -1.5 90)
 			(size 2.79 2.79)
 			(drill 2.79)
 			(layers "*.Mask")
 			(uuid "50911b68-90f2-4be0-bd1d-95b1cc318656")
 		)
 		(pad "1" thru_hole roundrect
-			(at 21.3 -1.5)
+			(at 21.3 -1.5 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -2141,7 +2141,7 @@
 			(uuid "dc0b97f5-5ec3-4fbd-ae46-795a1d299421")
 		)
 		(pad "2" thru_hole circle
-			(at 17.1 -1.5)
+			(at 17.1 -1.5 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -2152,7 +2152,7 @@
 			(uuid "f054cd0d-1878-448c-8336-4951b9e4cf28")
 		)
 		(pad "3" thru_hole circle
-			(at 12.9 -1.5)
+			(at 12.9 -1.5 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -2163,7 +2163,7 @@
 			(uuid "8e1549c8-32da-4664-bd28-7ec49c19d9c0")
 		)
 		(pad "4" thru_hole circle
-			(at 8.7 -1.5)
+			(at 8.7 -1.5 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -2174,7 +2174,7 @@
 			(uuid "96890268-dbb6-41d1-82bb-36be797e063c")
 		)
 		(pad "5" thru_hole circle
-			(at 8.7 -7.85)
+			(at 8.7 -7.85 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -2185,7 +2185,7 @@
 			(uuid "442c8339-98f9-4742-ad31-f8079c67d80e")
 		)
 		(pad "6" thru_hole circle
-			(at 12.9 -7.85)
+			(at 12.9 -7.85 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -2196,7 +2196,7 @@
 			(uuid "db103a86-08dd-4d82-8785-a38323178803")
 		)
 		(pad "7" thru_hole circle
-			(at 17.1 -7.85)
+			(at 17.1 -7.85 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -2207,7 +2207,7 @@
 			(uuid "b8ba5bed-2068-4e7e-8463-9a330c5c1769")
 		)
 		(pad "8" thru_hole circle
-			(at 21.3 -7.85)
+			(at 21.3 -7.85 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -5515,9 +5515,9 @@
 	(footprint "FS_3_Global_Footprint_Library:ATM13-12PA-BM03"
 		(layer "F.Cu")
 		(uuid "7105a64a-4d60-4e50-ad97-c8c5691ef836")
-		(at 106.05 61)
+		(at 114.675 112.9 90)
 		(property "Reference" "J3"
-			(at 16.8 3 0)
+			(at 16.8 3 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c30fdd28-681a-4917-93f0-b44f5df85ec3")
@@ -5529,7 +5529,7 @@
 			)
 		)
 		(property "Value" "12 pin ATM connector"
-			(at 0 -0.7 0)
+			(at 0 -0.7 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "9866fb47-3de6-4cee-b3f8-ae13145a4edf")
@@ -5541,7 +5541,7 @@
 			)
 		)
 		(property "Footprint" "FS_3_Global_Footprint_Library:ATM13-12PA-BM03"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5554,7 +5554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5567,7 +5567,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5609,7 +5609,7 @@
 			(uuid "b811d5f4-82c8-4f6a-8d93-052b5966c9b1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.8 0)
+			(at 0 0.8 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "921ec029-9829-4c8b-a4c1-b2e6f1af0e9c")
@@ -5621,21 +5621,21 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 11.61 3.65)
+			(at 11.61 3.65 90)
 			(size 3.43 3.43)
 			(drill 3.43)
 			(layers "*.Mask")
 			(uuid "a257b580-ffc5-4560-a102-280b2eae848f")
 		)
 		(pad "" np_thru_hole circle
-			(at 29.39 3.65)
+			(at 29.39 3.65 90)
 			(size 3.43 3.43)
 			(drill 3.43)
 			(layers "*.Mask")
 			(uuid "b2466dc2-932e-4bff-afe7-1cc13558acc9")
 		)
 		(pad "1" thru_hole roundrect
-			(at 31 16.35)
+			(at 31 16.35 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -5647,7 +5647,7 @@
 			(uuid "5b692d0d-1709-4e70-bbad-1825d4c6dd30")
 		)
 		(pad "2" thru_hole circle
-			(at 26.8 16.35)
+			(at 26.8 16.35 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -5658,7 +5658,7 @@
 			(uuid "ddeb0e87-b8a8-4c72-8199-9e7c9ebd3a06")
 		)
 		(pad "3" thru_hole circle
-			(at 22.6 16.35)
+			(at 22.6 16.35 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -5669,7 +5669,7 @@
 			(uuid "16cc6765-a437-4677-b209-61badfb5dfe9")
 		)
 		(pad "4" thru_hole circle
-			(at 18.4 16.35)
+			(at 18.4 16.35 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -5680,7 +5680,7 @@
 			(uuid "9ef66e47-e3cb-418d-b28d-ae94340bcb3a")
 		)
 		(pad "5" thru_hole circle
-			(at 14.2 16.35)
+			(at 14.2 16.35 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -5691,7 +5691,7 @@
 			(uuid "c749d2f4-0dcc-4e6a-8d75-4395f9f827a0")
 		)
 		(pad "6" thru_hole circle
-			(at 10 16.35)
+			(at 10 16.35 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -5702,7 +5702,7 @@
 			(uuid "2258c77b-8f67-47e0-9a10-3a42da269eb1")
 		)
 		(pad "7" thru_hole circle
-			(at 10 10)
+			(at 10 10 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -5713,7 +5713,7 @@
 			(uuid "59e166fc-0991-4b8d-9b33-87e0aa5a41e2")
 		)
 		(pad "8" thru_hole circle
-			(at 14.2 10)
+			(at 14.2 10 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -5724,7 +5724,7 @@
 			(uuid "3e888b81-582d-4b6a-867e-8068155207af")
 		)
 		(pad "9" thru_hole circle
-			(at 18.4 10)
+			(at 18.4 10 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -5735,7 +5735,7 @@
 			(uuid "01f9117a-6d84-4e9d-b6f1-da49d5923653")
 		)
 		(pad "10" thru_hole circle
-			(at 22.6 10)
+			(at 22.6 10 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -5746,7 +5746,7 @@
 			(uuid "b9a39f97-5d7c-4115-bf6c-bc336acdd52a")
 		)
 		(pad "11" thru_hole circle
-			(at 26.8 10)
+			(at 26.8 10 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -5757,7 +5757,7 @@
 			(uuid "1509ae1d-38bd-46d4-b48a-4740ccbdd976")
 		)
 		(pad "12" thru_hole circle
-			(at 31 10)
+			(at 31 10 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
