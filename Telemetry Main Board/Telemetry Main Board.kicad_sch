@@ -5104,8 +5104,8 @@
 		(uuid "3774c14d-e5a1-4304-ab07-805fc11f151e")
 	)
 	(no_connect
-		(at 163.83 35.56)
-		(uuid "46531c25-dc17-45b9-9f7c-b6d2125430d2")
+		(at 194.31 50.8)
+		(uuid "4676e76d-0c3f-4ec9-90e9-c67e2f023b55")
 	)
 	(no_connect
 		(at 194.31 66.04)
@@ -5116,8 +5116,8 @@
 		(uuid "4aeeefe4-1a2d-4c6b-9462-912a1194376a")
 	)
 	(no_connect
-		(at 163.83 38.1)
-		(uuid "52750493-f160-4d7a-b956-0716402b1a1e")
+		(at 194.31 53.34)
+		(uuid "570a0c6e-cfe8-4767-946b-6f86641aec06")
 	)
 	(no_connect
 		(at 180.34 154.94)
@@ -6795,28 +6795,6 @@
 			)
 		)
 	)
-	(global_label "SPI3_SSEL3"
-		(shape output)
-		(at 194.31 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4732a9ac-aca7-42f7-9a2f-53903101b58b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.3622 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SD Card Detect T{slash}F"
 		(shape input)
 		(at 128.27 137.16 180)
@@ -7103,6 +7081,28 @@
 			)
 		)
 	)
+	(global_label "SPI3_SSEL2"
+		(shape output)
+		(at 163.83 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73b24701-f4e2-4829-8513-8d45be02a2ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.7778 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC"
 		(shape input)
 		(at 198.12 58.42 0)
@@ -7301,6 +7301,28 @@
 			)
 		)
 	)
+	(global_label "SPI3_SSEL3"
+		(shape output)
+		(at 163.83 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "846effd6-f4c1-44b3-ae95-e84e1deb5f84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.7778 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN2_H"
 		(shape bidirectional)
 		(at 26.67 26.67 0)
@@ -7446,28 +7468,6 @@
 		(uuid "99dba71b-572d-4f23-b815-65db462b58c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 37.6608 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI3_SSEL2"
-		(shape output)
-		(at 194.31 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ad084bfb-b52b-47d7-9923-93f818c33daf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.3622 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,7 +9720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FS_3_Global_Footprint_Library:PDIP14_300MC_MCH"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 41.91 147.32 0)
 			(effects
 				(font
@@ -11519,7 +11519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FS_3_Global_Footprint_Library:PDIP14_300MC_MCH"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 41.91 170.18 0)
 			(effects
 				(font
@@ -12224,7 +12224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FS_3_Global_Footprint_Library:PDIP14_300MC_MCH"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 73.66 187.96 0)
 			(effects
 				(font
@@ -13479,7 +13479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FS_3_Global_Footprint_Library:PDIP14_300MC_MCH"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 41.91 123.19 0)
 			(effects
 				(font
@@ -13582,7 +13582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FS_3_Global_Footprint_Library:PDIP14_300MC_MCH"
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 35.56 195.58 0)
 			(effects
 				(font
