@@ -7,7 +7,7 @@
 	(title_block
 		(title "Accumulator Shutdown Logic")
 		(date "2024-10-27")
-		(rev "1")
+		(rev "3")
 		(company "Ethan James - Formula Slug")
 	)
 	(lib_symbols
@@ -5567,6 +5567,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 124.46) (xy 181.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8b313c-efc5-47df-9d95-22755e48fc0c")
+	)
+	(wire
+		(pts
 			(xy 133.35 119.38) (xy 140.97 119.38)
 		)
 		(stroke
@@ -5654,6 +5664,16 @@
 			(type default)
 		)
 		(uuid "4c4ff833-dbcb-49af-bafb-7b18c37803ea")
+	)
+	(wire
+		(pts
+			(xy 74.93 124.46) (xy 69.85 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f2591c-7602-4526-94e6-dfb069671f8c")
 	)
 	(wire
 		(pts
@@ -5817,6 +5837,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 127) (xy 185.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7783543a-cc18-45ce-aea4-30c383f667cd")
+	)
+	(wire
+		(pts
 			(xy 68.58 88.9) (xy 68.58 91.44)
 		)
 		(stroke
@@ -5967,6 +5997,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 124.46) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1411a4-7aa0-4206-9a9a-7352de4fe926")
+	)
+	(wire
+		(pts
 			(xy 100.33 91.44) (xy 109.22 91.44)
 		)
 		(stroke
@@ -5977,6 +6017,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 125.73) (xy 128.27 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ad8d65-61f5-4139-9db9-e04269633768")
+	)
+	(wire
+		(pts
 			(xy 163.83 72.39) (xy 163.83 78.74)
 		)
 		(stroke
@@ -5984,16 +6034,6 @@
 			(type default)
 		)
 		(uuid "a6e0fd9f-ad86-431c-a790-fb73b0b40292")
-	)
-	(wire
-		(pts
-			(xy 181.61 124.46) (xy 196.85 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a80fe7a5-7e70-486f-9ea7-3d487d26d4d6")
 	)
 	(wire
 		(pts
@@ -6024,6 +6064,16 @@
 			(type default)
 		)
 		(uuid "abab95f7-a519-4a9c-b71d-55068780a0f1")
+	)
+	(wire
+		(pts
+			(xy 74.93 135.89) (xy 74.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac5e7b5c-83de-46a6-ac68-e8d0eef2f10a")
 	)
 	(wire
 		(pts
@@ -6114,16 +6164,6 @@
 			(type default)
 		)
 		(uuid "c14bb647-82c4-457f-abe4-568cdb4a4254")
-	)
-	(wire
-		(pts
-			(xy 124.46 124.46) (xy 137.16 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9c1b39d-8e70-42c4-a92c-8aeee63f2cdf")
 	)
 	(wire
 		(pts
@@ -6254,16 +6294,6 @@
 			(type default)
 		)
 		(uuid "e2ff2fcf-5a16-4a47-8f91-663f94c238ef")
-	)
-	(wire
-		(pts
-			(xy 69.85 124.46) (xy 81.28 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e31f0587-787c-43b9-a607-acd5469cf323")
 	)
 	(wire
 		(pts
@@ -6459,6 +6489,16 @@
 		)
 		(uuid "125a3de8-f88d-4463-83c0-29ac254308a8")
 	)
+	(text "--> IMD Relay"
+		(exclude_from_sim no)
+		(at 30.48 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19d6cae5-6e24-495f-a1dc-068e7eb1c71f")
+	)
 	(text "SMD NAND GATE"
 		(exclude_from_sim no)
 		(at 231.648 70.612 0)
@@ -6499,6 +6539,16 @@
 			)
 		)
 		(uuid "3e44157d-24ec-4bbe-b2b2-097819b1ab6e")
+	)
+	(text "--> BSPD Relay"
+		(exclude_from_sim no)
+		(at 78.74 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ea43791-e91b-4552-8d49-a58ef04a7cb6")
 	)
 	(text "BMS Fault Low --> 5V Relay"
 		(exclude_from_sim no)
@@ -6563,6 +6613,16 @@
 		)
 		(uuid "6bdff134-fdfc-40cd-aee6-350aba6baecd")
 	)
+	(text "--> BMS Relay"
+		(exclude_from_sim no)
+		(at 137.668 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c97804a-ba8a-43f8-a292-38bcf5f8f5ae")
+	)
 	(text "On fault condition triggers TSSI light"
 		(exclude_from_sim no)
 		(at 148.59 35.56 0)
@@ -6604,13 +6664,13 @@
 		(uuid "fc7daa16-f283-4c5f-b53f-28bcd444cad6")
 	)
 	(label "IMD_DELAY"
-		(at 81.28 124.46 180)
+		(at 74.93 135.89 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "06d3a2e6-fba2-4d01-bf4d-addeca13a95a")
 	)
@@ -6646,17 +6706,6 @@
 			(justify right bottom)
 		)
 		(uuid "3610252e-d1ab-4e26-9e6a-984e34ab6999")
-	)
-	(label "BSPD_FAULT"
-		(at 137.16 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3cbf4f68-b5ee-435a-9bef-238b7779c784")
 	)
 	(label "BSPD_RL"
 		(at 74.93 119.38 0)
@@ -6701,17 +6750,6 @@
 			(justify right bottom)
 		)
 		(uuid "93eef311-a7ac-45de-85d6-536547585e6a")
-	)
-	(label "BMS_FAULT_5V"
-		(at 196.85 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b2eaab89-5e16-4475-af39-bd49eff60673")
 	)
 	(label "IMD_DELAY"
 		(at 273.05 82.55 180)
@@ -6767,6 +6805,18 @@
 			(justify right bottom)
 		)
 		(uuid "fd2a8282-6142-4b40-9c52-63cb141c799b")
+	)
+	(hierarchical_label "BSPD_FAULT_5V"
+		(shape input)
+		(at 128.27 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e193fa9-fb16-470c-a0f5-b5f472778a4a")
 	)
 	(hierarchical_label "TSSI"
 		(shape output)
@@ -6887,6 +6937,18 @@
 			(justify left)
 		)
 		(uuid "cda082c8-c808-40c8-b2ad-0fce688ac3ec")
+	)
+	(hierarchical_label "BMS_FAULT_5V"
+		(shape input)
+		(at 185.42 127 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0902946-96be-4a96-96d5-9a396c159578")
 	)
 	(hierarchical_label "Shutdown_ACC_IN"
 		(shape input)
