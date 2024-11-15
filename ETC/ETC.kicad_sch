@@ -5962,6 +5962,10 @@
 		(uuid "044b0a4b-3d8b-4f00-a11d-2003f133582d")
 	)
 	(no_connect
+		(at 66.04 62.23)
+		(uuid "04e104a4-5bf2-4b83-8a29-29efad178b04")
+	)
+	(no_connect
 		(at 387.35 135.89)
 		(uuid "069fc773-bb2e-452b-b0b4-48ab43f32009")
 	)
@@ -5992,6 +5996,10 @@
 	(no_connect
 		(at 351.79 173.99)
 		(uuid "34162605-bbef-45a2-abd4-5a74b0e5253e")
+	)
+	(no_connect
+		(at 35.56 36.83)
+		(uuid "37d3b627-8415-4097-98b3-834fa53f9153")
 	)
 	(no_connect
 		(at 275.59 135.89)
@@ -6195,16 +6203,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 52.07) (xy 76.2 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03a3be92-4cf8-48db-a4b8-2ed425be70a2")
-	)
-	(wire
-		(pts
 			(xy 111.76 234.95) (xy 124.46 234.95)
 		)
 		(stroke
@@ -6262,16 +6260,6 @@
 			(type default)
 		)
 		(uuid "1132d1b2-6c2d-4b14-b84f-d4355ea5d91f")
-	)
-	(wire
-		(pts
-			(xy 66.04 59.69) (xy 78.74 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "124ebf47-aa9f-43fd-ab9a-fef7071de4fc")
 	)
 	(wire
 		(pts
@@ -7365,6 +7353,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 52.07) (xy 77.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc65020d-3afd-4257-a0b1-e4400aab5a18")
+	)
+	(wire
+		(pts
 			(xy 168.91 119.38) (xy 168.91 120.65)
 		)
 		(stroke
@@ -7385,7 +7383,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 57.15) (xy 35.56 57.15)
+			(xy 22.86 57.15) (xy 35.56 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7412,6 +7410,16 @@
 			(type default)
 		)
 		(uuid "d1c876d3-fcdf-4585-99b4-da96b23273c5")
+	)
+	(wire
+		(pts
+			(xy 66.04 59.69) (xy 77.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21bb4a6-aa65-4227-8876-5ec32e623358")
 	)
 	(wire
 		(pts
@@ -7605,7 +7613,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 59.69) (xy 35.56 59.69)
+			(xy 22.86 59.69) (xy 35.56 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7757,16 +7765,6 @@
 		)
 		(uuid ed34afb6-eff3-4849-beac-b60e15a2b4fc)
 	)
-	(text "RTDS"
-		(exclude_from_sim no)
-		(at 78.994 62.484 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4ac34157-a523-4c93-9bc0-b4a5017a231b")
-	)
 	(text "CAN Trancievers"
 		(exclude_from_sim no)
 		(at 70.358 175.26 0)
@@ -7776,16 +7774,6 @@
 			)
 		)
 		(uuid "50548918-9f55-4248-a853-b0e7614ef1dc")
-	)
-	(text "Brake"
-		(exclude_from_sim no)
-		(at 24.892 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "52cacfae-2f36-42d3-9cac-c10fd1e37de4")
 	)
 	(text "Cockpit"
 		(exclude_from_sim no)
@@ -7978,7 +7966,7 @@
 		(uuid "2bea6fd5-7d06-4870-bb21-63674a4de4a1")
 	)
 	(label "L_CAN"
-		(at 27.94 59.69 0)
+		(at 22.86 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7989,7 +7977,7 @@
 		(uuid "370a7e2e-2a6a-4c55-8840-b67659d84072")
 	)
 	(label "H_CAN"
-		(at 27.94 57.15 0)
+		(at 22.86 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8099,7 +8087,7 @@
 		(uuid "69b810d9-9d67-42c7-806f-e31ce4f5b29a")
 	)
 	(label "RTDS"
-		(at 78.74 59.69 180)
+		(at 77.47 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8121,7 +8109,7 @@
 		(uuid "7131c285-f0c0-46e6-8aea-7d14fce9bc60")
 	)
 	(label "BSE_RAW"
-		(at 76.2 52.07 180)
+		(at 77.47 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11952,73 +11940,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 35.56 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f59f826-4441-488f-92cd-e3d1834a2974")
-		(property "Reference" "#PWR030"
-			(at 39.37 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 31.75 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 35.56 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b638d76e-58ad-410e-872f-45bb6d963498")
-		)
-		(instances
-			(project "ETC"
-				(path "/61e913ea-868b-4b77-8707-03788b798f2b"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 233.68 162.56 0)
 		(unit 1)
@@ -13127,73 +13048,6 @@
 			(project "ETC"
 				(path "/61e913ea-868b-4b77-8707-03788b798f2b"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 66.04 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a552476-e1c2-455c-8e66-50452ef51ef6")
-		(property "Reference" "#PWR04"
-			(at 62.23 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 69.85 62.2299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbe39100-e1ae-492b-ae3f-6fc60db50eba")
-		)
-		(instances
-			(project "ETC"
-				(path "/61e913ea-868b-4b77-8707-03788b798f2b"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -15102,7 +14956,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eff1bf0e-a045-42eb-96eb-64179c35afda")
 		(property "Reference" "#PWR026"
 			(at 62.23 55.88 0)
