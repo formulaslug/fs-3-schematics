@@ -1863,7 +1863,7 @@
 	(footprint "FS_3_Global_Footprint_Library:FORMULA SLUG"
 		(layer "F.Cu")
 		(uuid "2c14254c-02b5-4a61-81ab-95d251c57e13")
-		(at 145.276936 87.975292)
+		(at 146 87.975292)
 		(descr "Cosmetic Logo Large")
 		(tags "logo")
 		(property "Reference" "G***"
@@ -5813,24 +5813,84 @@
 		)
 	)
 	(gr_line
-		(start 127 93.5)
-		(end 180.5 93.5)
+		(start 131.5 100.5)
+		(end 131 99.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
+		(uuid "08314a10-6fa1-4164-9131-8185aa9b2a45")
+	)
+	(gr_line
+		(start 131.5 93.5)
+		(end 132 94.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "49275c46-dfe9-4fc7-9c08-d6232299a932")
+	)
+	(gr_line
+		(start 127 93.5)
+		(end 180.5 93.5)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
 		(uuid "5c9d8299-698c-4783-bae7-d6fda08b9790")
+	)
+	(gr_line
+		(start 131.5 93.5)
+		(end 131.5 100.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6162e695-605b-44fb-b2df-94fdf7243212")
+	)
+	(gr_line
+		(start 132 94.5)
+		(end 131.5 93.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7c6d6ff0-35f3-436d-984f-0ffb5c9923e8")
 	)
 	(gr_line
 		(start 127 100.5)
 		(end 180.5 100.5)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type dash)
 		)
 		(layer "F.SilkS")
 		(uuid "8fc4900e-1ed9-4a81-b014-703b6d6cdc77")
+	)
+	(gr_line
+		(start 131.5 100.5)
+		(end 132 99.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9dec22b6-2526-4d49-b205-b488eb25f1ba")
+	)
+	(gr_line
+		(start 131.5 93.5)
+		(end 131 94.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0754c4f-bea2-4155-99ee-99d5f8755f15")
 	)
 	(gr_rect
 		(start 127 63)
@@ -5886,6 +5946,18 @@
 		(effects
 			(font
 				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "7.0 mm"
+		(at 132 95.5 -90)
+		(layer "F.SilkS")
+		(uuid "27cd4358-499c-4806-9213-20e67b0aebe1")
+		(effects
+			(font
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 			(justify left bottom)
@@ -5952,7 +6024,7 @@
 		)
 	)
 	(gr_text "FS-3 Charger Shutdown Board\nFormula Slug\nV1.1\nDesigned by Amber Huang"
-		(at 143.5 91 0)
+		(at 144.223064 91 0)
 		(layer "F.SilkS")
 		(uuid "8a5778cb-9207-42c7-af63-7c58c3de9bc6")
 		(effects
@@ -6558,5 +6630,12 @@
 		(layer "F.Cu")
 		(net 15)
 		(uuid "fd7da72c-a6b5-4ed5-b7a6-7e5fccb54647")
+	)
+	(group ""
+		(uuid "3ba0f91d-af2a-41b4-94a2-0619ba6e7af0")
+		(members "08314a10-6fa1-4164-9131-8185aa9b2a45" "49275c46-dfe9-4fc7-9c08-d6232299a932"
+			"6162e695-605b-44fb-b2df-94fdf7243212" "7c6d6ff0-35f3-436d-984f-0ffb5c9923e8"
+			"9dec22b6-2526-4d49-b205-b488eb25f1ba" "b0754c4f-bea2-4155-99ee-99d5f8755f15"
+		)
 	)
 )
