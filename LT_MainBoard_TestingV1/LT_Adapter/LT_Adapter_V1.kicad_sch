@@ -1927,6 +1927,71 @@
 		(uuid "f9e7724b-d487-4312-adf0-f159c7fa31a4")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16fe1813-bce9-4689-87e6-a2ac6753be0d")
+		(property "Reference" "#PWR06"
+			(at 113.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac4b5f42-6bae-4e9a-8cde-14d067992425")
+		)
+		(instances
+			(project "LT_Adapter_V1"
+				(path "/022d0c11-22b3-4e2e-a692-85f59094f33e"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 223.52 50.8 0)
 		(unit 1)
@@ -2149,7 +2214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XBP9B-DPST-001:DIP2200W51P200L3294H279Q20P"
+		(property "Footprint" "FS_3_Global_Footprint_Library:XBP9B-DPST-001"
 			(at 184.15 64.77 0)
 			(effects
 				(font
