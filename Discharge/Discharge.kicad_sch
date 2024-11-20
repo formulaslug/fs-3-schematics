@@ -2653,6 +2653,246 @@
 				)
 			)
 		)
+		(symbol "Timer:ICM7555xB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ICM7555xB"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 21.59 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf"
+				(at 21.59 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CMOS General Purpose Timer, 555 compatible, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single timer 555"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ICM7555xB_0_0"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ICM7555xB_0_1"
+				(rectangle
+					(start -8.89 -7.62)
+					(end 8.89 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.89 -7.62)
+					(end 8.89 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ICM7555xB_1_1"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 3.81)
+					(name "TR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 3.81)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -12.7 -5.08 0)
+					(length 3.81)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 3.81)
+					(name "CV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -5.08 180)
+					(length 3.81)
+					(name "THR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 3.81)
+					(name "DIS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3081,16 +3321,6 @@
 			(type default)
 		)
 		(uuid "5c44e4cc-1100-4a05-8a47-9af5153f16db")
-	)
-	(wire
-		(pts
-			(xy 50.8 101.6) (xy 50.8 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6033ed41-b248-474e-bcf0-dfaca901d4df")
 	)
 	(wire
 		(pts
@@ -3582,6 +3812,17 @@
 		)
 		(uuid "f9b02518-91c1-469a-9b42-d1baca537bc1")
 	)
+	(label "Redstone Clock"
+		(at 142.24 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c0acd54-ebc4-4fee-ab8f-3a30fbc8e05c")
+	)
 	(label "TS+"
 		(at 241.3 77.47 90)
 		(fields_autoplaced yes)
@@ -3592,6 +3833,17 @@
 			(justify left bottom)
 		)
 		(uuid "4e519570-c520-4435-a559-8ab40aa28175")
+	)
+	(label "Redstone Light"
+		(at 191.77 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e7ae154-eb2b-444f-ac20-be2b019d0c41")
 	)
 	(label "TS+"
 		(at 19.05 90.17 0)
@@ -3647,6 +3899,17 @@
 			(justify left bottom)
 		)
 		(uuid "f593f7f3-d827-47d2-a718-37d98dcade09")
+	)
+	(label "Lowers voltage"
+		(at 41.91 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc615768-b878-40f0-bc34-90f05638af55")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4493,17 +4756,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 50.8 106.68 0)
+		(lib_id "Timer:ICM7555xB")
+		(at 138.43 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "87bc28ab-a7c0-4b0f-83d5-f16e01fbfc6a")
-		(property "Reference" "#PWR05"
-			(at 50.8 113.03 0)
+		(uuid "873c3c3a-f0f1-437e-bb5d-0e12cd3e1acf")
+		(property "Reference" "U5"
+			(at 140.6241 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ICM7555xB"
+			(at 140.6241 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 160.02 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,16 +4792,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 50.8 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 106.68 0)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf"
+			(at 160.02 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,8 +4801,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 50.8 106.68 0)
+		(property "Description" "CMOS General Purpose Timer, 555 compatible, SOIC-8"
+			(at 138.43 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,22 +4810,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "5"
+			(uuid "cca6cf70-1880-4110-a356-4dc36c8629d4")
+		)
+		(pin "7"
+			(uuid "7b301499-d17e-4439-8979-994c16ab530f")
+		)
+		(pin "8"
+			(uuid "fee4a76a-8de2-42d2-b79e-07dcf5d7f8eb")
+		)
+		(pin "4"
+			(uuid "5fada689-3e78-4adc-bceb-b701736dc60c")
 		)
 		(pin "1"
-			(uuid "dc31fe64-7d39-483f-9644-68d48ac5e868")
+			(uuid "e3f3cf1e-c69d-448a-8839-53bc8fc24c34")
+		)
+		(pin "2"
+			(uuid "ee1a7b13-120a-4d8a-af9e-6341c477c6b9")
+		)
+		(pin "6"
+			(uuid "1f21663a-1bf1-40da-895b-9b56549a2f6b")
+		)
+		(pin "3"
+			(uuid "146834b7-a390-40c9-9a89-4cf6edd86159")
 		)
 		(instances
 			(project ""
 				(path "/dc0f9272-e025-432b-a444-53b3815238aa"
-					(reference "#PWR05")
+					(reference "U5")
 					(unit 1)
 				)
 			)
