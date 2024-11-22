@@ -4491,10 +4491,6 @@
 		(uuid "21fb191c-7462-48c7-8a34-71e56d6afcaa")
 	)
 	(no_connect
-		(at 191.77 107.95)
-		(uuid "2551354d-4f9e-4380-aa3c-b0d23690854e")
-	)
-	(no_connect
 		(at 156.21 71.12)
 		(uuid "2ab22976-18a2-4a75-8880-f63b07b6544a")
 	)
@@ -4597,10 +4593,6 @@
 	(no_connect
 		(at 156.21 138.43)
 		(uuid "aae566b7-2ae1-465b-b1dd-cb16a927c0a9")
-	)
-	(no_connect
-		(at 191.77 38.1)
-		(uuid "ab1342c2-9155-49f5-bd12-0337a34131a6")
 	)
 	(no_connect
 		(at 156.21 97.79)
@@ -9774,6 +9766,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 191.77 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf4cdc06-84ec-43c3-8865-36d23014e7a2")
+		(property "Reference" "#PWR042"
+			(at 187.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 195.58 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 191.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24460d42-377e-424f-891e-edd0493a7d97")
+		)
+		(instances
+			(project "Telemetry Main Board"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 74.93 190.5 0)
 		(unit 4)
@@ -10468,232 +10527,232 @@
 			)
 		)
 		(pin "CN10_19"
-			(uuid "f0e4415d-504b-4f5e-807a-57e33e40feb3")
+			(uuid "f0e4415d-504b-4f5e-807a-57e33e40feb4")
 		)
 		(pin "CN7_12"
-			(uuid "3dd91e3e-3bb6-42b9-9294-4c2207aa9128")
+			(uuid "3dd91e3e-3bb6-42b9-9294-4c2207aa9129")
 		)
 		(pin "CN7_27"
-			(uuid "7295585d-f11f-4426-8bca-92f4cfe61ce3")
+			(uuid "7295585d-f11f-4426-8bca-92f4cfe61ce4")
 		)
 		(pin "CN7_14"
-			(uuid "be950dff-900e-4264-af26-98eabe4d5823")
+			(uuid "be950dff-900e-4264-af26-98eabe4d5824")
 		)
 		(pin "CN7_18"
-			(uuid "4eb973fc-4c02-4d28-956e-57fbea543765")
+			(uuid "4eb973fc-4c02-4d28-956e-57fbea543766")
 		)
 		(pin "CN7_13"
-			(uuid "8a1d0166-dc6d-4aae-af42-06ac5c09c66f")
+			(uuid "8a1d0166-dc6d-4aae-af42-06ac5c09c670")
 		)
 		(pin "CN7_20"
-			(uuid "7b450aa3-0cf5-4c35-a31e-394f7baa50b7")
+			(uuid "7b450aa3-0cf5-4c35-a31e-394f7baa50b8")
 		)
 		(pin "CN7_26"
-			(uuid "4eea3ef1-4eed-4e35-ab33-cd27c58497ff")
+			(uuid "4eea3ef1-4eed-4e35-ab33-cd27c5849800")
 		)
 		(pin "CN7_29"
-			(uuid "e79fa2c4-aec6-42b1-8801-654c05d06b27")
+			(uuid "e79fa2c4-aec6-42b1-8801-654c05d06b28")
 		)
 		(pin "CN10_16"
-			(uuid "a56d3dfd-042c-4cdd-be0b-1176a141e640")
+			(uuid "a56d3dfd-042c-4cdd-be0b-1176a141e641")
 		)
 		(pin "CN7_16"
-			(uuid "50be548a-866b-4a50-95c2-1e25c34b8347")
+			(uuid "50be548a-866b-4a50-95c2-1e25c34b8348")
 		)
 		(pin "CN7_35"
-			(uuid "dfed1e12-7aca-4f31-bd61-3e0f3eed7bac")
+			(uuid "dfed1e12-7aca-4f31-bd61-3e0f3eed7bad")
 		)
 		(pin "CN10_11"
-			(uuid "53607a67-db5a-4103-9a42-f60d8981e7e3")
+			(uuid "53607a67-db5a-4103-9a42-f60d8981e7e4")
 		)
 		(pin "CN10_13"
-			(uuid "ebcb1ba2-691f-4feb-b4e1-58ef229477b0")
+			(uuid "ebcb1ba2-691f-4feb-b4e1-58ef229477b1")
 		)
 		(pin "CN10_18"
-			(uuid "20e482f2-7755-4cde-98ce-cdf5b1d8b8b8")
+			(uuid "20e482f2-7755-4cde-98ce-cdf5b1d8b8b9")
 		)
 		(pin "CN7_33"
-			(uuid "5d7e9aba-d106-4335-b1aa-5b72f164b0dd")
+			(uuid "5d7e9aba-d106-4335-b1aa-5b72f164b0de")
 		)
 		(pin "CN7_3"
-			(uuid "7847f72e-cb1f-4ec1-9c95-aedde3dbf455")
+			(uuid "7847f72e-cb1f-4ec1-9c95-aedde3dbf456")
 		)
 		(pin "CN10_20"
-			(uuid "d55d4e08-294d-425b-9d37-050afd027bf3")
+			(uuid "d55d4e08-294d-425b-9d37-050afd027bf4")
 		)
 		(pin "CN10_22"
-			(uuid "f4fb91d1-1e58-4b0a-a14a-78e4f1857195")
+			(uuid "f4fb91d1-1e58-4b0a-a14a-78e4f1857196")
 		)
 		(pin "CN10_26"
-			(uuid "74726781-736e-48e0-9c96-e82981c1e56c")
+			(uuid "74726781-736e-48e0-9c96-e82981c1e56d")
 		)
 		(pin "CN10_30"
-			(uuid "d4564626-c4c8-4e99-88f1-ac405a852101")
+			(uuid "d4564626-c4c8-4e99-88f1-ac405a852102")
 		)
 		(pin "CN7_23"
-			(uuid "cd4c4f8e-f880-4994-8d84-60a2d2a32478")
+			(uuid "cd4c4f8e-f880-4994-8d84-60a2d2a32479")
 		)
 		(pin "CN10_25"
-			(uuid "58b15caf-0285-463a-ab5e-1f6e399b6efb")
+			(uuid "58b15caf-0285-463a-ab5e-1f6e399b6efc")
 		)
 		(pin "CN10_32"
-			(uuid "db7f8dd2-a8e2-47cf-b722-11801a6390cc")
+			(uuid "db7f8dd2-a8e2-47cf-b722-11801a6390cd")
 		)
 		(pin "CN10_27"
-			(uuid "0533bc46-a057-4352-a1bf-1032e8f2d96d")
+			(uuid "0533bc46-a057-4352-a1bf-1032e8f2d96e")
 		)
 		(pin "CN7_11"
-			(uuid "331fa44d-b6e5-489a-8a8c-6d9932375f72")
+			(uuid "331fa44d-b6e5-489a-8a8c-6d9932375f73")
 		)
 		(pin "CN7_28"
-			(uuid "84f2ece9-4e34-4f5a-9a5c-c19f5f402330")
+			(uuid "84f2ece9-4e34-4f5a-9a5c-c19f5f402331")
 		)
 		(pin "CN7_19"
-			(uuid "fa43116d-c3ba-450a-918d-dd52746dcec1")
+			(uuid "fa43116d-c3ba-450a-918d-dd52746dcec2")
 		)
 		(pin "CN7_24"
-			(uuid "dce459b1-6880-4814-b0fb-c8c2a02fa7f1")
+			(uuid "dce459b1-6880-4814-b0fb-c8c2a02fa7f2")
 		)
 		(pin "CN7_2"
-			(uuid "fad6e25e-cd5d-4724-a194-d6ab0cfccf78")
+			(uuid "fad6e25e-cd5d-4724-a194-d6ab0cfccf79")
 		)
 		(pin "CN7_36"
-			(uuid "c0f1fd01-d19e-4f6c-930e-f80bef30ef00")
+			(uuid "c0f1fd01-d19e-4f6c-930e-f80bef30ef01")
 		)
 		(pin "CN7_5"
-			(uuid "75edd390-5069-4fb7-865e-feda09914d55")
+			(uuid "75edd390-5069-4fb7-865e-feda09914d56")
 		)
 		(pin "CN7_15"
-			(uuid "017602dd-e380-4af5-9443-5c22332987cb")
+			(uuid "017602dd-e380-4af5-9443-5c22332987cc")
 		)
 		(pin "CN7_9"
-			(uuid "d00b12bf-043d-4b0c-bfe5-407451f3314c")
+			(uuid "d00b12bf-043d-4b0c-bfe5-407451f3314d")
 		)
 		(pin "CN7_21"
-			(uuid "05230f52-473c-44ae-a502-7ce799f877df")
+			(uuid "05230f52-473c-44ae-a502-7ce799f877e0")
 		)
 		(pin "CN7_31"
-			(uuid "fbb60057-cf31-40b2-835f-340dc013abd7")
+			(uuid "fbb60057-cf31-40b2-835f-340dc013abd8")
 		)
 		(pin "CN7_6"
-			(uuid "17cd97d4-7560-4966-8ce8-a58d26e99dc5")
+			(uuid "17cd97d4-7560-4966-8ce8-a58d26e99dc6")
 		)
 		(pin "CN7_37"
-			(uuid "c256d93c-e66b-4062-89eb-a9771e04feeb")
+			(uuid "c256d93c-e66b-4062-89eb-a9771e04feec")
 		)
 		(pin "CN7_8"
-			(uuid "3bdfe206-92f7-493d-8777-ff8f82103e48")
+			(uuid "3bdfe206-92f7-493d-8777-ff8f82103e49")
 		)
 		(pin "CN10_1"
-			(uuid "9672b69a-278f-40dc-95e5-672d16ab1631")
+			(uuid "9672b69a-278f-40dc-95e5-672d16ab1632")
 		)
 		(pin "CN10_10"
-			(uuid "622d8ac4-d57c-433e-9f3c-8af571a965b6")
+			(uuid "622d8ac4-d57c-433e-9f3c-8af571a965b7")
 		)
 		(pin "CN7_4"
-			(uuid "74311c8f-565b-4db0-8f83-6bf8162276a0")
+			(uuid "74311c8f-565b-4db0-8f83-6bf8162276a1")
 		)
 		(pin "CN10_12"
-			(uuid "44bc1299-a9ff-45b5-b141-e320b1b7ff44")
+			(uuid "44bc1299-a9ff-45b5-b141-e320b1b7ff45")
 		)
 		(pin "CN10_15"
-			(uuid "c827fc93-cda0-4291-9784-dad6e0b9b255")
+			(uuid "c827fc93-cda0-4291-9784-dad6e0b9b256")
 		)
 		(pin "CN10_24"
-			(uuid "940e8594-3226-4ac9-bffc-6cd9a52c79e1")
+			(uuid "940e8594-3226-4ac9-bffc-6cd9a52c79e2")
 		)
 		(pin "CN7_34"
-			(uuid "119f4517-e22f-4dd7-a761-66376cea4996")
+			(uuid "119f4517-e22f-4dd7-a761-66376cea4997")
 		)
 		(pin "CN7_30"
-			(uuid "a7d302c8-233f-4f30-b2e8-c8444ad8e424")
+			(uuid "a7d302c8-233f-4f30-b2e8-c8444ad8e425")
 		)
 		(pin "CN7_32"
-			(uuid "8b2ac314-1f60-4c53-b8f1-6b5e576e447a")
+			(uuid "8b2ac314-1f60-4c53-b8f1-6b5e576e447b")
 		)
 		(pin "CN7_22"
-			(uuid "1d466683-eb2e-4224-baae-67be7efe0532")
+			(uuid "1d466683-eb2e-4224-baae-67be7efe0533")
 		)
 		(pin "CN10_14"
-			(uuid "93341d55-7416-41e8-962a-ad43fc6ad392")
+			(uuid "93341d55-7416-41e8-962a-ad43fc6ad393")
 		)
 		(pin "CN10_2"
-			(uuid "d9b7ac11-373c-4fc5-b810-902c448fb731")
+			(uuid "d9b7ac11-373c-4fc5-b810-902c448fb732")
 		)
 		(pin "CN10_28"
-			(uuid "a4ae7fb0-b171-4f79-b643-10eba92c8e47")
+			(uuid "a4ae7fb0-b171-4f79-b643-10eba92c8e48")
 		)
 		(pin "CN7_10"
-			(uuid "3a057d6b-7e76-4bb4-872f-e099a5f20916")
+			(uuid "3a057d6b-7e76-4bb4-872f-e099a5f20917")
 		)
 		(pin "CN7_17"
-			(uuid "4da62ae5-3371-493e-832b-eeb8f6b10462")
+			(uuid "4da62ae5-3371-493e-832b-eeb8f6b10463")
 		)
 		(pin "CN10_23"
-			(uuid "ab939e50-e020-4323-bb41-a85c79ae8e73")
+			(uuid "ab939e50-e020-4323-bb41-a85c79ae8e74")
 		)
 		(pin "CN10_29"
-			(uuid "ccd326a2-8d41-420c-a19f-030f756b6f4c")
+			(uuid "ccd326a2-8d41-420c-a19f-030f756b6f4d")
 		)
 		(pin "CN10_3"
-			(uuid "159d5fad-5163-4dab-9ac6-111302809f7f")
+			(uuid "159d5fad-5163-4dab-9ac6-111302809f80")
 		)
 		(pin "CN7_38"
-			(uuid "e2cc1f09-ca21-4ec8-aac0-b22a984d409c")
+			(uuid "e2cc1f09-ca21-4ec8-aac0-b22a984d409d")
 		)
 		(pin "CN7_1"
-			(uuid "13917af2-6994-4ef7-8cca-aa97c7f265f2")
+			(uuid "13917af2-6994-4ef7-8cca-aa97c7f265f3")
 		)
 		(pin "CN7_7"
-			(uuid "c076575e-8434-4837-ae9b-6b7dbf2b889d")
+			(uuid "c076575e-8434-4837-ae9b-6b7dbf2b889e")
 		)
 		(pin "CN10_17"
-			(uuid "67e77541-425b-4e6a-b69e-e79bc429a58c")
+			(uuid "67e77541-425b-4e6a-b69e-e79bc429a58d")
 		)
 		(pin "CN7_25"
-			(uuid "8b5fc989-6e62-44f5-89e4-7f6a319a4a9c")
+			(uuid "8b5fc989-6e62-44f5-89e4-7f6a319a4a9d")
 		)
 		(pin "CN10_21"
-			(uuid "a13fcd56-b7e1-4571-82b7-937d745dc910")
+			(uuid "a13fcd56-b7e1-4571-82b7-937d745dc911")
 		)
 		(pin "CN10_31"
-			(uuid "34d1a890-1146-43e3-86e6-4e153f211394")
+			(uuid "34d1a890-1146-43e3-86e6-4e153f211395")
 		)
 		(pin "CN10_36"
-			(uuid "ed1cfea8-1ce3-4b1d-99e3-0ad6070174ef")
+			(uuid "ed1cfea8-1ce3-4b1d-99e3-0ad6070174f0")
 		)
 		(pin "CN10_8"
-			(uuid "d5e52157-2fd1-482c-955f-4af14bff6a10")
+			(uuid "d5e52157-2fd1-482c-955f-4af14bff6a11")
 		)
 		(pin "CN10_33"
-			(uuid "432a6072-5c58-4279-8a68-140cfa5af632")
+			(uuid "432a6072-5c58-4279-8a68-140cfa5af633")
 		)
 		(pin "CN10_38"
-			(uuid "da57233b-da8b-496a-919a-fbaf070f6d14")
+			(uuid "da57233b-da8b-496a-919a-fbaf070f6d15")
 		)
 		(pin "CN10_4"
-			(uuid "56196185-399f-4c32-b161-05978e692398")
+			(uuid "56196185-399f-4c32-b161-05978e692399")
 		)
 		(pin "CN10_5"
-			(uuid "52ef4893-44b0-47a0-a923-9bbf9f5714a4")
+			(uuid "52ef4893-44b0-47a0-a923-9bbf9f5714a5")
 		)
 		(pin "CN10_34"
-			(uuid "5b0db4e9-1827-4a50-88fc-7b484819d5d5")
+			(uuid "5b0db4e9-1827-4a50-88fc-7b484819d5d6")
 		)
 		(pin "CN10_7"
-			(uuid "5a9dabee-1361-4141-bf72-d96a50bf6382")
+			(uuid "5a9dabee-1361-4141-bf72-d96a50bf6383")
 		)
 		(pin "CN10_37"
-			(uuid "6988875f-7fe1-4750-b914-867e63f4f32e")
+			(uuid "6988875f-7fe1-4750-b914-867e63f4f32f")
 		)
 		(pin "CN10_9"
-			(uuid "c8df21ae-a003-48f8-b478-d95688d23389")
+			(uuid "c8df21ae-a003-48f8-b478-d95688d2338a")
 		)
 		(pin "CN10_6"
-			(uuid "9d109eeb-53e9-4ef1-ad5d-50aad2fe3a43")
+			(uuid "9d109eeb-53e9-4ef1-ad5d-50aad2fe3a44")
 		)
 		(pin "CN10_35"
-			(uuid "a0eae38c-bfb8-4f13-8341-4ef08621dd10")
+			(uuid "a0eae38c-bfb8-4f13-8341-4ef08621dd11")
 		)
 		(instances
 			(project ""
@@ -11179,6 +11238,73 @@
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 191.77 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa12af76-2ff5-42e7-9d1c-745aacba7fc9")
+		(property "Reference" "#PWR041"
+			(at 187.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 195.58 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 191.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b699449e-b905-4262-9fb2-5c8f74f7dbfd")
+		)
+		(instances
+			(project "Telemetry Main Board"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
