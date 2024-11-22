@@ -4667,6 +4667,10 @@
 		(uuid "ec21bd7d-bcf2-4f81-a4ab-ae990fd5d7ea")
 	)
 	(no_connect
+		(at 191.77 50.8)
+		(uuid "ec518c6a-cf41-467d-8e4b-dc6e8e9137d8")
+	)
+	(no_connect
 		(at 156.21 110.49)
 		(uuid "f0881e12-6c33-4e2a-8e43-ef56c1a9a9e7")
 	)
@@ -5320,6 +5324,28 @@
 			)
 		)
 	)
+	(global_label "Acc Intake Pressure"
+		(shape input)
+		(at 191.77 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06937165-8bcc-47c1-a709-3ed0991835d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.9262 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI2_MISO"
 		(shape input)
 		(at 191.77 63.5 0)
@@ -5958,28 +5984,6 @@
 			)
 		)
 	)
-	(global_label "Acc Intake Pressure"
-		(shape input)
-		(at 191.77 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "877a7474-6532-41cc-8c0e-199f04057f92")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.9262 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Brake Sensor F"
 		(shape output)
 		(at 260.35 17.78 0)
@@ -6020,28 +6024,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Acc Intake Flow Rate"
-		(shape input)
-		(at 191.77 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "902fc341-9126-4b07-a3cc-c2d6107088ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.1356 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6521,6 +6503,28 @@
 		(uuid "ee0814ca-af8b-4a85-87f2-f989f8e5be09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.4098 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Acc Intake Flow Rate"
+		(shape input)
+		(at 191.77 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eea5e57d-5d5e-4d22-9479-186138293713")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.1356 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NUCLEO-F446RE:MODULE_NUCLEO-F446RE"
+		(property "Footprint" "FS_3_Global_Footprint_Library:NUCLEO-F446RE"
 			(at 174.244 4.064 0)
 			(effects
 				(font
@@ -10458,7 +10462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NUCLEO-F446RE:MODULE_NUCLEO-F446RE"
+		(property "Footprint" "FS_3_Global_Footprint_Library:NUCLEO-F446RE"
 			(at 174.244 68.834 0)
 			(effects
 				(font
