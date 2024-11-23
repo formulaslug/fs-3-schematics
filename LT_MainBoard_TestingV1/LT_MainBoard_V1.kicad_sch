@@ -3881,6 +3881,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 105.41) (xy 100.33 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548f4e40-0956-4a1a-948a-995fe0f568d5")
+	)
+	(wire
+		(pts
 			(xy 140.97 20.32) (xy 148.59 20.32)
 		)
 		(stroke
@@ -3958,6 +3968,16 @@
 			(type default)
 		)
 		(uuid "6e7efdf6-7ad2-4d50-b085-543a67b3bcfc")
+	)
+	(wire
+		(pts
+			(xy 184.15 48.26) (xy 185.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711c97ad-33f7-42d0-b296-6e410ed6acb5")
 	)
 	(wire
 		(pts
@@ -4098,6 +4118,16 @@
 			(type default)
 		)
 		(uuid "9ff15cdf-1133-4f07-a31b-9030153de8b1")
+	)
+	(wire
+		(pts
+			(xy 140.97 35.56) (xy 148.59 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4c97d3-ccb6-4811-90c6-e011b9b89e26")
 	)
 	(wire
 		(pts
@@ -4326,6 +4356,17 @@
 		)
 		(uuid "66f86fd6-bfa2-4544-9e34-2a3045da7679")
 	)
+	(label "RADIO_RESET"
+		(at 111.76 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7464819c-e7e1-45d2-a8da-853da878ada2")
+	)
 	(label "RADIO_OUT"
 		(at 115.57 20.32 0)
 		(fields_autoplaced yes)
@@ -4380,6 +4421,17 @@
 			(justify left bottom)
 		)
 		(uuid "e2061102-294c-48f9-89b2-18fbc48b0a36")
+	)
+	(label "RADIO_RESET"
+		(at 140.97 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e81be50f-8bae-45a1-be96-5dd0face4f8f")
 	)
 	(label "RADIO_IN"
 		(at 60.96 114.3 0)
@@ -6030,6 +6082,73 @@
 			(project ""
 				(path "/e2d1ae21-6104-49cc-b41e-2ad9a04ba416"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 185.42 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a36dbcbc-63c6-4885-a5b2-89ede5751db2")
+		(property "Reference" "#PWR028"
+			(at 181.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 189.23 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 185.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a271470c-1927-4a52-bb31-cc04684e51d2")
+		)
+		(instances
+			(project "LT_MainBoard_V1"
+				(path "/e2d1ae21-6104-49cc-b41e-2ad9a04ba416"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
