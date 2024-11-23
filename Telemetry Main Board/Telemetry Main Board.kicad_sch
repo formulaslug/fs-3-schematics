@@ -4487,6 +4487,10 @@
 		(uuid "1f177858-02ed-4dfc-ba96-9c28b1f0c770")
 	)
 	(no_connect
+		(at 191.77 107.95)
+		(uuid "21997225-b189-46a4-80ea-083eb2b57769")
+	)
+	(no_connect
 		(at 156.21 123.19)
 		(uuid "21fb191c-7462-48c7-8a34-71e56d6afcaa")
 	)
@@ -4547,6 +4551,10 @@
 		(uuid "81516448-80ec-41bf-a46d-9615282833e9")
 	)
 	(no_connect
+		(at 156.21 38.1)
+		(uuid "858d6c8a-dd23-4f2c-b859-a34f0e2bed1f")
+	)
+	(no_connect
 		(at 156.21 43.18)
 		(uuid "8c6ad415-4367-4f58-a002-978f04da17f8")
 	)
@@ -4573,6 +4581,10 @@
 	(no_connect
 		(at 156.21 63.5)
 		(uuid "99789b64-dc47-4933-a831-c72e2cd647b6")
+	)
+	(no_connect
+		(at 191.77 38.1)
+		(uuid "9f1496ba-72d5-4f1f-ad14-ab78cb2fb032")
 	)
 	(no_connect
 		(at 156.21 102.87)
@@ -5324,28 +5336,6 @@
 			)
 		)
 	)
-	(global_label "Acc Intake Pressure"
-		(shape input)
-		(at 191.77 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "06937165-8bcc-47c1-a709-3ed0991835d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.9262 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI2_MISO"
 		(shape input)
 		(at 191.77 63.5 0)
@@ -5381,28 +5371,6 @@
 		(uuid "17546b68-7850-47d1-97c8-615dfe874cf1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.8346 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN1_L"
-		(shape bidirectional)
-		(at 26.67 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a020e71-8373-4a73-ba84-ff106ecef071")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.6608 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,6 +5446,28 @@
 			)
 		)
 	)
+	(global_label "Acc Exhaust Temp"
+		(shape input)
+		(at 191.77 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2642de20-9453-489d-9f69-e245b7c617b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.2326 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Acc Intake Flow Rate"
 		(shape output)
 		(at 260.35 30.48 0)
@@ -5513,28 +5503,6 @@
 		(uuid "29f0a5fb-0572-4b10-898c-ed2e159b62dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.04 32.1892 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN1_L"
-		(shape bidirectional)
-		(at 26.67 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c766988-ba23-4aec-8ba7-68cc99b10b3a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.6608 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,6 +5578,28 @@
 			)
 		)
 	)
+	(global_label "Acc Intake Temp"
+		(shape input)
+		(at 191.77 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4661639b-c60a-4dba-97cd-4b5f46b5f61f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.5999 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Brake Sensor B"
 		(shape input)
 		(at 35.56 147.32 180)
@@ -5654,6 +5644,28 @@
 			)
 		)
 	)
+	(global_label "CAN1_L"
+		(shape bidirectional)
+		(at 26.67 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "526cbc90-3ef9-4a39-ad3a-bb0b0483b0e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.6608 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Brake Sensor F"
 		(shape output)
 		(at 26.67 62.23 0)
@@ -5667,6 +5679,28 @@
 		(uuid "556fc8b0-172d-4026-a9d0-09baf7f43d17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 44.4113 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Acc Intake Flow Rate"
+		(shape input)
+		(at 191.77 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65e4b26c-e8e3-4bf6-b301-93353d6ecbbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.1356 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5786,6 +5820,28 @@
 			)
 		)
 	)
+	(global_label "CAN1_L"
+		(shape bidirectional)
+		(at 26.67 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f9443d0-1ad9-4dd1-8e74-b57a553e8246")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.6608 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN2_RX"
 		(shape output)
 		(at 102.87 102.87 0)
@@ -5896,6 +5952,28 @@
 			)
 		)
 	)
+	(global_label "Acc Intake Pressure"
+		(shape input)
+		(at 191.77 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8312b33b-7d23-446a-af52-1f9c8842e14c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.9262 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD Card Detect T{slash}F"
 		(shape input)
 		(at 191.77 58.42 0)
@@ -5909,28 +5987,6 @@
 		(uuid "84595f11-ed8f-449c-bf06-971a3a7f1413")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 213.8656 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN2_H"
-		(shape bidirectional)
-		(at 26.67 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "84b48759-d0f8-4c86-9c0f-d694ab5a42ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.9632 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,28 +6014,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Acc Exhaust Temp"
-		(shape input)
-		(at 191.77 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8734b1f6-7fc8-452c-b9ca-9018ee667ae3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.2326 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6024,28 +6058,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN2_H"
-		(shape bidirectional)
-		(at 26.67 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "94538cf2-319f-4d60-b86a-f213e3c876ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.9632 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6151,28 +6163,6 @@
 		(uuid "b289a27e-5a3d-4d86-8887-b1218b812a6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.1326 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Acc Intake Temp"
-		(shape input)
-		(at 191.77 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b4d655e9-0bbc-4131-a3bd-c0bf73fcf6b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.5999 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,6 +6458,28 @@
 			)
 		)
 	)
+	(global_label "CAN2_H"
+		(shape bidirectional)
+		(at 26.67 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e11e8734-5255-4487-ab08-0c5c2c2e4001")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.9632 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Brake Sensor F 3V3"
 		(shape output)
 		(at 64.77 125.73 0)
@@ -6490,6 +6502,28 @@
 			)
 		)
 	)
+	(global_label "CAN2_H"
+		(shape bidirectional)
+		(at 26.67 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea5db679-e8f1-4173-badf-33c304a286cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.9632 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Steering Sensor 3V3"
 		(shape output)
 		(at 64.77 172.72 0)
@@ -6503,28 +6537,6 @@
 		(uuid "ee0814ca-af8b-4a85-87f2-f989f8e5be09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.4098 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Acc Intake Flow Rate"
-		(shape input)
-		(at 191.77 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eea5e57d-5d5e-4d22-9479-186138293713")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.1356 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,73 +8670,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 156.21 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90fe24a0-65e8-4827-8d2c-f74abbaa8be2")
-		(property "Reference" "#PWR039"
-			(at 160.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 152.4 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 156.21 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a87fc18f-8006-4142-9fd8-8d853247fd1c")
-		)
-		(instances
-			(project "Telemetry Main Board"
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 96.52 90.17 180)
 		(unit 1)
@@ -9764,73 +9709,6 @@
 			(project "Telemetry Main Board Shaunak"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 191.77 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf4cdc06-84ec-43c3-8865-36d23014e7a2")
-		(property "Reference" "#PWR042"
-			(at 187.96 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 195.58 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 191.77 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24460d42-377e-424f-891e-edd0493a7d97")
-		)
-		(instances
-			(project "Telemetry Main Board"
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11242,73 +11120,6 @@
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 191.77 107.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa12af76-2ff5-42e7-9d1c-745aacba7fc9")
-		(property "Reference" "#PWR041"
-			(at 187.96 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 195.58 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 191.77 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b699449e-b905-4262-9fb2-5c8f74f7dbfd")
-		)
-		(instances
-			(project "Telemetry Main Board"
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
