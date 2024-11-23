@@ -5571,7 +5571,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -17.78 41.91 0)
+			(at -12.446 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5580,7 +5580,7 @@
 			)
 		)
 		(property "Value" "NUCLEO-F446RE"
-			(at -17.78 -52.07 0)
+			(at -8.382 -24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +5589,7 @@
 			)
 		)
 		(property "Footprint" "NUCLEO-F446RE:MODULE_NUCLEO-F446RE"
-			(at 0 0 0)
+			(at 0.254 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,7 +5599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -0.508 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,8 +5607,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "NUCLEO with 2 can busses and an STM 32 MCU"
+			(at 0 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5617,7 @@
 			)
 		)
 		(property "PARTREV" "13"
-			(at 0 0 0)
+			(at -0.508 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,7 +5627,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
+			(at -0.508 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +5637,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 0 0 0)
+			(at 9.652 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +5647,7 @@
 			)
 		)
 		(property "MANUFACTURER" "STMicroelectronics"
-			(at 0 0 0)
+			(at -0.508 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,8 +5658,8 @@
 		)
 		(symbol "NUCLEO-F446RE_1_0"
 			(rectangle
-				(start -17.78 40.64)
-				(end 17.78 -50.8)
+				(start -12.7 26.162)
+				(end 12.7 -27.178)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5669,7 +5669,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -25.4 0)
+				(at -17.78 24.13 0)
 				(length 5.08)
 				(name "PC10"
 					(effects
@@ -5686,8 +5686,44 @@
 					)
 				)
 			)
+			(pin free line
+				(at 17.78 13.97 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at -17.78 11.43 0)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at 22.86 20.32 180)
+				(at 17.78 11.43 180)
 				(length 5.08)
 				(name "CN7_IOREF"
 					(effects
@@ -5705,7 +5741,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 5.08 0)
+				(at -17.78 8.89 0)
 				(length 5.08)
 				(name "PA13"
 					(effects
@@ -5723,7 +5759,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 20.32 0)
+				(at 17.78 8.89 180)
 				(length 5.08)
 				(name "CN7_RESET"
 					(effects
@@ -5741,7 +5777,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 2.54 0)
+				(at -17.78 6.35 0)
 				(length 5.08)
 				(name "PA14"
 					(effects
@@ -5759,7 +5795,7 @@
 				)
 			)
 			(pin power_out line
-				(at 22.86 38.1 180)
+				(at 17.78 6.35 180)
 				(length 5.08)
 				(name "CN7_+3V3"
 					(effects
@@ -5777,7 +5813,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 0 0)
+				(at -17.78 3.81 0)
 				(length 5.08)
 				(name "PA15"
 					(effects
@@ -5795,7 +5831,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 35.56 180)
+				(at 17.78 3.81 180)
 				(length 5.08)
 				(name "CN7_+5V"
 					(effects
@@ -5813,7 +5849,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -43.18 180)
+				(at -17.78 1.27 0)
 				(length 5.08)
 				(name "CN7_GND__1"
 					(effects
@@ -5831,7 +5867,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -22.86 0)
+				(at 17.78 24.13 180)
 				(length 5.08)
 				(name "PC11"
 					(effects
@@ -5849,7 +5885,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -45.72 180)
+				(at 17.78 1.27 180)
 				(length 5.08)
 				(name "CN7_GND__2"
 					(effects
@@ -5867,7 +5903,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -7.62 0)
+				(at -17.78 -1.27 0)
 				(length 5.08)
 				(name "PB7"
 					(effects
@@ -5885,7 +5921,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -48.26 180)
+				(at 17.78 -1.27 180)
 				(length 5.08)
 				(name "CN7_GND__3"
 					(effects
@@ -5903,7 +5939,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -30.48 0)
+				(at -17.78 -3.81 0)
 				(length 5.08)
 				(name "PC13"
 					(effects
@@ -5921,7 +5957,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 25.4 180)
+				(at 17.78 -3.81 180)
 				(length 5.08)
 				(name "CN7_VIN"
 					(effects
@@ -5939,7 +5975,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -33.02 0)
+				(at -17.78 -6.35 0)
 				(length 5.08)
 				(name "PC14"
 					(effects
@@ -5956,8 +5992,26 @@
 					)
 				)
 			)
+			(pin free line
+				(at 17.78 -6.35 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_26"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at -22.86 -35.56 0)
+				(at -17.78 -8.89 0)
 				(length 5.08)
 				(name "PC15"
 					(effects
@@ -5975,7 +6029,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 12.7 0)
+				(at 17.78 -8.89 180)
 				(length 5.08)
 				(name "PA0"
 					(effects
@@ -5993,7 +6047,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 12.7 180)
+				(at -17.78 -11.43 0)
 				(length 5.08)
 				(name "PH0"
 					(effects
@@ -6011,7 +6065,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -27.94 0)
+				(at -17.78 21.59 0)
 				(length 5.08)
 				(name "PC12"
 					(effects
@@ -6029,7 +6083,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 10.16 0)
+				(at 17.78 -11.43 180)
 				(length 5.08)
 				(name "PA1"
 					(effects
@@ -6047,7 +6101,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 10.16 180)
+				(at -17.78 -13.97 0)
 				(length 5.08)
 				(name "PH1"
 					(effects
@@ -6065,7 +6119,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 7.62 0)
+				(at 17.78 -13.97 180)
 				(length 5.08)
 				(name "PA4"
 					(effects
@@ -6083,7 +6137,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 30.48 180)
+				(at -17.78 -16.51 0)
 				(length 5.08)
 				(name "VBAT"
 					(effects
@@ -6101,7 +6155,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -5.08 0)
+				(at 17.78 -16.51 180)
 				(length 5.08)
 				(name "PB0"
 					(effects
@@ -6119,7 +6173,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -17.78 0)
+				(at -17.78 -19.05 0)
 				(length 5.08)
 				(name "PC2"
 					(effects
@@ -6137,7 +6191,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -15.24 0)
+				(at 17.78 -19.05 180)
 				(length 5.08)
 				(name "PC1/PB9"
 					(effects
@@ -6155,7 +6209,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -20.32 0)
+				(at -17.78 -21.59 0)
 				(length 5.08)
 				(name "PC3"
 					(effects
@@ -6173,7 +6227,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -12.7 0)
+				(at 17.78 -21.59 180)
 				(length 5.08)
 				(name "PC0/PB8"
 					(effects
@@ -6191,7 +6245,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 17.78 180)
+				(at 17.78 21.59 180)
 				(length 5.08)
 				(name "PD2"
 					(effects
@@ -6209,7 +6263,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 27.94 180)
+				(at -17.78 19.05 0)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -6227,7 +6281,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 33.02 180)
+				(at 17.78 19.05 180)
 				(length 5.08)
 				(name "E5V"
 					(effects
@@ -6245,7 +6299,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 17.78 0)
+				(at -17.78 16.51 0)
 				(length 5.08)
 				(name "BOOT0"
 					(effects
@@ -6263,7 +6317,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 -40.64 180)
+				(at 17.78 16.51 180)
 				(length 5.08)
 				(name "CN7_GND"
 					(effects
@@ -6280,11 +6334,29 @@
 					)
 				)
 			)
+			(pin free line
+				(at -17.78 13.97 0)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
 		(symbol "NUCLEO-F446RE_2_0"
 			(rectangle
-				(start -12.7 -43.18)
-				(end 12.7 38.1)
+				(start -12.7 25.908)
+				(end 12.7 -27.432)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -6294,7 +6366,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 15.24 180)
+				(at -17.78 24.13 0)
 				(length 5.08)
 				(name "PC9"
 					(effects
@@ -6311,8 +6383,26 @@
 					)
 				)
 			)
+			(pin free line
+				(at 17.78 13.97 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at -17.78 22.86 0)
+				(at -17.78 11.43 0)
 				(length 5.08)
 				(name "PA5"
 					(effects
@@ -6330,7 +6420,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 5.08 0)
+				(at 17.78 11.43 180)
 				(length 5.08)
 				(name "PA12"
 					(effects
@@ -6348,7 +6438,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 20.32 0)
+				(at -17.78 8.89 0)
 				(length 5.08)
 				(name "PA6"
 					(effects
@@ -6366,7 +6456,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 7.62 0)
+				(at 17.78 8.89 180)
 				(length 5.08)
 				(name "PA11"
 					(effects
@@ -6384,7 +6474,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 17.78 0)
+				(at -17.78 6.35 0)
 				(length 5.08)
 				(name "PA7"
 					(effects
@@ -6402,7 +6492,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -22.86 0)
+				(at 17.78 6.35 180)
 				(length 5.08)
 				(name "PB12"
 					(effects
@@ -6420,7 +6510,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -12.7 0)
+				(at -17.78 3.81 0)
 				(length 5.08)
 				(name "PB6"
 					(effects
@@ -6437,8 +6527,26 @@
 					)
 				)
 			)
+			(pin free line
+				(at 17.78 3.81 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at 17.78 20.32 180)
+				(at -17.78 1.27 0)
 				(length 5.08)
 				(name "PC7"
 					(effects
@@ -6456,7 +6564,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 17.78 180)
+				(at 17.78 24.13 180)
 				(length 5.08)
 				(name "PC8"
 					(effects
@@ -6474,7 +6582,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -40.64 180)
+				(at 17.78 1.27 180)
 				(length 5.08)
 				(name "CN10_GND__1"
 					(effects
@@ -6492,7 +6600,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 12.7 0)
+				(at -17.78 -1.27 0)
 				(length 5.08)
 				(name "PA9"
 					(effects
@@ -6510,7 +6618,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -2.54 0)
+				(at 17.78 -1.27 180)
 				(length 5.08)
 				(name "PB2"
 					(effects
@@ -6528,7 +6636,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 15.24 0)
+				(at -17.78 -3.81 0)
 				(length 5.08)
 				(name "PA8"
 					(effects
@@ -6546,7 +6654,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 0 0)
+				(at 17.78 -3.81 180)
 				(length 5.08)
 				(name "PB1"
 					(effects
@@ -6564,7 +6672,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -20.32 0)
+				(at -17.78 -6.35 0)
 				(length 5.08)
 				(name "PB10"
 					(effects
@@ -6582,7 +6690,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -30.48 0)
+				(at 17.78 -6.35 180)
 				(length 5.08)
 				(name "PB15"
 					(effects
@@ -6600,7 +6708,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -7.62 0)
+				(at -17.78 -8.89 0)
 				(length 5.08)
 				(name "PB4"
 					(effects
@@ -6618,7 +6726,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -27.94 0)
+				(at 17.78 -8.89 180)
 				(length 5.08)
 				(name "PB14"
 					(effects
@@ -6636,7 +6744,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -10.16 0)
+				(at -17.78 -11.43 0)
 				(length 5.08)
 				(name "PB5"
 					(effects
@@ -6654,7 +6762,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -15.24 0)
+				(at -17.78 21.59 0)
 				(length 5.08)
 				(name "PB8"
 					(effects
@@ -6672,7 +6780,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -25.4 0)
+				(at 17.78 -11.43 180)
 				(length 5.08)
 				(name "PB13"
 					(effects
@@ -6690,7 +6798,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -5.08 0)
+				(at -17.78 -13.97 0)
 				(length 5.08)
 				(name "PB3"
 					(effects
@@ -6708,7 +6816,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -35.56 180)
+				(at 17.78 -13.97 180)
 				(length 5.08)
 				(name "AGND"
 					(effects
@@ -6726,7 +6834,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 10.16 0)
+				(at -17.78 -16.51 0)
 				(length 5.08)
 				(name "PA10"
 					(effects
@@ -6744,7 +6852,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 27.94 180)
+				(at 17.78 -16.51 180)
 				(length 5.08)
 				(name "PC4"
 					(effects
@@ -6762,7 +6870,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 27.94 0)
+				(at -17.78 -19.05 0)
 				(length 5.08)
 				(name "PA2"
 					(effects
@@ -6779,8 +6887,26 @@
 					)
 				)
 			)
+			(pin free line
+				(at 17.78 -19.05 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_36"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at -17.78 25.4 0)
+				(at -17.78 -21.59 0)
 				(length 5.08)
 				(name "PA3"
 					(effects
@@ -6797,8 +6923,26 @@
 					)
 				)
 			)
+			(pin free line
+				(at 17.78 -21.59 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_38"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at 17.78 22.86 180)
+				(at 17.78 21.59 180)
 				(length 5.08)
 				(name "PC6"
 					(effects
@@ -6816,7 +6960,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -17.78 0)
+				(at -17.78 19.05 0)
 				(length 5.08)
 				(name "PB9"
 					(effects
@@ -6834,7 +6978,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 25.4 180)
+				(at 17.78 19.05 180)
 				(length 5.08)
 				(name "PC5"
 					(effects
@@ -6852,7 +6996,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 35.56 180)
+				(at -17.78 16.51 0)
 				(length 5.08)
 				(name "AVDD"
 					(effects
@@ -6870,7 +7014,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 33.02 180)
+				(at 17.78 16.51 180)
 				(length 5.08)
 				(name "U5V"
 					(effects
@@ -6888,7 +7032,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -38.1 180)
+				(at -17.78 13.97 0)
 				(length 5.08)
 				(name "CN10_GND"
 					(effects
@@ -6914,8 +7058,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "CN"
-			(at 7.62 18.288 0)
+		(property "Reference" "U"
+			(at -10.16 18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,7 +7095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "STM32 Microcontroller"
+		(property "Description" "NUCLEO with 1 can bus and an STM 32 MCU"
 			(at 0 0 0)
 			(effects
 				(font
