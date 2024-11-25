@@ -4767,250 +4767,6 @@
 				)
 			)
 		)
-		(symbol "74xGxx:74AHC1G32"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74AHC1G32"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single OR Gate, Low-Voltage CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Single Gate OR LVC CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT* SG-*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74AHC1G32_0_1"
-				(arc
-					(start -7.62 -5.08)
-					(mid -5.838 0)
-					(end -7.62 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.08)
-					(mid 3.1986 -3.2054)
-					(end 5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy -6.35 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy -6.35 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -7.62 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 5.08 0)
-					(mid 3.2238 3.2304)
-					(end 0 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74AHC1G32_1_1"
-				(pin input line
-					(at -15.24 2.54 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -2.54 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Amplifier_Operational:MCP6004"
 			(pin_names
 				(offset 0.127)
@@ -7566,6 +7322,1070 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "FS_3_Global_Symbol_Library:SN74HCS32DR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74HCS32DR"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs32.pdf"
+				(at -0.254 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "quad 2-input OR gate"
+				(at -1.778 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "OR 2-input"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SO14*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74HCS32DR_1_1"
+				(arc
+					(start -3.81 -3.81)
+					(mid -1.7709 0)
+					(end -3.81 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.81)
+					(mid 3.81 0)
+					(end 0 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy -3.81 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HCS32DR_1_2"
+				(arc
+					(start -3.81 -3.81)
+					(mid -2.589 0)
+					(end -3.81 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.6096 -3.81)
+					(mid 2.1842 -2.5851)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1915 2.5936)
+					(end -0.6096 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HCS32DR_2_1"
+				(arc
+					(start -3.81 -3.81)
+					(mid -1.7709 0)
+					(end -3.81 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.81)
+					(mid 3.81 0)
+					(end 0 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HCS32DR_2_2"
+				(arc
+					(start -3.81 -3.81)
+					(mid -2.589 0)
+					(end -3.81 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.6096 -3.81)
+					(mid 2.1842 -2.5851)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1915 2.5936)
+					(end -0.6096 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HCS32DR_3_1"
+				(arc
+					(start -3.8101 -3.81)
+					(mid -1.771 0)
+					(end -3.8101 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.0001 -3.81)
+					(mid 3.8099 0)
+					(end -0.0001 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.8101 -3.81) (xy -0.0001 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.8101 3.81) (xy -0.0001 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HCS32DR_3_2"
+				(arc
+					(start -3.81 -3.81)
+					(mid -2.589 0)
+					(end -3.81 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.6096 -3.81)
+					(mid 2.1842 -2.5851)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1915 2.5936)
+					(end -0.6096 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HCS32DR_4_1"
+				(arc
+					(start -3.8101 -3.81)
+					(mid -1.771 0)
+					(end -3.8101 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.0001 -3.81)
+					(mid 3.8099 0)
+					(end -0.0001 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.8101 -3.81) (xy -0.0001 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.8101 3.81) (xy -0.0001 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HCS32DR_4_2"
+				(arc
+					(start -3.81 -3.81)
+					(mid -2.589 0)
+					(end -3.81 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.6096 -3.81)
+					(mid 2.1842 -2.5851)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1915 2.5936)
+					(end -0.6096 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HCS32DR_5_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74HCS32DR_5_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -13653,12 +14473,6 @@
 		(uuid "355c4636-7b0c-4d84-9a82-e66ce9331417")
 	)
 	(junction
-		(at 238.76 280.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37245195-ad21-4b3c-8b4e-e9bbe2c53570")
-	)
-	(junction
 		(at 48.26 264.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13873,6 +14687,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ccf6a63-db9a-4082-8574-72f842ead719")
+	)
+	(junction
+		(at 232.41 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90a3158c-2df5-457c-9274-3df34b130b01")
 	)
 	(junction
 		(at 304.8 161.29)
@@ -14914,6 +15734,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 255.27) (xy 257.81 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a26f064-befc-4472-9690-0c8e68795e82")
+	)
+	(wire
+		(pts
 			(xy 417.83 69.85) (xy 417.83 73.66)
 		)
 		(stroke
@@ -15021,16 +15851,6 @@
 			(type default)
 		)
 		(uuid "2fafdcd1-c1f6-4a94-aaec-3d540eae7dd1")
-	)
-	(wire
-		(pts
-			(xy 246.38 295.91) (xy 246.38 318.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "302bfa85-f9be-44ce-a836-81455e07925d")
 	)
 	(wire
 		(pts
@@ -15414,6 +16234,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 275.59) (xy 248.92 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9ae6de-5a18-4edb-8a3c-349e66e4084d")
+	)
+	(wire
+		(pts
 			(xy 215.9 165.1) (xy 233.68 165.1)
 		)
 		(stroke
@@ -15774,7 +16604,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 295.91) (xy 251.46 302.26)
+			(xy 251.46 292.1) (xy 251.46 302.26)
 		)
 		(stroke
 			(width 0)
@@ -16034,7 +16864,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 267.97) (xy 260.35 267.97)
+			(xy 248.92 275.59) (xy 260.35 275.59)
 		)
 		(stroke
 			(width 0)
@@ -16544,16 +17374,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 280.67) (xy 259.08 283.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b189c067-3a03-4243-9d9a-ec82ed7ef664")
-	)
-	(wire
-		(pts
 			(xy 171.45 279.4) (xy 176.53 279.4)
 		)
 		(stroke
@@ -16694,7 +17514,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 278.13) (xy 238.76 280.67)
+			(xy 232.41 255.27) (xy 232.41 257.81)
 		)
 		(stroke
 			(width 0)
@@ -17434,6 +18254,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 292.1) (xy 246.38 318.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83b17a0-0bde-4656-9a7e-7f51422352e2")
+	)
+	(wire
+		(pts
 			(xy 415.29 36.83) (xy 417.83 36.83)
 		)
 		(stroke
@@ -17935,6 +18765,16 @@
 		)
 		(uuid "75518702-2bb5-4fcd-9feb-c5220bde797d")
 	)
+	(text "IC OR Gate\n"
+		(exclude_from_sim no)
+		(at 244.856 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e43138c-9689-4880-a753-7b500748d025")
+	)
 	(text "IMD Fault Low 3.3V --> 5V Relay\n"
 		(exclude_from_sim no)
 		(at 122.428 323.342 0)
@@ -18314,7 +19154,7 @@
 		(uuid "34822389-87bc-47d2-83e0-e0a1307317ee")
 	)
 	(label "IMD_DELAY"
-		(at 260.35 267.97 180)
+		(at 260.35 275.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19909,7 +20749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1FS_2_Global_Footprint_Library:SO-8_STM"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 233.68 157.48 0)
 			(effects
 				(font
@@ -20988,7 +21828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1FS_2_Global_Footprint_Library:SO-8_STM"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 304.8 158.75 0)
 			(effects
 				(font
@@ -21406,42 +22246,33 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74AHC1G32")
-		(at 248.92 280.67 90)
-		(unit 1)
+		(lib_id "FS_3_Global_Symbol_Library:SN74HCS32DR")
+		(at 245.11 255.27 90)
+		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "39536202-bb23-466c-9918-da0b6555f169")
-		(property "Reference" "U14"
-			(at 261.62 275.1738 90)
+		(uuid "372ccfe7-7961-446c-9bf2-6051537deabb")
+		(property "Reference" "U4"
+			(at 245.11 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "74HCS32DR"
-			(at 261.62 277.7138 90)
+		(property "Value" "SN74HCS32DR"
+			(at 245.11 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 248.92 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 248.92 280.67 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 245.11 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21449,8 +22280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single OR Gate, Low-Voltage CMOS"
-			(at 248.92 280.67 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs32.pdf"
+			(at 239.522 255.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21458,26 +22289,62 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "df0517ea-a4cd-4fcc-a3ca-faf193b07c51")
+		(property "Description" "quad 2-input OR gate"
+			(at 251.968 257.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "e425b637-8bd1-442e-823a-23a11f5dc106")
+		(pin "11"
+			(uuid "a4c1ccab-7ca3-403b-8361-7cb88ee1cd2e")
+		)
+		(pin "7"
+			(uuid "956f5971-556c-4236-9d83-3b567b488dc7")
 		)
 		(pin "4"
-			(uuid "d00ed6e7-e020-4d19-a07a-62afb5d95f22")
+			(uuid "3e4e674e-73d9-4ef7-a41b-163697b6816c")
+		)
+		(pin "8"
+			(uuid "49cc0fed-b20b-4e05-888d-4186b96c0bd8")
+		)
+		(pin "1"
+			(uuid "423f5c39-c3bf-47bc-b139-c28f8ecff9e5")
+		)
+		(pin "14"
+			(uuid "28ef88bf-3536-43c1-8301-46defb89328a")
+		)
+		(pin "3"
+			(uuid "ee85e810-4e83-4f52-bcbf-29c651ae7abc")
 		)
 		(pin "5"
-			(uuid "54ba16ef-54b1-4123-a10d-29631ec4bdb4")
+			(uuid "fc39c4a3-e474-465f-afc4-db1717e83a56")
+		)
+		(pin "12"
+			(uuid "eb90b5ee-acf3-4e30-98c5-985160ac28aa")
+		)
+		(pin "10"
+			(uuid "4b9898d8-5cb3-416c-9e98-eca1276616d5")
+		)
+		(pin "13"
+			(uuid "d202cecf-105f-4d14-b2d5-d9291959cb8b")
 		)
 		(pin "2"
-			(uuid "1cd65c2a-2a90-4f6c-b30a-eb56a82635ca")
+			(uuid "63178fac-8ecd-4d1f-88aa-07757c5b5568")
+		)
+		(pin "9"
+			(uuid "22405fbf-d68a-478e-a017-1e3e5e0a81a7")
+		)
+		(pin "6"
+			(uuid "bb21ef59-0452-4c99-8ef7-580d445ad7e1")
 		)
 		(instances
-			(project "Accumulator_Board"
+			(project ""
 				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
-					(reference "U14")
-					(unit 1)
+					(reference "U4")
+					(unit 5)
 				)
 			)
 		)
@@ -23230,7 +24097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1FS_2_Global_Footprint_Library:G5PZ-1A-X DC12"
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5PZ"
 			(at 236.22 105.41 0)
 			(effects
 				(font
@@ -26133,76 +27000,9 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_4")
-		(lib_id "power:GND")
-		(at 259.08 283.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cbd6160-fe52-4bbd-b26f-8c20b8acc30e")
-		(property "Reference" "#PWR079"
-			(at 259.08 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f308513e-26aa-4b10-bdfe-0ef2dafe5d4f")
-		)
-		(instances
-			(project "Accumulator_Board"
-				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_6")
 		(lib_id "power:GND")
-		(at 238.76 288.29 0)
+		(at 232.41 265.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26211,7 +27011,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d8a5eed-6e8f-46b1-b1d2-081a8bd216aa")
 		(property "Reference" "#PWR078"
-			(at 238.76 294.64 0)
+			(at 232.41 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26220,7 +27020,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 293.37 0)
+			(at 232.41 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26228,7 +27028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 288.29 0)
+			(at 232.41 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26237,7 +27037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 288.29 0)
+			(at 232.41 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26246,7 +27046,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 288.29 0)
+			(at 232.41 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27802,6 +28602,73 @@
 			(project "Accumulator_Board"
 				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 257.81 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5b04c1c-f14d-4406-8732-aa453526f126")
+		(property "Reference" "#PWR043"
+			(at 257.81 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0db070c-3350-496a-bd4b-6e85b2d7be2e")
+		)
+		(instances
+			(project "Accumulator_Board"
+				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -29536,7 +30403,7 @@
 	(symbol
 		(lib_name "+5V_2")
 		(lib_id "power:+5V")
-		(at 238.76 278.13 0)
+		(at 232.41 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29544,7 +30411,7 @@
 		(dnp no)
 		(uuid "ce6fb3cf-e088-45fd-970f-3400226b885b")
 		(property "Reference" "#PWR077"
-			(at 238.76 281.94 0)
+			(at 232.41 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29553,7 +30420,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 238.76 273.05 0)
+			(at 232.41 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29561,7 +30428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 278.13 0)
+			(at 232.41 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29570,7 +30437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 278.13 0)
+			(at 232.41 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29579,7 +30446,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 238.76 278.13 0)
+			(at 232.41 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30723,7 +31590,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 238.76 284.48 180)
+		(at 232.41 261.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30731,7 +31598,7 @@
 		(dnp no)
 		(uuid "f5402c75-eeb0-4cb4-b5b2-ac69a756c349")
 		(property "Reference" "C22"
-			(at 232.664 284.48 90)
+			(at 226.314 261.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30739,7 +31606,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 235.204 284.48 90)
+			(at 228.854 261.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30747,7 +31614,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 237.7948 280.67 0)
+			(at 231.4448 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30756,7 +31623,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 284.48 0)
+			(at 232.41 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30765,7 +31632,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 238.76 284.48 0)
+			(at 232.41 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31326,6 +32193,111 @@
 			(project "Accumulator_Board"
 				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FS_3_Global_Symbol_Library:SN74HCS32DR")
+		(at 248.92 285.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa706cfc-a105-410a-b9e5-9ac8f8e53c95")
+		(property "Reference" "U4"
+			(at 254 284.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SN74HCS32DR"
+			(at 253.492 287.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 248.92 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs32.pdf"
+			(at 243.332 286.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "quad 2-input OR gate"
+			(at 255.778 287.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "a4c1ccab-7ca3-403b-8361-7cb88ee1cd2e")
+		)
+		(pin "7"
+			(uuid "956f5971-556c-4236-9d83-3b567b488dc7")
+		)
+		(pin "4"
+			(uuid "3e4e674e-73d9-4ef7-a41b-163697b6816c")
+		)
+		(pin "8"
+			(uuid "49cc0fed-b20b-4e05-888d-4186b96c0bd8")
+		)
+		(pin "1"
+			(uuid "423f5c39-c3bf-47bc-b139-c28f8ecff9e5")
+		)
+		(pin "14"
+			(uuid "28ef88bf-3536-43c1-8301-46defb89328a")
+		)
+		(pin "3"
+			(uuid "ee85e810-4e83-4f52-bcbf-29c651ae7abc")
+		)
+		(pin "5"
+			(uuid "fc39c4a3-e474-465f-afc4-db1717e83a56")
+		)
+		(pin "12"
+			(uuid "eb90b5ee-acf3-4e30-98c5-985160ac28aa")
+		)
+		(pin "10"
+			(uuid "4b9898d8-5cb3-416c-9e98-eca1276616d5")
+		)
+		(pin "13"
+			(uuid "d202cecf-105f-4d14-b2d5-d9291959cb8b")
+		)
+		(pin "2"
+			(uuid "63178fac-8ecd-4d1f-88aa-07757c5b5568")
+		)
+		(pin "9"
+			(uuid "22405fbf-d68a-478e-a017-1e3e5e0a81a7")
+		)
+		(pin "6"
+			(uuid "bb21ef59-0452-4c99-8ef7-580d445ad7e1")
+		)
+		(instances
+			(project ""
+				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
+					(reference "U4")
 					(unit 1)
 				)
 			)
