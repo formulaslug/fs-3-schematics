@@ -12161,6 +12161,10 @@
 		(uuid "1914e55f-8b51-4eef-af68-2b45cae66a23")
 	)
 	(no_connect
+		(at 361.95 58.42)
+		(uuid "19c43762-63b1-4cb9-98d7-5beb05828246")
+	)
+	(no_connect
 		(at 180.34 50.8)
 		(uuid "1e703936-f866-4bac-9dee-a5b1fe2c8f05")
 	)
@@ -12321,6 +12325,10 @@
 		(uuid "c6295cd3-7526-4055-9013-9cbd4f3043e6")
 	)
 	(no_connect
+		(at 361.95 55.88)
+		(uuid "c90a6554-1193-4cc3-a7e2-36367b7fd7da")
+	)
+	(no_connect
 		(at 250.19 82.55)
 		(uuid "ce316e8a-289b-4cfe-ad54-1c7275730996")
 	)
@@ -12331,6 +12339,10 @@
 	(no_connect
 		(at 180.34 48.26)
 		(uuid "d6295075-6aee-47b2-852d-7654d584b874")
+	)
+	(no_connect
+		(at 361.95 53.34)
+		(uuid "dce78f77-ca1f-457a-9795-8e28f3120636")
 	)
 	(no_connect
 		(at 250.19 54.61)
@@ -12703,7 +12715,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 354.33) (xy 207.01 351.79)
+			(xy 209.55 354.33) (xy 209.55 351.79)
 		)
 		(stroke
 			(width 0)
@@ -12873,7 +12885,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 285.75) (xy 425.45 285.75)
+			(xy 417.83 285.75) (xy 425.45 285.75)
 		)
 		(stroke
 			(width 0)
@@ -15353,7 +15365,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 351.79) (xy 203.2 351.79)
+			(xy 209.55 351.79) (xy 203.2 351.79)
 		)
 		(stroke
 			(width 0)
@@ -15590,16 +15602,6 @@
 			)
 		)
 		(uuid "13c4c3d3-a1cc-4d23-87b4-f17e3260bf9f")
-	)
-	(text "Need to power GATE. What voltage?\n"
-		(exclude_from_sim no)
-		(at 339.09 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "17e6f18d-a474-41e0-8a11-8ee58a2e8f3d")
 	)
 	(text "Goes to IMD; inside ACC"
 		(exclude_from_sim no)
@@ -16201,7 +16203,7 @@
 		)
 		(uuid "40d5e708-e123-4868-ba9b-de5d74df144c")
 	)
-	(label "Shutdown_ACC_IN"
+	(label "Shutdown_ACC_In"
 		(at 170.18 320.04 180)
 		(fields_autoplaced yes)
 		(effects
@@ -16268,7 +16270,7 @@
 		(uuid "4f507810-ee7b-4634-91e3-87eac74b850f")
 	)
 	(label "TS+"
-		(at 419.1 285.75 0)
+		(at 417.83 285.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16509,7 +16511,7 @@
 		)
 		(uuid "94cc7aa2-c60f-47da-b4a2-5f4fcfb741d1")
 	)
-	(label "Shutdown_ACC_OUT"
+	(label "Shutdown_ACC_Out"
 		(at 312.42 322.58 0)
 		(fields_autoplaced yes)
 		(effects
@@ -16829,7 +16831,7 @@
 		(uuid "ec030aa9-4aaf-4f03-8c3a-e1fc52054208")
 	)
 	(label "BMS_FAULT_3.3V"
-		(at 207.01 354.33 270)
+		(at 209.55 354.33 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17082,6 +17084,73 @@
 			(project "FS_3_Accumulator_Board"
 				(path "/a99272d5-7abe-4247-8e94-48d84173ede3"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 337.82 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05b3b661-5965-4033-a5f0-12d627391b9e")
+		(property "Reference" "#PWR05"
+			(at 337.82 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 340.36 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a2e8ac3-2bfb-4410-8a63-df9290e38703")
+		)
+		(instances
+			(project "FS_3_Accumulator_Board"
+				(path "/a99272d5-7abe-4247-8e94-48d84173ede3"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -17620,6 +17689,72 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 337.82 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c3dbed8-33c0-4638-915c-7a2a8232af79")
+		(property "Reference" "#PWR04"
+			(at 337.82 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 337.82 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46c78af8-90b3-4702-a520-fbc46da6c57b")
+		)
+		(instances
+			(project "FS_3_Accumulator_Board"
+				(path "/a99272d5-7abe-4247-8e94-48d84173ede3"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 231.14 217.17 90)
 		(unit 1)
@@ -17749,6 +17884,72 @@
 			(project "FS_3_Accumulator_Board"
 				(path "/a99272d5-7abe-4247-8e94-48d84173ede3"
 					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 292.1 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1371ae5e-e9f8-4b01-8b9b-e0c0798a6ecb")
+		(property "Reference" "#PWR06"
+			(at 292.1 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 292.1 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23dd6acf-4b0e-4f35-b210-3f0a1bbc704f")
+		)
+		(instances
+			(project "FS_3_Accumulator_Board"
+				(path "/a99272d5-7abe-4247-8e94-48d84173ede3"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
