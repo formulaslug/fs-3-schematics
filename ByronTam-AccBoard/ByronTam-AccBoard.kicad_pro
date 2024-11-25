@@ -2,8 +2,10 @@
   "board": {
     "3dviewports": [],
     "design_settings": {
+      "defaults": {},
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
+      "rules": {},
       "track_widths": [],
       "via_dimensions": []
     },
@@ -232,13 +234,14 @@
       "wire_dangling": "error"
     }
   },
-  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "FS_3_Global_Symbol_Library"
+    ]
   },
   "meta": {
-    "filename": "Accumulator_Board.kicad_pro",
+    "filename": "ByronTam-AccBoard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -284,6 +287,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -354,14 +358,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
+      "label_size_ratio": 0.375,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 0.0,
-      "text_offset_ratio": 0.08
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -380,6 +384,15 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "18bba4dd-7b11-4202-8f0e-61f64955823e",
+      "Root"
+    ],
+    [
+      "6ad544ca-18c2-4198-b8c6-ab12a14bbfea",
+      "Iso SPI"
+    ]
+  ],
   "text_variables": {}
 }
