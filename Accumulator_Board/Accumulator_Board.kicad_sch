@@ -13267,6 +13267,349 @@
 				)
 			)
 		)
+		(symbol "Sensor_Temperature:DS18B20U"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DS18B20U"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+				(at -24.13 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Programmable Resolution 1-Wire Digital Thermometer MSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "OneWire 1-Wire 1Wire Maxim Dallas"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DS18B20U_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.302 -2.54)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.667 -1.905)
+					(end -3.937 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -2.667 3.175)
+					(mid -3.302 3.8073)
+					(end -3.937 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 0.635) (xy -3.302 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 1.27) (xy -3.302 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 1.905) (xy -3.302 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 2.54) (xy -3.302 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 3.175) (xy -3.937 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 3.175) (xy -3.302 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.667 3.175) (xy -2.667 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DS18B20U_1_1"
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 2.54 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 0 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -2.54 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 2.54 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -2.54 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Timer:LM555xN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -15764,6 +16107,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 287.02) (xy 346.71 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bacb46c-3a78-4d35-89d3-f51292e22878")
+	)
+	(wire
+		(pts
 			(xy 36.83 160.02) (xy 36.83 175.26)
 		)
 		(stroke
@@ -15791,6 +16144,16 @@
 			(type default)
 		)
 		(uuid "2d33daeb-5e31-4851-811b-f19612b82d84")
+	)
+	(wire
+		(pts
+			(xy 346.71 287.02) (xy 346.71 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5ec241-4629-40a3-bd89-c55b15be3a87")
 	)
 	(wire
 		(pts
@@ -15861,6 +16224,16 @@
 			(type default)
 		)
 		(uuid "30353e26-4482-4686-8f05-fa27b6e565bb")
+	)
+	(wire
+		(pts
+			(xy 331.47 298.45) (xy 331.47 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309d2b4d-670d-433a-b395-f15db4467cd7")
 	)
 	(wire
 		(pts
@@ -17164,6 +17537,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 306.07) (xy 339.09 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0056b11-5b5f-4acc-b675-4224118260cd")
+	)
+	(wire
+		(pts
 			(xy 57.15 109.22) (xy 44.45 109.22)
 		)
 		(stroke
@@ -18104,7 +18487,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 50.8) (xy 215.9 50.8)
+			(xy 198.12 50.8) (xy 219.71 50.8)
 		)
 		(stroke
 			(width 0)
@@ -18374,6 +18757,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 308.61) (xy 341.63 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe264c8f-285d-4c72-8e95-c3804aa8feba")
+	)
+	(wire
+		(pts
 			(xy 154.94 243.84) (xy 154.94 245.11)
 		)
 		(stroke
@@ -18415,6 +18808,18 @@
 			(type none)
 		)
 		(uuid 18080402-7e93-45b7-87d5-838dc0bf7966)
+	)
+	(rectangle
+		(start 322.58 279.4)
+		(end 367.03 312.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1d65f29d-2468-4194-92f5-723b5eb2c112)
 	)
 	(rectangle
 		(start 13.97 156.21)
@@ -18523,6 +18928,16 @@
 			(type none)
 		)
 		(uuid f5be7183-1dec-4eb0-b134-e16c25f67d14)
+	)
+	(text "Energy Meter Temp Sense\n"
+		(exclude_from_sim no)
+		(at 335.534 281.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "01c530f3-6670-4fe7-83b3-ff19e7bcc45d")
 	)
 	(text "Check polarity and annotate"
 		(exclude_from_sim no)
@@ -18652,7 +19067,7 @@
 	)
 	(text "Hex Invertor\n"
 		(exclude_from_sim no)
-		(at 296.672 281.94 0)
+		(at 281.178 281.686 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19065,17 +19480,6 @@
 		)
 		(uuid "0e5cb66d-1ea9-4e5d-bc28-2c8d61f41d3f")
 	)
-	(label "Shut_Reset"
-		(at 215.9 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0ff417d0-1d20-4ffd-b547-9b021f88fd1f")
-	)
 	(label "CAN_L_RES2"
 		(at 243.84 45.72 180)
 		(fields_autoplaced yes)
@@ -19131,8 +19535,8 @@
 		)
 		(uuid "246a2eaa-cfd8-47b4-880e-391616118690")
 	)
-	(label "Shutdown_ACC_In"
-		(at 215.9 35.56 180)
+	(label "SH_RESET"
+		(at 215.9 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19140,7 +19544,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "257b30d3-cd60-4435-bd5e-2ff84edbe8cd")
+		(uuid "2c46a4e2-dd79-48cc-9d98-73dbde921db3")
+	)
+	(label "Current_Vout"
+		(at 215.9 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30b34e9f-4578-4b76-8a6b-ec474ee73b95")
 	)
 	(label "IMD_RL"
 		(at 359.41 69.85 180)
@@ -19219,17 +19634,6 @@
 		)
 		(uuid "3d45c014-dd3d-43cb-b172-e3eb35dddfc9")
 	)
-	(label "Current_Vref"
-		(at 215.9 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "43b937ca-9b29-4a74-8a9a-bb24246b5d69")
-	)
 	(label "CAN_H1"
 		(at 21.59 160.02 270)
 		(fields_autoplaced yes)
@@ -19253,7 +19657,7 @@
 		(uuid "46743691-28a6-4f86-8279-c0ebe143e4d6")
 	)
 	(label "HVIL"
-		(at 344.17 266.7 180)
+		(at 345.44 266.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19273,17 +19677,6 @@
 			(justify right bottom)
 		)
 		(uuid "539ce066-3c9b-4117-8232-3257b26d53fc")
-	)
-	(label "IRs_Final"
-		(at 215.9 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "591393dc-03ac-49e5-8403-4ba541835354")
 	)
 	(label "MISO"
 		(at 220.98 69.85 180)
@@ -19363,7 +19756,7 @@
 		(uuid "68514383-5959-49c2-ad92-6abe25ffab3e")
 	)
 	(label "TS-"
-		(at 344.17 264.16 180)
+		(at 345.44 264.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19527,6 +19920,17 @@
 		)
 		(uuid "8ba3aceb-2bd9-49c7-a21a-84ab92876b9c")
 	)
+	(label "Shutdown_ACC_In"
+		(at 215.9 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9035aa17-00d7-41f4-99af-f26349ad26e4")
+	)
 	(label "CAN2_RD"
 		(at 86.36 67.31 0)
 		(fields_autoplaced yes)
@@ -19537,6 +19941,28 @@
 			(justify left bottom)
 		)
 		(uuid "911886ba-5031-4554-93ad-a979c01a1a77")
+	)
+	(label "IRs_Final"
+		(at 215.9 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "911d995f-a893-4723-a216-db9d89e72f1c")
+	)
+	(label "Temp_Sense_GND"
+		(at 215.9 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "927fbcde-9a5e-4084-aa48-f1c1e0fb1df3")
 	)
 	(label "Precharge_Control"
 		(at 287.02 166.37 0)
@@ -19560,6 +19986,17 @@
 		)
 		(uuid "9d264aca-8f68-4301-94b7-1a992ca4a431")
 	)
+	(label "Current_Vref"
+		(at 215.9 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9db328a9-89f7-4629-b2b0-f2f4b035b35c")
+	)
 	(label "MISO"
 		(at 138.43 64.77 180)
 		(fields_autoplaced yes)
@@ -19570,6 +20007,17 @@
 			(justify right bottom)
 		)
 		(uuid "a1712088-4348-4c8c-ad01-a516bf984997")
+	)
+	(label "Temp_Sense_One_Wire"
+		(at 341.63 308.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4a141f0-cb1a-471d-9b77-114ae7a028e8")
 	)
 	(label "CAN1_RD"
 		(at 86.36 34.29 0)
@@ -19615,17 +20063,6 @@
 		)
 		(uuid "ad287eec-fd39-4982-9495-7e0f11fe511d")
 	)
-	(label "Shutdown_ACC_Out"
-		(at 215.9 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b0ade4a6-be8d-4d4b-8e43-ca6761108f13")
-	)
 	(label "BMS_FAULT_3.3V"
 		(at 80.01 49.53 0)
 		(fields_autoplaced yes)
@@ -19637,6 +20074,17 @@
 		)
 		(uuid "b12386dd-d955-4cbf-aa60-3ca5db656e27")
 	)
+	(label "Shutdown_ACC_Out"
+		(at 215.9 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1553199-07dd-429f-85eb-b28f4387abe4")
+	)
 	(label "LATCH_RL"
 		(at 71.12 224.79 270)
 		(fields_autoplaced yes)
@@ -19647,17 +20095,6 @@
 			(justify right bottom)
 		)
 		(uuid "b1b46f53-2fbd-4af3-9404-6c2c7a880134")
-	)
-	(label "BSPD_FAULT_5V"
-		(at 215.9 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b2b11639-6ef7-47e6-90eb-73f2440a84cc")
 	)
 	(label "IMD_FAULT_12V"
 		(at 62.23 240.03 180)
@@ -19780,17 +20217,6 @@
 		)
 		(uuid "cf89a037-e12f-4dc5-83af-c36bdc670c02")
 	)
-	(label "Current_Vout"
-		(at 215.9 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d2324fea-cf47-4162-870c-9633d475dfae")
-	)
 	(label "IR_GND"
 		(at 243.84 48.26 180)
 		(fields_autoplaced yes)
@@ -19824,6 +20250,28 @@
 		)
 		(uuid "e86aeb35-e734-4ce8-9410-86261d199ac6")
 	)
+	(label "Temp_Sense_One_Wire"
+		(at 219.71 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ece216e8-3ede-44ae-8d38-8da059221d11")
+	)
+	(label "BSPD_FAULT_5V"
+		(at 215.9 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee19fa3c-cd1f-4b96-8217-fdbade6293ea")
+	)
 	(label "Shutdown_ACC_Out"
 		(at 176.53 279.4 0)
 		(fields_autoplaced yes)
@@ -19834,6 +20282,17 @@
 			(justify left bottom)
 		)
 		(uuid "f0f884ed-6aed-4f4d-a863-8f85b61f979b")
+	)
+	(label "Temp_Sense_GND"
+		(at 346.71 298.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2c66786-8ad5-49b2-bc0b-68bf34ff0a6a")
 	)
 	(label "Raw_Curr_VRef"
 		(at 105.41 111.76 0)
@@ -22345,6 +22804,92 @@
 				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
 					(reference "U4")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20U")
+		(at 339.09 298.45 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "393a1a76-bf50-487f-9c30-49906ff191fa")
+		(property "Reference" "U6"
+			(at 339.09 290.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20U"
+			(at 339.09 288.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+			(at 345.44 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 332.74 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer MSOP-8"
+			(at 339.09 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "30e01c1c-8814-4b95-95b1-0f3f3bb5dfbf")
+		)
+		(pin "4"
+			(uuid "bcf87d9f-645d-43c0-ad3b-55cf25fa329d")
+		)
+		(pin "3"
+			(uuid "523a6d04-da31-4771-a47d-2e7d41fd756a")
+		)
+		(pin "6"
+			(uuid "5973091a-0abf-4f31-af18-004363868c4c")
+		)
+		(pin "7"
+			(uuid "16852401-c94e-4a84-b3e9-3249236e7f22")
+		)
+		(pin "5"
+			(uuid "f752dd4e-72e9-433f-b877-56be9d284c97")
+		)
+		(pin "1"
+			(uuid "311d035f-7d96-4c96-9672-9d7287bf083b")
+		)
+		(pin "2"
+			(uuid "b9e51af1-69eb-45a1-9f05-1f67ad537bf1")
+		)
+		(instances
+			(project ""
+				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
+					(reference "U6")
+					(unit 1)
 				)
 			)
 		)
@@ -28242,7 +28787,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 349.25 266.7 180)
+		(at 350.52 266.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28250,7 +28795,7 @@
 		(dnp no)
 		(uuid "b2485be2-e156-481d-b806-b9fe5199d397")
 		(property "Reference" "J10"
-			(at 350.52 269.748 90)
+			(at 351.79 269.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28258,7 +28803,7 @@
 			)
 		)
 		(property "Value" "HVIL"
-			(at 352.806 266.192 90)
+			(at 354.076 266.192 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28266,7 +28811,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
-			(at 349.25 266.7 0)
+			(at 350.52 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28275,7 +28820,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 349.25 266.7 0)
+			(at 350.52 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28284,7 +28829,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 349.25 266.7 0)
+			(at 350.52 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32253,46 +32798,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "a4c1ccab-7ca3-403b-8361-7cb88ee1cd2e")
+			(uuid "a4c1ccab-7ca3-403b-8361-7cb88ee1cd2f")
 		)
 		(pin "7"
-			(uuid "956f5971-556c-4236-9d83-3b567b488dc7")
+			(uuid "956f5971-556c-4236-9d83-3b567b488dc8")
 		)
 		(pin "4"
-			(uuid "3e4e674e-73d9-4ef7-a41b-163697b6816c")
+			(uuid "3e4e674e-73d9-4ef7-a41b-163697b6816d")
 		)
 		(pin "8"
-			(uuid "49cc0fed-b20b-4e05-888d-4186b96c0bd8")
+			(uuid "49cc0fed-b20b-4e05-888d-4186b96c0bd9")
 		)
 		(pin "1"
-			(uuid "423f5c39-c3bf-47bc-b139-c28f8ecff9e5")
+			(uuid "423f5c39-c3bf-47bc-b139-c28f8ecff9e6")
 		)
 		(pin "14"
-			(uuid "28ef88bf-3536-43c1-8301-46defb89328a")
+			(uuid "28ef88bf-3536-43c1-8301-46defb89328b")
 		)
 		(pin "3"
-			(uuid "ee85e810-4e83-4f52-bcbf-29c651ae7abc")
+			(uuid "ee85e810-4e83-4f52-bcbf-29c651ae7abd")
 		)
 		(pin "5"
-			(uuid "fc39c4a3-e474-465f-afc4-db1717e83a56")
+			(uuid "fc39c4a3-e474-465f-afc4-db1717e83a57")
 		)
 		(pin "12"
-			(uuid "eb90b5ee-acf3-4e30-98c5-985160ac28aa")
+			(uuid "eb90b5ee-acf3-4e30-98c5-985160ac28ab")
 		)
 		(pin "10"
-			(uuid "4b9898d8-5cb3-416c-9e98-eca1276616d5")
+			(uuid "4b9898d8-5cb3-416c-9e98-eca1276616d6")
 		)
 		(pin "13"
-			(uuid "d202cecf-105f-4d14-b2d5-d9291959cb8b")
+			(uuid "d202cecf-105f-4d14-b2d5-d9291959cb8c")
 		)
 		(pin "2"
-			(uuid "63178fac-8ecd-4d1f-88aa-07757c5b5568")
+			(uuid "63178fac-8ecd-4d1f-88aa-07757c5b5569")
 		)
 		(pin "9"
-			(uuid "22405fbf-d68a-478e-a017-1e3e5e0a81a7")
+			(uuid "22405fbf-d68a-478e-a017-1e3e5e0a81a8")
 		)
 		(pin "6"
-			(uuid "bb21ef59-0452-4c99-8ef7-580d445ad7e1")
+			(uuid "bb21ef59-0452-4c99-8ef7-580d445ad7e2")
 		)
 		(instances
 			(project ""
