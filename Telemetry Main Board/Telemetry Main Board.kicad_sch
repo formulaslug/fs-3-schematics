@@ -1853,169 +1853,6 @@
 				)
 			)
 		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -4556,12 +4393,6 @@
 		(uuid "4ebc458d-42d4-444a-aa1f-af018fab0044")
 	)
 	(junction
-		(at 45.72 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5147686c-3b5c-4cc3-84bf-90266f5f9d6e")
-	)
-	(junction
 		(at 50.8 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5031,16 +4862,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 52.07) (xy 36.83 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bf84de3-0eab-4975-b898-8b5de9a2da71")
-	)
-	(wire
-		(pts
 			(xy 35.56 152.4) (xy 35.56 156.21)
 		)
 		(stroke
@@ -5151,16 +4972,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 52.07) (xy 36.83 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6da3778d-a31b-4c99-81a2-f74c284ee1d2")
-	)
-	(wire
-		(pts
 			(xy 58.42 101.6) (xy 72.39 101.6)
 		)
 		(stroke
@@ -5261,7 +5072,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 57.15) (xy 36.83 57.15)
+			(xy 26.67 57.15) (xy 46.99 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5401,6 +5212,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 54.61) (xy 43.18 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7df59b-9f3d-4d07-91cf-285eb696801e")
+	)
+	(wire
+		(pts
 			(xy 35.56 175.26) (xy 35.56 179.07)
 		)
 		(stroke
@@ -5492,7 +5313,7 @@
 	)
 	(text "CAN2 transceiver"
 		(exclude_from_sim no)
-		(at 78.74 104.14 0)
+		(at 77.978 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7371,92 +7192,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 41.91 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2cb04d1d-a5e0-431f-98de-e9029bcfa8fa")
-		(property "Reference" "D1"
-			(at 41.402 49.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 39.878 51.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 41.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 41.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 41.91 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "561c3e8b-94bc-42ff-81ae-158f6c45bd56")
-		)
-		(pin "1"
-			(uuid "659e51e8-ff37-4964-b890-63bbe5524c3d")
-		)
-		(instances
-			(project "Telemetry Main Board"
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_CAN_LIN:ISO1050DUB")
 		(at 86.36 96.52 180)
 		(unit 1)
@@ -7844,16 +7579,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 45.72 52.07 270)
+		(at 46.99 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4ac70b02-4b83-46cb-b6bd-f473161537b0")
 		(property "Reference" "#PWR014"
-			(at 41.91 52.07 0)
+			(at 46.99 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +7596,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 49.53 52.0699 90)
+			(at 44.196 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +7605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 52.07 0)
+			(at 46.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,7 +7614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 52.07 0)
+			(at 46.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,7 +7623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 45.72 52.07 0)
+			(at 46.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,8 +8254,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 133.35 138.43 90)
+		(property "Value" "+12VIN"
+			(at 132.08 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8767,76 +8501,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 45.72 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83bc477d-6e96-4597-839e-41a3cc93bdab")
-		(property "Reference" "C9"
-			(at 49.53 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1 F"
-			(at 49.53 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.6852 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 45.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "046e9972-62d4-458c-b567-952ba63e1f85")
-		)
-		(pin "2"
-			(uuid "3db99e80-f638-4779-ab77-30583005a424")
-		)
-		(instances
-			(project ""
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 156.21 40.64 270)
 		(unit 1)
@@ -9058,7 +8722,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 26.67 54.61 270)
+		(at 43.18 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9066,7 +8730,7 @@
 		(dnp no)
 		(uuid "8d0b25a6-bba1-422a-8207-c1a89d15fd79")
 		(property "Reference" "#PWR05"
-			(at 22.86 54.61 0)
+			(at 43.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,8 +8738,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 31.75 54.61 90)
+		(property "Value" "+12VIN"
+			(at 43.18 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9083,7 +8747,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 54.61 0)
+			(at 43.18 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9092,7 +8756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 54.61 0)
+			(at 43.18 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,7 +8765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 26.67 54.61 0)
+			(at 43.18 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +9358,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b47dc1c9-9d17-4b35-9d40-56dac79e454a")
 		(property "Reference" "U4"
 			(at 86.36 48.26 0)
