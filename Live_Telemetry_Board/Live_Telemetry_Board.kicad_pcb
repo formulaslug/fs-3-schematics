@@ -169,6 +169,115 @@
 	(net 87 "unconnected-(U2A-VBAT-PadCN7_33)")
 	(net 88 "unconnected-(U2A-PA13-PadCN7_13)")
 	(net 89 "unconnected-(U2B-PB3-PadCN10_31)")
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "0dca4c19-7149-42ca-a016-8ec95c584364")
+		(at 55.8 62.95)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "c14af392-b705-45f2-98b8-9f4a81f14e44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.5mm"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(uuid "62bac7e1-4b10-417c-8ae7-16ed99818f2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3924021f-d843-4896-af46-ea4c98b85308")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2a4cf78-d40b-4257-a871-4749353ba013")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "824d9bf7-acd0-448a-9ac7-ac9b67f9d366")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "c3ac0516-043e-4bfa-b512-49e69c637722")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "14e3d442-6fe0-4dc3-979f-0ef7c6e1e44f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4bed9120-8b2d-43a0-b365-5dca2525208f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "be8fea47-d9cf-4d76-97d9-e9fbfcd1e793")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "10b9d5d0-707e-41fa-a74b-2ec31773ce12")
@@ -2436,6 +2545,115 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "80d37e57-af15-4e35-a3f0-1bcc93e80103")
+		(at 55.55 126.3)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "c14af392-b705-45f2-98b8-9f4a81f14e44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.5mm"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(uuid "62bac7e1-4b10-417c-8ae7-16ed99818f2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3924021f-d843-4896-af46-ea4c98b85308")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2a4cf78-d40b-4257-a871-4749353ba013")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "824d9bf7-acd0-448a-9ac7-ac9b67f9d366")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "c3ac0516-043e-4bfa-b512-49e69c637722")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "14e3d442-6fe0-4dc3-979f-0ef7c6e1e44f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4bed9120-8b2d-43a0-b365-5dca2525208f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "be8fea47-d9cf-4d76-97d9-e9fbfcd1e793")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "916b1eb5-c182-4447-b47a-e23e40f8e878")
@@ -3483,6 +3701,115 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "a2c631c7-3d52-454d-a7ea-9b64e1165b0b")
+		(at 153.9 63.1)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "c14af392-b705-45f2-98b8-9f4a81f14e44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.5mm"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(uuid "62bac7e1-4b10-417c-8ae7-16ed99818f2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3924021f-d843-4896-af46-ea4c98b85308")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2a4cf78-d40b-4257-a871-4749353ba013")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "824d9bf7-acd0-448a-9ac7-ac9b67f9d366")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "c3ac0516-043e-4bfa-b512-49e69c637722")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "14e3d442-6fe0-4dc3-979f-0ef7c6e1e44f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4bed9120-8b2d-43a0-b365-5dca2525208f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "be8fea47-d9cf-4d76-97d9-e9fbfcd1e793")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -5451,6 +5778,115 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "e119dca6-a4f9-4794-8f32-d25414b7ff8a")
+		(at 154.8 126.6)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "REF**"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "c14af392-b705-45f2-98b8-9f4a81f14e44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_3.5mm"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(uuid "62bac7e1-4b10-417c-8ae7-16ed99818f2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3924021f-d843-4896-af46-ea4c98b85308")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2a4cf78-d40b-4257-a871-4749353ba013")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "824d9bf7-acd0-448a-9ac7-ac9b67f9d366")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "c3ac0516-043e-4bfa-b512-49e69c637722")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "14e3d442-6fe0-4dc3-979f-0ef7c6e1e44f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4bed9120-8b2d-43a0-b365-5dca2525208f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "be8fea47-d9cf-4d76-97d9-e9fbfcd1e793")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "f6cf7ac2-99c3-4fc2-81dc-cf12f8666f1e")
@@ -6196,8 +6632,8 @@
 		(layer "Edge.Cuts")
 		(uuid "06014724-5587-4ac5-bb42-98506dc8b375")
 	)
-	(gr_text "Live Telemetry Board\nFS-3\nDesign by Nathan Pham\n"
-		(at 52.55 63.7 0)
+	(gr_text "Live Telemetry Board\nFS-3\nDesign by Nathan Pham\nVersion 1\n"
+		(at 61.7 65.9 0)
 		(layer "F.SilkS")
 		(uuid "82bb8571-dae1-4578-a523-dbeffc2b2969")
 		(effects
