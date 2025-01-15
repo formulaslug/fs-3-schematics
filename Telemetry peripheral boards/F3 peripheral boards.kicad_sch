@@ -5802,7 +5802,17 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 87.63) (xy 43.18 87.63)
+			(xy 204.47 60.96) (xy 201.93 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b22d50b-68f5-4628-a28d-92cf28bc0d6b")
+	)
+	(wire
+		(pts
+			(xy 29.21 87.63) (xy 40.64 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6382,6 +6392,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 68.58) (xy 199.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986447b7-2c10-4403-a119-0b5eae5b0811")
+	)
+	(wire
+		(pts
 			(xy 161.29 133.35) (xy 168.91 133.35)
 		)
 		(stroke
@@ -6549,6 +6569,16 @@
 			(type default)
 		)
 		(uuid "c10335dd-9849-4f87-92a2-40090fe1949e")
+	)
+	(wire
+		(pts
+			(xy 204.47 68.58) (xy 199.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c6476e-d076-46e8-bfe2-99a4c4d76355")
 	)
 	(wire
 		(pts
@@ -7112,6 +7142,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 60.96) (xy 201.93 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0bb05a-6752-4252-a628-eab74c27b92d")
+	)
+	(wire
+		(pts
 			(xy 96.52 168.91) (xy 96.52 166.37)
 		)
 		(stroke
@@ -7246,11 +7286,11 @@
 		(uuid "1e7b1bfc-c56a-4981-b9c0-2f23397fa8f9")
 	)
 	(label "Shock position"
-		(at 43.18 87.63 180)
+		(at 40.64 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
 			)
 			(justify right bottom)
 		)
@@ -7454,6 +7494,28 @@
 			)
 		)
 	)
+	(global_label "PA6"
+		(shape input)
+		(at 40.64 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0db8bf57-81ed-4332-815f-18828bc41407")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.1933 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PA4"
 		(shape input)
 		(at 187.96 99.06 180)
@@ -7533,6 +7595,28 @@
 		(uuid "285ef4b6-d7f7-47f9-8963-b639d54165bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 200.2753 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANH"
+		(shape input)
+		(at 204.47 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b048d8a-d07c-4f42-b6f4-2cf38b8a2ac5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.4652 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7916,6 +8000,28 @@
 			)
 		)
 	)
+	(global_label "PA7"
+		(shape input)
+		(at 86.36 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f9b2aec-9a99-4839-9b56-8ff7ba1a6ad3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.9133 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PA6"
 		(shape input)
 		(at 187.96 104.14 180)
@@ -8070,6 +8176,28 @@
 			)
 		)
 	)
+	(global_label "PA4"
+		(shape input)
+		(at 152.4 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc0068df-5e0f-4382-b81c-5ce305fb1dd7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.9533 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PA1"
 		(shape input)
 		(at 143.51 163.83 0)
@@ -8127,6 +8255,28 @@
 		(uuid "e40f64c3-8c59-4dca-9b41-20a3a99dca63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 181.4067 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape input)
+		(at 204.47 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5b559dc-8db4-4d9d-878b-00429d1f6492")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.7676 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10484,6 +10634,72 @@
 			(project "F3 peripheral boards"
 				(path "/dca14ea9-6ab5-4637-ab7d-1bf40ef85725"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 199.39 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5663c468-0913-41c3-8242-7e45fd41da24")
+		(property "Reference" "#PWR044"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 199.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b73823e-ff64-442c-bb5a-257e16fad573")
+		)
+		(instances
+			(project "F3 peripheral boards"
+				(path "/dca14ea9-6ab5-4637-ab7d-1bf40ef85725"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13871,6 +14087,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 201.93 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e00fcb20-0861-4b5a-bef1-2a46a9a57683")
+		(property "Reference" "#PWR045"
+			(at 201.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 201.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 201.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "745aa8c1-4889-480c-90d0-6982a2f668fa")
+		)
+		(instances
+			(project ""
+				(path "/dca14ea9-6ab5-4637-ab7d-1bf40ef85725"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 30.48 40.64 0)
 		(unit 1)
@@ -14559,6 +14841,82 @@
 			(project ""
 				(path "/dca14ea9-6ab5-4637-ab7d-1bf40ef85725"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
+		(at 209.55 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1db64f2-47f6-4fe9-8910-cea75a9cee66")
+		(property "Reference" "J5"
+			(at 212.09 63.8555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tire temp"
+			(at 212.09 66.3955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90219a03-4944-4c8f-b8ce-70a4760c08da")
+		)
+		(pin "2"
+			(uuid "38ab7fa0-cb43-4736-b36d-b1615b731e25")
+		)
+		(pin "4"
+			(uuid "670b9c08-1359-41a5-9572-66bddfcecf92")
+		)
+		(pin "3"
+			(uuid "ad843d18-6e73-4c7c-aef1-922c1a0b3af2")
+		)
+		(instances
+			(project "F3 peripheral boards"
+				(path "/dca14ea9-6ab5-4637-ab7d-1bf40ef85725"
+					(reference "J5")
 					(unit 1)
 				)
 			)
