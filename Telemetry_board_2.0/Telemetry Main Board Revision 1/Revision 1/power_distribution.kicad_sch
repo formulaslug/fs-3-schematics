@@ -141,327 +141,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:LM7805_TO220"
 			(pin_names
 				(offset 0.254)
@@ -1212,12 +891,6 @@
 		(uuid "79a2d7d4-eda7-4af5-9610-78989ae1f4e2")
 	)
 	(junction
-		(at 36.83 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8dd133d9-4763-4247-a115-63732ae5d27d")
-	)
-	(junction
 		(at 53.34 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1273,26 +946,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 43.18) (xy 36.83 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c807d97-4fa9-4774-acad-77090e8ccb5b")
-	)
-	(wire
-		(pts
-			(xy 36.83 43.18) (xy 43.18 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b40af0b-0bc9-4035-a11a-64fd2194f24d")
-	)
-	(wire
-		(pts
 			(xy 101.6 20.32) (xy 104.14 20.32)
 		)
 		(stroke
@@ -1310,16 +963,6 @@
 			(type default)
 		)
 		(uuid "9564e8f0-1b31-4353-897b-6c22094fc07e")
-	)
-	(wire
-		(pts
-			(xy 19.05 43.18) (xy 25.4 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "977e55aa-9406-4b63-89b6-d1b380248106")
 	)
 	(wire
 		(pts
@@ -1350,26 +993,6 @@
 			(type default)
 		)
 		(uuid "bb131f02-76a4-4593-9ac0-ef94c776c87c")
-	)
-	(wire
-		(pts
-			(xy 43.18 43.18) (xy 43.18 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db3b34da-13ce-43d9-bb82-e4df1f5ee4d5")
-	)
-	(wire
-		(pts
-			(xy 19.05 43.18) (xy 19.05 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed060c7c-1312-482e-a6b0-53c116248695")
 	)
 	(hierarchical_label "9V"
 		(shape output)
@@ -1419,18 +1042,6 @@
 		)
 		(uuid "bebd6069-e385-437f-b0e0-d9e938c273af")
 	)
-	(hierarchical_label "+12VIN"
-		(shape input)
-		(at 20.32 26.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d518782d-1b7b-44ee-bfb1-596fe33e183c")
-	)
 	(symbol
 		(lib_id "Device:C")
 		(at 43.18 24.13 0)
@@ -1440,7 +1051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0617d1ee-f475-4903-8124-16904e86cbeb")
-		(property "Reference" "C1"
+		(property "Reference" "C9"
 			(at 34.29 22.86 0)
 			(effects
 				(font
@@ -1492,6 +1103,12 @@
 			(uuid "0ab28b80-bbfc-46d1-84f6-5de71d67c607")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "C1")
@@ -1510,7 +1127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "283fae12-97cd-4911-a8a5-786fce3cd733")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0108"
 			(at 26.67 16.51 0)
 			(effects
 				(font
@@ -1559,165 +1176,15 @@
 			(uuid "50ea6245-1f52-4dc9-b54e-eb625fb90dbd")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 29.21 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a0ec4b3-749c-4eb4-8d74-a457daa24840")
-		(property "Reference" "D1"
-			(at 29.21 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACGRAT105L-HF"
-			(at 29.21 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.comchiptech.com/admin/files/product/ACGRAT101L-HF%20Thru%20ACGRAT105L-HF%20RevB849012.pdf"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 29.21 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6772304-a33c-47c1-a722-90642d725794")
-		)
-		(pin "2"
-			(uuid "0dc00ecd-d537-4f2e-9ee0-c88c70e32928")
-		)
-		(instances
-			(project ""
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 36.83 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37724461-b658-4a7b-80d0-59692560fe3a")
-		(property "Reference" "C9"
-			(at 40.64 44.8309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EEE-FK1C562SM"
-			(at 40.64 47.3709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_18x17.5"
-			(at 37.7952 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1247.pdf"
-			(at 36.83 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 36.83 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60c16fcb-5477-4545-aba6-afa069626a36")
-		)
-		(pin "2"
-			(uuid "c64063bb-c3dc-483c-875a-dc150508895e")
-		)
-		(instances
-			(project ""
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1732,7 +1199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d2d8c04-6163-4912-8859-e81a15ee1c91")
-		(property "Reference" "C4"
+		(property "Reference" "C12"
 			(at 106.68 22.86 0)
 			(effects
 				(font
@@ -1784,6 +1251,12 @@
 			(uuid "7cfd219b-7fb5-463e-a228-0de5c6135a28")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "C4")
@@ -1802,7 +1275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44e75b6d-b216-412a-9363-56c54ceb876c")
-		(property "Reference" "U2"
+		(property "Reference" "U8"
 			(at 93.98 13.97 0)
 			(effects
 				(font
@@ -1856,142 +1329,15 @@
 			(uuid "609ba969-3eb6-4f42-87f0-288632e876f5")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 36.83 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51be21ab-8943-434c-9cbd-faf99ef619c4")
-		(property "Reference" "#PWR048"
-			(at 36.83 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60ad698c-8908-432b-998b-fc3448dcf726")
-		)
-		(instances
-			(project ""
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 20.32 26.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66ee8d10-7578-4a24-acbc-c8e08dc50c23")
-		(property "Reference" "#PWR050"
-			(at 16.51 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12VIN"
-			(at 24.13 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 20.32 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd73b99a-ecb4-4482-8d31-c8ff0a14d26e")
-		)
-		(instances
-			(project "Telemetry Main Board"
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2007,7 +1353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7557b0e3-5860-4f79-ad2e-7e45b47eb756")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0110"
 			(at 63.5 24.13 0)
 			(effects
 				(font
@@ -2055,6 +1401,12 @@
 			(uuid "8c3c6a9c-1b8d-4cce-a744-bb2659b1e5f8")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "#PWR012")
@@ -2072,7 +1424,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f852906-3804-48e0-8729-58ec69f5b848")
-		(property "Reference" "C2"
+		(property "Reference" "C11"
 			(at 77.47 22.86 0)
 			(effects
 				(font
@@ -2124,6 +1476,12 @@
 			(uuid "ffcbd058-2128-47b2-a3ed-daa99c9f6889")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "C2")
@@ -2142,7 +1500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92619126-e22e-46df-bc33-44cc179e409a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0103"
 			(at 43.18 24.13 0)
 			(effects
 				(font
@@ -2190,75 +1548,15 @@
 			(uuid "a75828f8-7085-4cc3-9902-44885ddf40e7")
 		)
 		(instances
-			(project "Telemetry Board"
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
-					(reference "#PWR08")
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 43.18 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a83a92a9-25b6-4651-a993-12acfc982c21")
-		(property "Reference" "#PWR049"
-			(at 43.18 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 43.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 43.18 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5608afed-11b7-468f-80cf-6c91b7b763b9")
-		)
-		(instances
-			(project ""
+			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
-					(reference "#PWR049")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2274,7 +1572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b424974f-0fb4-4496-a61d-b59fe910f4fe")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0104"
 			(at 93.98 34.29 0)
 			(effects
 				(font
@@ -2322,6 +1620,12 @@
 			(uuid "44670cf9-c1a5-483c-ae08-b1c8da7086b9")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "#PWR011")
@@ -2340,7 +1644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd333d0b-241c-4663-a9ac-7841ed62936e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0106"
 			(at 16.51 24.13 0)
 			(effects
 				(font
@@ -2389,75 +1693,15 @@
 			(uuid "65da5a0b-20cc-4355-944a-a50c9e2bd8fb")
 		)
 		(instances
-			(project "Telemetry Board"
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
-					(reference "#PWR03")
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 19.05 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9ba850c-67f2-4165-8603-42f3693688cf")
-		(property "Reference" "#PWR042"
-			(at 19.05 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12VIN"
-			(at 19.05 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 19.05 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36738649-a297-4e8b-898d-78cb2bd11c7b")
-		)
-		(instances
-			(project ""
+			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
-					(reference "#PWR042")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2473,7 +1717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca5c85c6-3ba2-48e7-93a6-c283cfe51ba3")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0101"
 			(at 53.34 34.29 0)
 			(effects
 				(font
@@ -2521,6 +1765,12 @@
 			(uuid "fcadfc3d-24a7-4349-8983-2042944fb1ad")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "#PWR010")
@@ -2539,7 +1789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce0c1e69-ed3f-432e-a705-cd1882f98875")
-		(property "Reference" "U1"
+		(property "Reference" "U7"
 			(at 53.34 13.97 0)
 			(effects
 				(font
@@ -2593,6 +1843,12 @@
 			(uuid "40913d83-35fb-4eaf-aaba-14d1887926c9")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "U1")
@@ -2611,7 +1867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d04d4b3c-b3bc-42e3-bc0f-619a290f0726")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0102"
 			(at 83.82 24.13 0)
 			(effects
 				(font
@@ -2659,6 +1915,12 @@
 			(uuid "a65492fd-3401-448b-842a-81ab87b698b7")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "#PWR09")
@@ -2677,7 +1939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4487556-66b7-490e-8f57-9ea3814b281d")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0107"
 			(at 16.51 21.59 0)
 			(effects
 				(font
@@ -2726,6 +1988,12 @@
 			(uuid "aeea21f7-c64f-4fb5-9955-e958fe1d86fe")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "#PWR04")
@@ -2744,7 +2012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcaf3441-f67c-4ab1-96e9-a2951c197639")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR0105"
 			(at 104.14 24.13 0)
 			(effects
 				(font
@@ -2792,6 +2060,12 @@
 			(uuid "242b7283-1ea0-4250-aa8b-cd3fbd2fcb18")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "#PWR013")
@@ -2810,7 +2084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efbae600-a3ff-4083-a3a0-1f41efeea633")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0109"
 			(at 16.51 19.05 0)
 			(effects
 				(font
@@ -2859,6 +2133,12 @@
 			(uuid "f8758e36-543e-4ccb-8dcd-1e59f00ee796")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "#PWR06")
@@ -2876,7 +2156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f37f415c-40b4-42a2-be23-d75312e808e8")
-		(property "Reference" "C3"
+		(property "Reference" "C10"
 			(at 66.04 22.86 0)
 			(effects
 				(font
@@ -2928,6 +2208,12 @@
 			(uuid "1c0ed5ac-7693-4bb2-aed8-920c61c6c643")
 		)
 		(instances
+			(project "Revision 1"
+				(path "/c68ffbd9-35e7-45d5-b49b-d25398ef7622/bdbb07f2-51a2-4fac-a9b7-4d41eedbf9a7"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb/dcd9c4a0-8d80-4caa-a99a-0b76a5d913c0"
 					(reference "C3")
