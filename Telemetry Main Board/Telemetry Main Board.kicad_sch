@@ -7410,6 +7410,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 86.36 19.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3eed2024-93d3-42fa-951d-ccdac33ee6ed")
+		(property "Reference" "#PWR051"
+			(at 82.55 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12VIN"
+			(at 93.218 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 86.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32acb857-b555-4a15-b34b-7bbe795e6ecc")
+		)
+		(instances
+			(project "Telemetry Main Board"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 191.77 120.65 90)
 		(unit 1)
@@ -11711,6 +11776,16 @@
 				(justify left)
 			)
 			(uuid "e4455eb2-d9a1-42a6-ad53-f1e0371c8229")
+		)
+		(pin "+12VIN" input
+			(at 86.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "def9d909-539a-415e-b59e-878a9b0cf64d")
 		)
 		(instances
 			(project "Telemetry Main Board"
