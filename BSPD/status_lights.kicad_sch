@@ -295,6 +295,174 @@
 				)
 			)
 		)
+		(symbol "LED_1"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -393,14 +561,36 @@
 		)
 	)
 	(junction
-		(at 53.34 66.04)
+		(at 29.21 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "805eb5a8-bee5-4b5e-a78b-4fbcb06ce0b8")
+	)
+	(junction
+		(at 29.21 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf7f172d-1784-40b7-b4a6-86b59b5bc131")
+	)
+	(junction
+		(at 29.21 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edc55386-6bee-46a1-bdf0-c87a1174f8b9")
 	)
 	(wire
 		(pts
-			(xy 73.66 82.55) (xy 80.01 82.55)
+			(xy 29.21 55.88) (xy 41.91 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001721cc-36a3-435d-8918-42431ef237ea")
+	)
+	(wire
+		(pts
+			(xy 49.53 86.36) (xy 55.88 86.36)
 		)
 		(stroke
 			(width 0)
@@ -410,7 +600,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 19.05) (xy 55.88 19.05)
+			(xy 40.64 21.59) (xy 60.96 21.59)
 		)
 		(stroke
 			(width 0)
@@ -420,7 +610,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 66.04) (xy 119.38 66.04)
+			(xy 63.5 69.85) (xy 95.25 69.85)
 		)
 		(stroke
 			(width 0)
@@ -430,17 +620,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 49.53) (xy 53.34 66.04)
+			(xy 40.64 17.78) (xy 60.96 17.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4306783e-919a-444e-ba43-90bc0379021b")
+		(uuid "4564c63d-6b32-45b2-bfc5-759672f6151d")
 	)
 	(wire
 		(pts
-			(xy 66.04 49.53) (xy 53.34 49.53)
+			(xy 41.91 43.18) (xy 29.21 43.18)
 		)
 		(stroke
 			(width 0)
@@ -450,7 +640,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 22.86) (xy 55.88 22.86)
+			(xy 40.64 25.4) (xy 60.96 25.4)
 		)
 		(stroke
 			(width 0)
@@ -460,7 +650,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 82.55) (xy 87.63 82.55)
+			(xy 95.25 86.36) (xy 63.5 86.36)
 		)
 		(stroke
 			(width 0)
@@ -470,7 +660,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 49.53) (xy 80.01 49.53)
+			(xy 49.53 43.18) (xy 55.88 43.18)
 		)
 		(stroke
 			(width 0)
@@ -480,7 +670,27 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 82.55) (xy 53.34 82.55)
+			(xy 29.21 59.69) (xy 29.21 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc6894e-153e-4fcd-a688-c6d98440ddad")
+	)
+	(wire
+		(pts
+			(xy 63.5 55.88) (xy 95.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7353130-26de-421d-95b3-3475280d93df")
+	)
+	(wire
+		(pts
+			(xy 41.91 86.36) (xy 29.21 86.36)
 		)
 		(stroke
 			(width 0)
@@ -490,7 +700,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 49.53) (xy 119.38 49.53)
+			(xy 63.5 43.18) (xy 95.25 43.18)
 		)
 		(stroke
 			(width 0)
@@ -500,7 +710,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 26.67) (xy 55.88 26.67)
+			(xy 29.21 55.88) (xy 29.21 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c730284f-15be-4a3d-aeb1-7055cf25d87e")
+	)
+	(wire
+		(pts
+			(xy 40.64 29.21) (xy 60.96 29.21)
 		)
 		(stroke
 			(width 0)
@@ -510,7 +730,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 66.04) (xy 66.04 66.04)
+			(xy 29.21 69.85) (xy 41.91 69.85)
 		)
 		(stroke
 			(width 0)
@@ -520,7 +740,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 66.04) (xy 80.01 66.04)
+			(xy 49.53 69.85) (xy 55.88 69.85)
 		)
 		(stroke
 			(width 0)
@@ -530,7 +750,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 82.55) (xy 53.34 66.04)
+			(xy 29.21 43.18) (xy 29.21 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9196058-46b0-41e2-85ae-1044c78ead60")
+	)
+	(wire
+		(pts
+			(xy 29.21 86.36) (xy 29.21 69.85)
 		)
 		(stroke
 			(width 0)
@@ -538,8 +768,30 @@
 		)
 		(uuid "f31926b7-2b81-4648-ab6e-6aff3ab40fd8")
 	)
-	(label "BSPD_Fault"
-		(at 55.88 26.67 180)
+	(wire
+		(pts
+			(xy 49.53 55.88) (xy 55.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb0ee53-40b2-4de7-a23e-f119ae55fe37")
+	)
+	(label "rear_hard_braking"
+		(at 60.96 17.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right bottom)
+		)
+		(uuid "16dd2fe9-17e5-4f5b-955e-4b55e6f713fe")
+	)
+	(label "BSPD_Fault_LOW"
+		(at 60.96 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -550,7 +802,7 @@
 		(uuid "3ab377c2-51f5-4557-8723-cdc2c30838f5")
 	)
 	(label "high_current"
-		(at 55.88 22.86 180)
+		(at 60.96 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -561,8 +813,8 @@
 		)
 		(uuid "4fc77357-3f25-4d7d-ad08-ff54c02ed433")
 	)
-	(label "hard_braking"
-		(at 119.38 49.53 180)
+	(label "front_hard_braking"
+		(at 95.25 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -573,8 +825,8 @@
 		)
 		(uuid "56e53913-bc50-4977-9d42-2daee7793241")
 	)
-	(label "hard_braking"
-		(at 55.88 19.05 180)
+	(label "front_hard_braking"
+		(at 60.96 21.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -586,7 +838,7 @@
 		(uuid "6caf3142-9410-4652-adcf-4ed97dad90bb")
 	)
 	(label "high_current"
-		(at 119.38 66.04 180)
+		(at 95.25 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -597,8 +849,20 @@
 		)
 		(uuid "6e6f80bb-a260-408c-89d5-efdfe0f8a994")
 	)
-	(label "BSPD_Fault"
-		(at 119.38 82.55 180)
+	(label "rear_hard_braking"
+		(at 95.25 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4c6b6c7-14ac-4527-9b03-e6d0193e281e")
+	)
+	(label "BSPD_Fault_LOW"
+		(at 95.25 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -608,9 +872,9 @@
 		)
 		(uuid "da932d93-248a-4493-b340-51c267bd82e5")
 	)
-	(hierarchical_label "hard_braking"
+	(hierarchical_label "front_hard_braking"
 		(shape input)
-		(at 40.64 19.05 180)
+		(at 40.64 21.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -622,9 +886,9 @@
 		)
 		(uuid "23ecfb8a-8673-43d9-a52d-f8eb97849f6b")
 	)
-	(hierarchical_label "BSPD_Fault"
+	(hierarchical_label "BSPD_Fault_LOW"
 		(shape input)
-		(at 40.64 26.67 180)
+		(at 40.64 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -636,9 +900,23 @@
 		)
 		(uuid "2df56400-fcbf-4489-965e-722794e4ae14")
 	)
+	(hierarchical_label "rear_hard_braking"
+		(shape input)
+		(at 40.64 17.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "44d449dd-60d3-42ed-8819-a1d68e3d7432")
+	)
 	(hierarchical_label "high_current"
 		(shape input)
-		(at 40.64 22.86 180)
+		(at 40.64 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -652,16 +930,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 82.55 90)
+		(at 59.69 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3de99e28-23ba-4b93-9da4-b2728785fd1b")
-		(property "Reference" "R9"
-			(at 83.82 76.2 90)
+		(uuid "070581f7-1fdb-40ee-95a4-a4a0d818278b")
+		(property "Reference" "R1"
+			(at 59.69 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,15 +947,15 @@
 			)
 		)
 		(property "Value" "300"
-			(at 83.82 78.74 90)
+			(at 59.69 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 83.82 84.328 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 59.69 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -685,8 +963,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 83.82 82.55 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 59.69 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -695,7 +973,111 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 82.55 0)
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07300RL/727848"
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "Resistor"
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee1b4347-75f3-4db5-821b-86e234057f11")
+		)
+		(pin "2"
+			(uuid "b971e91f-e0aa-4415-a404-42b79f8499e1")
+		)
+		(instances
+			(project "BSPD"
+				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/26dce1b7-8fec-4320-afb5-7c8022e544d4"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.69 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3de99e28-23ba-4b93-9da4-b2728785fd1b")
+		(property "Reference" "R9"
+			(at 59.69 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 59.69 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 59.69 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07300RL/727848"
+			(at 59.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "Resistor"
+			(at 59.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,7 +1102,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 69.85 66.04 0)
+		(at 45.72 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -729,23 +1111,23 @@
 		(fields_autoplaced yes)
 		(uuid "611b7446-b89a-43d0-8bf7-f8afac3a3b4b")
 		(property "Reference" "D2"
-			(at 68.2625 59.69 0)
+			(at 44.1325 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 68.2625 62.23 0)
+		(property "Value" "QBLP631-R3A"
+			(at 44.1325 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 69.85 66.04 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 45.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,8 +1135,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 69.85 66.04 0)
+		(property "Datasheet" "https://www.qt-brightek.com/datasheet/QBLP631-R3A.pdf"
+			(at 45.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -763,7 +1145,25 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 69.85 66.04 0)
+			(at 45.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/qt-brightek-qtb/QBLP631-R3A/23026406"
+			(at 45.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "Leds"
+			(at 45.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,8 +1187,9 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
 		(lib_id "Device:LED")
-		(at 69.85 49.53 0)
+		(at 45.72 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -797,23 +1198,23 @@
 		(fields_autoplaced yes)
 		(uuid "6d66222b-8a4c-4d5d-8679-b4cb59d7e958")
 		(property "Reference" "D1"
-			(at 68.2625 43.18 0)
+			(at 44.1325 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 68.2625 45.72 0)
+		(property "Value" "QBLP631-R3A"
+			(at 44.1325 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 69.85 49.53 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 45.72 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,8 +1222,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 69.85 49.53 0)
+		(property "Datasheet" "https://www.qt-brightek.com/datasheet/QBLP631-R3A.pdf"
+			(at 45.72 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,7 +1232,25 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 69.85 49.53 0)
+			(at 45.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/qt-brightek-qtb/QBLP631-R3A/23026406"
+			(at 45.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "Leds"
+			(at 45.72 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,7 +1275,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 49.53 90)
+		(at 59.69 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -865,7 +1284,7 @@
 		(fields_autoplaced yes)
 		(uuid "89b1cfb4-62f7-4cfa-a775-e30e5afe146d")
 		(property "Reference" "R7"
-			(at 83.82 43.18 90)
+			(at 59.69 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,15 +1292,15 @@
 			)
 		)
 		(property "Value" "300"
-			(at 83.82 45.72 90)
+			(at 59.69 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 83.82 51.308 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 59.69 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,8 +1308,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 83.82 49.53 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 59.69 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,7 +1318,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 49.53 0)
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07300RL/727848"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "Resistor"
+			(at 59.69 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -924,7 +1361,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 69.85 82.55 0)
+		(at 45.72 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -933,23 +1370,23 @@
 		(fields_autoplaced yes)
 		(uuid "8d6f0438-e425-4058-a151-cf9bb2b6a494")
 		(property "Reference" "D3"
-			(at 68.2625 76.2 0)
+			(at 44.1325 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 68.2625 78.74 0)
+		(property "Value" "QBLP631-R3A"
+			(at 44.1325 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 69.85 82.55 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,8 +1394,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 69.85 82.55 0)
+		(property "Datasheet" "https://www.qt-brightek.com/datasheet/QBLP631-R3A.pdf"
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -967,7 +1404,25 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 69.85 82.55 0)
+			(at 45.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/qt-brightek-qtb/QBLP631-R3A/23026406"
+			(at 45.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "Leds"
+			(at 45.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,7 +1447,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 66.04 270)
+		(at 29.21 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1001,7 +1456,7 @@
 		(fields_autoplaced yes)
 		(uuid "aebf795f-0a9d-404a-a066-3d02cef6e3aa")
 		(property "Reference" "#PWR04"
-			(at 46.99 66.04 0)
+			(at 22.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,7 +1465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 66.0399 90)
+			(at 25.4 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +1474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 66.04 0)
+			(at 29.21 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +1483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 66.04 0)
+			(at 29.21 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,7 +1492,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 66.04 0)
+			(at 29.21 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1514,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 66.04 90)
+		(at 59.69 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1068,7 +1523,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc7fef16-ef2d-48c0-9b78-433a3da06e0c")
 		(property "Reference" "R8"
-			(at 83.82 59.69 90)
+			(at 59.69 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,15 +1531,15 @@
 			)
 		)
 		(property "Value" "300"
-			(at 83.82 62.23 90)
+			(at 59.69 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 83.82 67.818 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 59.69 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,8 +1547,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 83.82 66.04 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 59.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +1557,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 66.04 0)
+			(at 59.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07300RL/727848"
+			(at 59.69 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "Resistor"
+			(at 59.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,6 +1593,93 @@
 			(project "BSPD"
 				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/26dce1b7-8fec-4320-afb5-7c8022e544d4"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 45.72 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c686a9d4-2bd6-4829-9286-9d8c2dab7d00")
+		(property "Reference" "D5"
+			(at 44.1325 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QBLP631-R3A"
+			(at 44.1325 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FS_3_Global_Footprint_Library:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_CathodeDot"
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.qt-brightek.com/datasheet/QBLP631-R3A.pdf"
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/qt-brightek-qtb/QBLP631-R3A/23026406"
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "Leds"
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0540c61e-c78a-45e0-9a59-e7beb87ab60b")
+		)
+		(pin "1"
+			(uuid "eec45baf-9a20-468f-926e-f8ad0edac4a4")
+		)
+		(instances
+			(project "BSPD"
+				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/26dce1b7-8fec-4320-afb5-7c8022e544d4"
+					(reference "D5")
 					(unit 1)
 				)
 			)

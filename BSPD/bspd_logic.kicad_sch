@@ -697,7 +697,7 @@
 				)
 			)
 		)
-		(symbol "4xxx:4081"
+		(symbol "74xx:74HC00"
 			(pin_names
 				(offset 1.016)
 			)
@@ -712,7 +712,7 @@
 					)
 				)
 			)
-			(property "Value" "4081"
+			(property "Value" "74HC00"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -729,7 +729,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
 				(at 0 0 0)
 				(effects
 					(font
@@ -738,7 +738,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Quad And 2 inputs"
+			(property "Description" "quad 2-input NAND gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -755,7 +755,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "CMOS And2"
+			(property "ki_keywords" "HCMOS nand 2-input"
 				(at 0 0 0)
 				(effects
 					(font
@@ -764,7 +764,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP?14*"
+			(property "ki_fp_filters" "DIP*W7.62mm* SO14*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -773,7 +773,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "4081_1_1"
+			(symbol "74HC00_1_1"
 				(arc
 					(start 0 -3.81)
 					(mid 3.7934 0)
@@ -834,7 +834,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin output inverted
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -853,7 +853,7 @@
 					)
 				)
 			)
-			(symbol "4081_1_2"
+			(symbol "74HC00_1_2"
 				(arc
 					(start -3.81 -3.81)
 					(mid -2.589 0)
@@ -964,7 +964,7 @@
 						)
 					)
 				)
-				(pin output inverted
+				(pin output line
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -983,7 +983,7 @@
 					)
 				)
 			)
-			(symbol "4081_2_1"
+			(symbol "74HC00_2_1"
 				(arc
 					(start 0 -3.81)
 					(mid 3.7934 0)
@@ -1008,8 +1008,8 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 3.81)
 					(name "~"
 						(effects
@@ -1027,7 +1027,7 @@
 					)
 				)
 				(pin input line
-					(at -7.62 2.54 0)
+					(at -7.62 -2.54 0)
 					(length 3.81)
 					(name "~"
 						(effects
@@ -1044,8 +1044,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 -2.54 0)
+				(pin output inverted
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
 						(effects
@@ -1063,7 +1063,7 @@
 					)
 				)
 			)
-			(symbol "4081_2_2"
+			(symbol "74HC00_2_2"
 				(arc
 					(start -3.81 -3.81)
 					(mid -2.589 0)
@@ -1138,24 +1138,6 @@
 						(type background)
 					)
 				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input inverted
 					(at -7.62 2.54 0)
 					(length 4.318)
@@ -1166,7 +1148,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1184,6 +1166,24 @@
 							)
 						)
 					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "6"
 						(effects
 							(font
@@ -1193,7 +1193,7 @@
 					)
 				)
 			)
-			(symbol "4081_3_1"
+			(symbol "74HC00_3_1"
 				(arc
 					(start 0 -3.81)
 					(mid 3.7934 0)
@@ -1218,8 +1218,8 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 -2.54 0)
 					(length 3.81)
 					(name "~"
 						(effects
@@ -1236,8 +1236,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output inverted
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
 						(effects
@@ -1255,7 +1255,7 @@
 					)
 				)
 				(pin input line
-					(at -7.62 -2.54 0)
+					(at -7.62 2.54 0)
 					(length 3.81)
 					(name "~"
 						(effects
@@ -1273,7 +1273,7 @@
 					)
 				)
 			)
-			(symbol "4081_3_2"
+			(symbol "74HC00_3_2"
 				(arc
 					(start -3.81 -3.81)
 					(mid -2.589 0)
@@ -1348,7 +1348,25 @@
 						(type background)
 					)
 				)
-				(pin output inverted
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -1358,7 +1376,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1376,24 +1394,6 @@
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "9"
 						(effects
 							(font
@@ -1403,7 +1403,7 @@
 					)
 				)
 			)
-			(symbol "4081_4_1"
+			(symbol "74HC00_4_1"
 				(arc
 					(start 0 -3.81)
 					(mid 3.7934 0)
@@ -1428,7 +1428,7 @@
 						(type background)
 					)
 				)
-				(pin output line
+				(pin output inverted
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -1483,7 +1483,7 @@
 					)
 				)
 			)
-			(symbol "4081_4_2"
+			(symbol "74HC00_4_2"
 				(arc
 					(start -3.81 -3.81)
 					(mid -2.589 0)
@@ -1558,7 +1558,7 @@
 						(type background)
 					)
 				)
-				(pin output inverted
+				(pin output line
 					(at 7.62 0 180)
 					(length 3.81)
 					(name "~"
@@ -1613,11 +1613,11 @@
 					)
 				)
 			)
-			(symbol "4081_5_0"
+			(symbol "74HC00_5_0"
 				(pin power_in line
 					(at 0 12.7 270)
 					(length 5.08)
-					(name "VDD"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1635,7 +1635,7 @@
 				(pin power_in line
 					(at 0 -12.7 90)
 					(length 5.08)
-					(name "VSS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1651,7 +1651,7 @@
 					)
 				)
 			)
-			(symbol "4081_5_1"
+			(symbol "74HC00_5_1"
 				(rectangle
 					(start -5.08 7.62)
 					(end 5.08 -7.62)
@@ -2019,56 +2019,50 @@
 		)
 	)
 	(junction
+		(at 107.95 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45727d89-1d41-4f30-862c-c02653408c31")
+	)
+	(junction
 		(at 101.6 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85068e62-0af6-4847-a777-03b34921d304")
 	)
 	(junction
-		(at 156.21 26.67)
+		(at 201.93 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "975078a1-011c-4d42-b7aa-ead0b0b78780")
+	)
+	(junction
+		(at 146.05 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb282ef8-c000-4a18-be11-9c5e9cb53733")
+	)
+	(junction
+		(at 152.4 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f936a610-bfca-4052-953c-d59f6300a75f")
 	)
 	(no_connect
-		(at 223.52 35.56)
-		(uuid "0f78c543-b469-4d16-b49d-8c47c0de16c0")
+		(at 241.3 30.48)
+		(uuid "26e51bde-d302-495d-abf8-193bb20e29bd")
 	)
 	(no_connect
-		(at 234.95 25.4)
-		(uuid "2fedd85b-3180-4688-ab63-0e23884ab11f")
+		(at 241.3 25.4)
+		(uuid "7c0de475-595e-459f-90de-4088b9a74475")
 	)
 	(no_connect
-		(at 208.28 38.1)
-		(uuid "319733df-7ac2-49f5-9527-9de13b6814c2")
-	)
-	(no_connect
-		(at 199.39 22.86)
-		(uuid "51211d1f-28f6-470b-ae07-aa3ea5c5f6b5")
-	)
-	(no_connect
-		(at 214.63 25.4)
-		(uuid "6af3d72f-498c-4875-899e-a9fc1fa46614")
-	)
-	(no_connect
-		(at 199.39 27.94)
-		(uuid "9164fee8-1e12-4c4e-ab3a-c3d8a5a5081a")
-	)
-	(no_connect
-		(at 219.71 27.94)
-		(uuid "a6608664-d6f7-4a90-99f6-3080c8061b19")
-	)
-	(no_connect
-		(at 219.71 22.86)
-		(uuid "f615b1c6-4f6b-41a1-9ec0-382df9113505")
-	)
-	(no_connect
-		(at 208.28 33.02)
-		(uuid "fd9dd02b-24f5-4584-a0e9-6c54f3774371")
+		(at 256.54 27.94)
+		(uuid "c18cbea1-c5c5-4c19-b4a6-c2dbababde1b")
 	)
 	(wire
 		(pts
-			(xy 44.45 48.26) (xy 74.93 48.26)
+			(xy 44.45 52.07) (xy 74.93 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2078,7 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 26.67) (xy 147.32 26.67)
+			(xy 140.97 26.67) (xy 143.51 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2088,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 36.83) (xy 74.93 36.83)
+			(xy 44.45 40.64) (xy 74.93 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2098,7 +2092,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 29.21) (xy 74.93 29.21)
+			(xy 44.45 33.02) (xy 74.93 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2108,17 +2102,47 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 55.88) (xy 74.93 55.88)
+			(xy 92.71 100.33) (xy 116.84 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "233f37e8-3725-40e4-b045-76b055fa2f3d")
+		(uuid "1cbdc62f-864f-495e-b1ba-e3659cdf7ef3")
 	)
 	(wire
 		(pts
-			(xy 114.3 52.07) (xy 130.81 52.07)
+			(xy 107.95 58.42) (xy 107.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de5cc51-cf3d-4523-9139-dc53bfc2bbd5")
+	)
+	(wire
+		(pts
+			(xy 90.17 53.34) (xy 110.49 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2089e1b4-36ae-44cf-909a-1a503b8ad595")
+	)
+	(wire
+		(pts
+			(xy 170.18 69.85) (xy 170.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236c99d0-f0cf-48b5-8e7a-318d6197739b")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 130.81 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2128,17 +2152,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 77.47) (xy 168.91 77.47)
+			(xy 151.13 67.31) (xy 146.05 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23c5629c-0246-4b8f-ae3f-e8cd5a9bb025")
+		(uuid "2953450f-7416-4394-91f1-3c979d908f2c")
 	)
 	(wire
 		(pts
-			(xy 90.17 71.12) (xy 113.03 71.12)
+			(xy 93.98 82.55) (xy 116.84 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2148,43 +2172,53 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 69.85) (xy 168.91 69.85)
+			(xy 125.73 54.61) (xy 147.32 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a8ed08d-3bb6-4e02-b962-a607478354ec")
+		(uuid "38bae74c-151d-4566-aeb6-b7fb089277ea")
 	)
 	(wire
 		(pts
-			(xy 158.75 54.61) (xy 158.75 69.85)
+			(xy 170.18 81.28) (xy 175.26 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c378ec3-fe5e-4d0a-af4a-7e8b8a65d81a")
+		(uuid "404930e2-2599-4205-a01b-32b1d6fa1d81")
 	)
 	(wire
 		(pts
-			(xy 44.45 44.45) (xy 74.93 44.45)
+			(xy 175.26 88.9) (xy 173.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4659f741-3a4d-461c-a564-da11e59803cc")
+	)
+	(wire
+		(pts
+			(xy 166.37 69.85) (xy 170.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f98ee9-d2cf-4ad3-8888-4337d69168bc")
+	)
+	(wire
+		(pts
+			(xy 44.45 48.26) (xy 74.93 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "57fe8729-a1b9-4096-b6d3-ae6cc3fdca28")
-	)
-	(wire
-		(pts
-			(xy 158.75 54.61) (xy 146.05 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ad90330-15f3-4408-8a9d-72a83ce8d3cc")
 	)
 	(wire
 		(pts
@@ -2198,13 +2232,33 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 73.66) (xy 113.03 73.66)
+			(xy 170.18 86.36) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618a7866-6ab8-4525-8c62-65e083ded328")
+	)
+	(wire
+		(pts
+			(xy 93.98 85.09) (xy 116.84 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "61aac790-7d08-478b-82a1-ded0f287d1d7")
+	)
+	(wire
+		(pts
+			(xy 110.49 58.42) (xy 107.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680c81cb-849e-42e7-b8c3-241f0bb0a508")
 	)
 	(wire
 		(pts
@@ -2218,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 21.59) (xy 74.93 21.59)
+			(xy 44.45 25.4) (xy 74.93 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2228,7 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 40.64) (xy 74.93 40.64)
+			(xy 44.45 44.45) (xy 74.93 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2238,7 +2292,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 57.15) (xy 130.81 57.15)
+			(xy 107.95 55.88) (xy 107.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ca7b85-829f-46d3-9ba5-cf136ff23b1e")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2248,7 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 24.13) (xy 156.21 26.67)
+			(xy 152.4 24.13) (xy 152.4 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2258,7 +2322,27 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 26.67) (xy 156.21 26.67)
+			(xy 90.17 50.8) (xy 110.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9dc853-923e-4850-9b07-af601a26aabc")
+	)
+	(wire
+		(pts
+			(xy 44.45 59.69) (xy 74.93 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b22d8bd-d995-44f8-9995-80677b0b250d")
+	)
+	(wire
+		(pts
+			(xy 151.13 26.67) (xy 152.4 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2268,7 +2352,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 76.2) (xy 113.03 76.2)
+			(xy 92.71 92.71) (xy 116.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "950cbcdb-6314-4381-877e-930e0d3bbc8d")
+	)
+	(wire
+		(pts
+			(xy 93.98 87.63) (xy 116.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2278,7 +2372,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 52.07) (xy 74.93 52.07)
+			(xy 201.93 26.67) (xy 203.2 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99629d29-b355-4a22-b0ab-6e3376dbeb4b")
+	)
+	(wire
+		(pts
+			(xy 44.45 55.88) (xy 74.93 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2288,7 +2392,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 68.58) (xy 113.03 68.58)
+			(xy 146.05 67.31) (xy 146.05 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a763bec9-7fbe-4e20-8064-0a187e5a14c2")
+	)
+	(wire
+		(pts
+			(xy 93.98 80.01) (xy 116.84 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2298,13 +2412,33 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 33.02) (xy 74.93 33.02)
+			(xy 110.49 55.88) (xy 107.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a967a001-9fd9-4ac4-bf29-3f5ea7362c12")
+	)
+	(wire
+		(pts
+			(xy 44.45 36.83) (xy 74.93 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa29efe0-d589-407f-a2d8-0d8459a72d71")
+	)
+	(wire
+		(pts
+			(xy 228.6 26.67) (xy 231.14 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa30fd8b-458c-40b8-863f-95bb83fa1b62")
 	)
 	(wire
 		(pts
@@ -2318,7 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 25.4) (xy 74.93 25.4)
+			(xy 44.45 29.21) (xy 74.93 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2328,13 +2462,33 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 72.39) (xy 168.91 72.39)
+			(xy 146.05 69.85) (xy 146.05 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba37b86b-c606-4f8e-95ff-bb7df5abfcbb")
+		(uuid "b79a3e9a-a6d7-446d-9b45-a777e2de9093")
+	)
+	(wire
+		(pts
+			(xy 173.99 88.9) (xy 173.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c402694a-5063-424c-b440-d794d5b3f564")
+	)
+	(wire
+		(pts
+			(xy 44.45 21.59) (xy 74.93 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c636fa6e-9e2e-4d98-abd9-33dcd1d99500")
 	)
 	(wire
 		(pts
@@ -2348,7 +2502,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 26.67) (xy 182.88 26.67)
+			(xy 181.61 26.67) (xy 179.07 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2358,7 +2512,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 26.67) (xy 157.48 26.67)
+			(xy 152.4 26.67) (xy 153.67 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2368,13 +2522,43 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 74.93) (xy 168.91 74.93)
+			(xy 190.5 26.67) (xy 193.04 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf1e34ab-6a45-4359-8c48-0d12e2d2c2c6")
+		(uuid "c89a6f8c-0e35-458e-ac01-8d27d2556c2d")
+	)
+	(wire
+		(pts
+			(xy 146.05 72.39) (xy 151.13 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d293878e-e0de-4ea5-8c10-80714a931426")
+	)
+	(wire
+		(pts
+			(xy 132.08 83.82) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44ad7da-ab5a-4d51-a3c3-13ccaad5a6ec")
+	)
+	(wire
+		(pts
+			(xy 92.71 95.25) (xy 116.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ad8809-2213-4e24-86c0-7a46f9aace96")
 	)
 	(wire
 		(pts
@@ -2388,13 +2572,53 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 73.66) (xy 198.12 73.66)
+			(xy 132.08 96.52) (xy 170.18 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9f1683f-1e99-4d74-9b9b-28d3f526e416")
+		(uuid "eec04571-789c-414b-a321-9c1fc0af8d48")
+	)
+	(wire
+		(pts
+			(xy 170.18 96.52) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f11bef23-b29c-490c-9c29-86b2e636699c")
+	)
+	(wire
+		(pts
+			(xy 200.66 26.67) (xy 201.93 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2001f21-5667-4af9-a439-592061483533")
+	)
+	(wire
+		(pts
+			(xy 201.93 24.13) (xy 201.93 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2316aea-49af-4cf2-8d01-ccfaaa1e622c")
+	)
+	(wire
+		(pts
+			(xy 92.71 97.79) (xy 116.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c88b41-204b-4697-bc08-648c165a02f7")
 	)
 	(wire
 		(pts
@@ -2406,9 +2630,19 @@
 		)
 		(uuid "fcd30f71-79a2-4139-8b98-6989fb5cd8c7")
 	)
+	(wire
+		(pts
+			(xy 213.36 85.09) (xy 190.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd23c6a2-891a-4ed0-8719-a13fcde45fb8")
+	)
 	(rectangle
-		(start 196.342 14.478)
-		(end 237.49 39.878)
+		(start 238.252 14.224)
+		(end 260.096 37.084)
 		(stroke
 			(width 0)
 			(type default)
@@ -2419,8 +2653,8 @@
 		(uuid 0d2c2fdd-64b2-4f2b-8dee-9de02ffa1264)
 	)
 	(rectangle
-		(start 140.716 14.478)
-		(end 189.738 37.084)
+		(start 136.906 14.478)
+		(end 235.712 37.084)
 		(stroke
 			(width 0)
 			(type default)
@@ -2443,8 +2677,8 @@
 		(uuid c2dbb26b-bec0-4586-94b1-deb5d97a2576)
 	)
 	(rectangle
-		(start 86.36 42.164)
-		(end 200.66 82.042)
+		(start 86.614 40.64)
+		(end 235.712 107.95)
 		(stroke
 			(width 0)
 			(type default)
@@ -2456,7 +2690,7 @@
 	)
 	(rectangle
 		(start 14.986 14.478)
-		(end 79.248 57.912)
+		(end 79.248 62.484)
 		(stroke
 			(width 0)
 			(type default)
@@ -2468,7 +2702,7 @@
 	)
 	(text "BSPD Logic"
 		(exclude_from_sim no)
-		(at 93.218 44.196 0)
+		(at 93.218 42.926 0)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -2478,39 +2712,44 @@
 		)
 		(uuid "3ffdd041-8ff8-4c8d-98ea-14cdbd069b1f")
 	)
-	(text "Extra AND gates"
+	(text "Extra NAND gate"
 		(exclude_from_sim no)
-		(at 204.978 16.002 0)
+		(at 246.888 16.002 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1588)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "4bd8054b-7f90-41f0-9ec8-6ae271190e28")
 	)
 	(text "OR gate power supply"
 		(exclude_from_sim no)
-		(at 170.942 34.29 0)
+		(at 167.132 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "b7f0ab36-e5a2-4e4d-b3bf-8658bd15cb23")
 	)
-	(text "AND gate power supply"
+	(text "NAND gate power supply"
 		(exclude_from_sim no)
-		(at 115.57 33.782 0)
+		(at 115.57 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "b9a07421-b3b9-4d41-8160-40547e12e4ea")
 	)
 	(label "front_brake_short"
-		(at 90.17 68.58 0)
+		(at 93.98 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2522,7 +2761,7 @@
 		(uuid "0ea4fdcf-5a4a-4061-8f1d-9d6f2c58e8fe")
 	)
 	(label "current_VREF_short"
-		(at 74.93 25.4 180)
+		(at 74.93 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2534,7 +2773,7 @@
 		(uuid "11dee093-247a-49f2-a576-9f579ab396bf")
 	)
 	(label "front_brake_open"
-		(at 74.93 48.26 180)
+		(at 74.93 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2544,8 +2783,8 @@
 		)
 		(uuid "15343a00-dc8c-4b8d-9f11-7740616f8a46")
 	)
-	(label "BSPD_Fault"
-		(at 74.93 55.88 180)
+	(label "BSPD_Fault_HIGH"
+		(at 74.93 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2553,10 +2792,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1f385d96-f295-4e17-ae0f-16b1ad1cbe0c")
+		(uuid "36a1be70-83bc-4634-a3af-e0b1b89bd89e")
 	)
-	(label "current_sensor_output_open"
-		(at 140.97 77.47 0)
+	(label "current_VREF_open"
+		(at 92.71 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2564,21 +2803,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2248ea93-13bd-4de0-bd9c-e3abede6b2c2")
-	)
-	(label "BSPD_Fault"
-		(at 198.12 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4ae581e0-dbfc-4c13-b7db-ea957c8b7ae3")
+		(uuid "3c9f054b-5770-4ef7-8e6a-a64e08291231")
 	)
 	(label "high_current"
-		(at 114.3 57.15 0)
+		(at 114.3 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2589,8 +2817,8 @@
 		)
 		(uuid "4b97e502-2eba-47ad-93c5-fb72177cd26a")
 	)
-	(label "current_sensor_output_open"
-		(at 74.93 44.45 180)
+	(label "current_sensor_open"
+		(at 74.93 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2601,7 +2829,7 @@
 		(uuid "4cb57343-2eb0-414c-832b-847d578610a0")
 	)
 	(label "hard_braking"
-		(at 114.3 52.07 0)
+		(at 114.3 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2613,7 +2841,7 @@
 		(uuid "4fd28196-8741-425c-bb98-b4ec67b56ec4")
 	)
 	(label "current_VREF_open"
-		(at 74.93 40.64 180)
+		(at 74.93 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2623,8 +2851,79 @@
 		)
 		(uuid "559750f6-8518-4442-b4bf-3c85f9fb060a")
 	)
-	(label "current_sensor_output_short"
-		(at 74.93 29.21 180)
+	(label "hard_braking"
+		(at 147.32 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right bottom)
+		)
+		(uuid "595a9dcc-8abc-4a7d-97ab-0b962bda76d2")
+	)
+	(label "front_hard_braking"
+		(at 90.17 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "603dd40c-b623-4a85-b292-5962ace5e720")
+	)
+	(label "rear_hard_braking"
+		(at 90.17 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a275109-093b-454e-80ca-112103cb5c95")
+	)
+	(label "current_VREF_short"
+		(at 92.71 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e6b3463-6fc7-4812-9c66-b1858b9eae97")
+	)
+	(label "current_opens_shorts"
+		(at 132.08 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76bda76f-a6f7-4e05-95aa-5e3cbc84e057")
+	)
+	(label "current_sensor_short"
+		(at 92.71 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ac0445c-064c-4427-8147-1750f239fd56")
+	)
+	(label "current_sensor_short"
+		(at 74.93 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2636,7 +2935,7 @@
 		(uuid "8fa7e422-be16-4815-ae36-b4638ae5a3ad")
 	)
 	(label "front_brake_open"
-		(at 90.17 71.12 0)
+		(at 93.98 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2647,7 +2946,7 @@
 		(uuid "9cc4b598-b2a1-4b97-b690-e75fd03a9dd1")
 	)
 	(label "rear_brake_open"
-		(at 74.93 52.07 180)
+		(at 74.93 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2657,19 +2956,18 @@
 		)
 		(uuid "a3ba61e4-db27-452b-b5d0-aef228b90ea9")
 	)
-	(label "current_sensor_output_short"
-		(at 140.97 74.93 0)
+	(label "brake_opens_shorts"
+		(at 132.08 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
-		(uuid "a4f8cabd-a4b7-4704-9e85-b5531f429a6a")
+		(uuid "a3f0a214-b4f0-4630-95c8-781988129413")
 	)
-	(label "hard_braking"
+	(label "front_hard_braking"
 		(at 74.93 17.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2682,7 +2980,7 @@
 		(uuid "a998f243-0ffa-4f21-a453-d0533dee5b72")
 	)
 	(label "rear_brake_open"
-		(at 90.17 76.2 0)
+		(at 93.98 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2693,7 +2991,7 @@
 		(uuid "c73a709c-3c04-4fc5-ac98-6392d163e0c0")
 	)
 	(label "front_brake_short"
-		(at 74.93 33.02 180)
+		(at 74.93 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2705,7 +3003,7 @@
 		(uuid "ce2edd05-1966-4c27-b876-6d9e3a048a6d")
 	)
 	(label "high_current"
-		(at 74.93 21.59 180)
+		(at 74.93 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2716,8 +3014,30 @@
 		)
 		(uuid "d3d2da7b-1ce2-480b-a68d-5d57fb37c921")
 	)
+	(label "current_sensor_open"
+		(at 92.71 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db5d7b42-1ab6-483a-8971-3a40bc5d6689")
+	)
+	(label "BSPD_Fault_HIGH"
+		(at 213.36 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0f1a556-104e-4742-83fd-7d2af5c09f79")
+	)
 	(label "rear_brake_short"
-		(at 74.93 36.83 180)
+		(at 74.93 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2727,8 +3047,31 @@
 		)
 		(uuid "e255c271-7224-499e-b513-88aadb260c86")
 	)
+	(label "hard_braking_high_current"
+		(at 170.18 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2588709-c3cd-4cf1-bffb-c55b76bf9fd2")
+	)
+	(label "rear_hard_braking"
+		(at 74.93 21.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9c4026e-d70e-45a5-8303-791b14bcf204")
+	)
 	(label "rear_brake_short"
-		(at 90.17 73.66 0)
+		(at 93.98 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2738,9 +3081,37 @@
 		)
 		(uuid "fc96e465-06e5-4909-b7e5-c5d0794e4ccb")
 	)
+	(hierarchical_label "BSPD_Fault_HIGH"
+		(shape input)
+		(at 44.45 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "123885a2-f2b7-4f35-8c44-d7c6ab84bf8d")
+	)
+	(hierarchical_label "rear_hard_braking"
+		(shape input)
+		(at 44.45 21.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "19351202-f36b-4776-8693-11b664ef36fd")
+	)
 	(hierarchical_label "rear_brake_short"
 		(shape input)
-		(at 44.45 36.83 180)
+		(at 44.45 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2754,7 +3125,7 @@
 	)
 	(hierarchical_label "front_brake_short"
 		(shape input)
-		(at 44.45 33.02 180)
+		(at 44.45 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2766,9 +3137,9 @@
 		)
 		(uuid "6bb3965c-e072-42a4-900c-0c3cc5ad3d4a")
 	)
-	(hierarchical_label "current_sensor_output_open"
+	(hierarchical_label "current_sensor_open"
 		(shape input)
-		(at 44.45 44.45 180)
+		(at 44.45 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2782,7 +3153,7 @@
 	)
 	(hierarchical_label "current_VREF_open"
 		(shape input)
-		(at 44.45 40.64 180)
+		(at 44.45 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2796,7 +3167,7 @@
 	)
 	(hierarchical_label "rear_brake_open"
 		(shape input)
-		(at 44.45 52.07 180)
+		(at 44.45 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2808,23 +3179,9 @@
 		)
 		(uuid "905441ed-4787-4a9c-924a-5dcf3e409127")
 	)
-	(hierarchical_label "BSPD_Fault"
+	(hierarchical_label "current_sensor_short"
 		(shape input)
-		(at 44.45 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "ac05a62a-0531-4d38-9820-8e95332ebcff")
-	)
-	(hierarchical_label "current_sensor_output_short"
-		(shape input)
-		(at 44.45 29.21 180)
+		(at 44.45 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2838,7 +3195,7 @@
 	)
 	(hierarchical_label "current_VREF_short"
 		(shape input)
-		(at 44.45 25.4 180)
+		(at 44.45 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2852,7 +3209,7 @@
 	)
 	(hierarchical_label "front_brake_open"
 		(shape input)
-		(at 44.45 48.26 180)
+		(at 44.45 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2866,7 +3223,7 @@
 	)
 	(hierarchical_label "high_current"
 		(shape input)
-		(at 44.45 21.59 180)
+		(at 44.45 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2878,7 +3235,7 @@
 		)
 		(uuid "ea00b802-e31a-4282-8dd8-881bf4bb1bcc")
 	)
-	(hierarchical_label "hard_braking"
+	(hierarchical_label "front_hard_braking"
 		(shape input)
 		(at 44.45 17.78 180)
 		(fields_autoplaced yes)
@@ -2894,7 +3251,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 26.67 270)
+		(at 140.97 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2902,7 +3259,7 @@
 		(dnp no)
 		(uuid "083a6d0f-449a-416b-9f99-6def6815c39a")
 		(property "Reference" "#PWR055"
-			(at 138.43 26.67 0)
+			(at 134.62 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,7 +3268,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.828 28.194 90)
+			(at 144.018 28.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,7 +3277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 26.67 0)
+			(at 140.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,7 +3286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 26.67 0)
+			(at 140.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,7 +3295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 26.67 0)
+			(at 140.97 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,8 +3316,130 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74HC00")
+		(at 115.57 26.67 90)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "144a5d31-a980-4bba-98c9-792409ec3ab3")
+		(property "Reference" "U9"
+			(at 115.57 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 115.57 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 115.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 115.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 115.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HCS00DR/12342949?s=N4IgTCBcDaIMoDkDsAWAEgYTgBmwEQCUQBdAXyA"
+			(at 115.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "NAND Gate"
+			(at 115.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "fce07894-b638-4eff-baea-3dce47f41871")
+		)
+		(pin "8"
+			(uuid "2ee6eb4a-1536-49aa-bac4-7e34de566906")
+		)
+		(pin "14"
+			(uuid "ecdd9219-10d8-4fea-b1cb-967b43138774")
+		)
+		(pin "1"
+			(uuid "291d650e-c96e-4d64-979f-87450363afb7")
+		)
+		(pin "2"
+			(uuid "56580030-426f-4de7-9f9e-0de317005951")
+		)
+		(pin "13"
+			(uuid "89633a51-0ae3-4766-8723-040a05aae7a4")
+		)
+		(pin "11"
+			(uuid "b5d70dc8-cce2-43ec-b6b9-4fc6199f476f")
+		)
+		(pin "7"
+			(uuid "3d226239-f751-4342-8441-a5cf7d012707")
+		)
+		(pin "12"
+			(uuid "ed4e3b93-e93e-40c0-b804-546af568eb07")
+		)
+		(pin "3"
+			(uuid "15a1aab3-7679-4033-89be-3396e7f2f0ab")
+		)
+		(pin "4"
+			(uuid "e024ad76-90a6-4688-a9ec-5ae2a5859d15")
+		)
+		(pin "5"
+			(uuid "3dbb5597-2633-4d4b-b3a8-af25772e7c8c")
+		)
+		(pin "6"
+			(uuid "69a4bbd8-e4ae-4184-81b1-14dea3bbe543")
+		)
+		(pin "9"
+			(uuid "a1ea8be3-c44c-44d6-a6a3-52134c73a21c")
+		)
+		(instances
+			(project ""
+				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
+					(reference "U9")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
-		(at 156.21 24.13 0)
+		(at 152.4 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2969,7 +3448,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bc24f6f-b16d-4d2e-9343-c346b21f2064")
 		(property "Reference" "#PWR056"
-			(at 156.21 27.94 0)
+			(at 152.4 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +3457,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 156.21 19.05 0)
+			(at 152.4 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +3465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 24.13 0)
+			(at 152.4 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +3474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 24.13 0)
+			(at 152.4 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +3483,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 156.21 24.13 0)
+			(at 152.4 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,41 +3504,32 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4081")
-		(at 227.33 25.4 0)
-		(unit 4)
+		(lib_id "74xx:74HC00")
+		(at 138.43 69.85 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1c6cf9b6-4619-4151-9e72-383f35f9fbf4")
-		(property "Reference" "U7"
-			(at 227.076 18.288 0)
+		(uuid "1cb2a2ca-57ed-4f81-9160-3f46cfbf4fbe")
+		(property "Reference" "U9"
+			(at 138.684 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4081"
-			(at 227.076 20.32 0)
+		(property "Value" "74HC00"
+			(at 138.4217 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 227.33 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
-			(at 227.33 25.4 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 138.43 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,8 +3537,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad And 2 inputs"
-			(at 227.33 25.4 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 138.43 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,53 +3546,80 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "e918c03e-7d61-45d4-ab10-8b0942169467")
+		(property "Description" "quad 2-input NAND gate"
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "14"
-			(uuid "ae18a07f-2fb1-4bfc-9cb5-2640e7dbf93a")
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HCS00DR/12342949?s=N4IgTCBcDaIMoDkDsAWAEgYTgBmwEQCUQBdAXyA"
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "5"
-			(uuid "5332fe9d-19be-4a89-a1c3-0aad8b46a1e0")
-		)
-		(pin "7"
-			(uuid "a818dca3-c400-44aa-8464-6126fc9fbfc6")
-		)
-		(pin "8"
-			(uuid "c76a0c61-ccb5-48b8-8bde-513ce691d651")
-		)
-		(pin "6"
-			(uuid "06e05f4d-7fd6-42ce-abc6-31dec2898e60")
-		)
-		(pin "2"
-			(uuid "0f45bd7a-73e8-4d13-840d-d737dc1d8de7")
+		(property "Part Name" "NAND Gate"
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "10"
-			(uuid "52f001b1-8d51-40f7-bbac-9e3f59bba2ef")
+			(uuid "fce07894-b638-4eff-baea-3dce47f41872")
 		)
-		(pin "4"
-			(uuid "19d4bf75-f628-46dc-b11e-3e957b05962b")
+		(pin "8"
+			(uuid "2ee6eb4a-1536-49aa-bac4-7e34de566907")
+		)
+		(pin "14"
+			(uuid "ecdd9219-10d8-4fea-b1cb-967b43138775")
 		)
 		(pin "1"
-			(uuid "c991f18c-fff1-444b-8f5c-9fa095d23930")
+			(uuid "291d650e-c96e-4d64-979f-87450363afb8")
 		)
-		(pin "11"
-			(uuid "c60744ba-a0f9-4466-9d0a-1c10d8b576fa")
-		)
-		(pin "12"
-			(uuid "0d9838df-9d3b-445a-84b4-c4cabf278afc")
-		)
-		(pin "3"
-			(uuid "618b057f-72d8-49d4-bc36-c96e8cc63ef6")
+		(pin "2"
+			(uuid "56580030-426f-4de7-9f9e-0de317005952")
 		)
 		(pin "13"
-			(uuid "974cdef8-fcc5-445b-b388-bfded0b6ae18")
+			(uuid "89633a51-0ae3-4766-8723-040a05aae7a5")
+		)
+		(pin "11"
+			(uuid "b5d70dc8-cce2-43ec-b6b9-4fc6199f4770")
+		)
+		(pin "7"
+			(uuid "3d226239-f751-4342-8441-a5cf7d012708")
+		)
+		(pin "12"
+			(uuid "ed4e3b93-e93e-40c0-b804-546af568eb08")
+		)
+		(pin "3"
+			(uuid "15a1aab3-7679-4033-89be-3396e7f2f0ac")
+		)
+		(pin "4"
+			(uuid "e024ad76-90a6-4688-a9ec-5ae2a5859d16")
+		)
+		(pin "5"
+			(uuid "3dbb5597-2633-4d4b-b3a8-af25772e7c8d")
+		)
+		(pin "6"
+			(uuid "69a4bbd8-e4ae-4184-81b1-14dea3bbe544")
+		)
+		(pin "9"
+			(uuid "a1ea8be3-c44c-44d6-a6a3-52134c73a21d")
 		)
 		(instances
 			(project ""
 				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
-					(reference "U7")
-					(unit 4)
+					(reference "U9")
+					(unit 1)
 				)
 			)
 		)
@@ -3194,231 +3691,25 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4081")
-		(at 207.01 25.4 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36d3e330-e934-432c-a3c4-a3ce911a73e8")
-		(property "Reference" "U7"
-			(at 206.756 18.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4081"
-			(at 206.756 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
-			(at 207.01 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad And 2 inputs"
-			(at 207.01 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "e918c03e-7d61-45d4-ab10-8b0942169467")
-		)
-		(pin "14"
-			(uuid "ae18a07f-2fb1-4bfc-9cb5-2640e7dbf93a")
-		)
-		(pin "5"
-			(uuid "5332fe9d-19be-4a89-a1c3-0aad8b46a1e0")
-		)
-		(pin "7"
-			(uuid "a818dca3-c400-44aa-8464-6126fc9fbfc6")
-		)
-		(pin "8"
-			(uuid "c76a0c61-ccb5-48b8-8bde-513ce691d651")
-		)
-		(pin "6"
-			(uuid "06e05f4d-7fd6-42ce-abc6-31dec2898e60")
-		)
-		(pin "2"
-			(uuid "0f45bd7a-73e8-4d13-840d-d737dc1d8de7")
-		)
-		(pin "10"
-			(uuid "52f001b1-8d51-40f7-bbac-9e3f59bba2ef")
-		)
-		(pin "4"
-			(uuid "19d4bf75-f628-46dc-b11e-3e957b05962b")
-		)
-		(pin "1"
-			(uuid "c991f18c-fff1-444b-8f5c-9fa095d23930")
-		)
-		(pin "11"
-			(uuid "c60744ba-a0f9-4466-9d0a-1c10d8b576fa")
-		)
-		(pin "12"
-			(uuid "0d9838df-9d3b-445a-84b4-c4cabf278afc")
-		)
-		(pin "3"
-			(uuid "618b057f-72d8-49d4-bc36-c96e8cc63ef6")
-		)
-		(pin "13"
-			(uuid "974cdef8-fcc5-445b-b388-bfded0b6ae18")
-		)
-		(instances
-			(project ""
-				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
-					(reference "U7")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4081")
-		(at 215.9 35.56 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a1bb929-df0d-475d-bf4d-b4315c592e0f")
-		(property "Reference" "U7"
-			(at 215.646 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4081"
-			(at 215.646 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad And 2 inputs"
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "e918c03e-7d61-45d4-ab10-8b0942169467")
-		)
-		(pin "14"
-			(uuid "ae18a07f-2fb1-4bfc-9cb5-2640e7dbf93a")
-		)
-		(pin "5"
-			(uuid "5332fe9d-19be-4a89-a1c3-0aad8b46a1e0")
-		)
-		(pin "7"
-			(uuid "a818dca3-c400-44aa-8464-6126fc9fbfc6")
-		)
-		(pin "8"
-			(uuid "c76a0c61-ccb5-48b8-8bde-513ce691d651")
-		)
-		(pin "6"
-			(uuid "06e05f4d-7fd6-42ce-abc6-31dec2898e60")
-		)
-		(pin "2"
-			(uuid "0f45bd7a-73e8-4d13-840d-d737dc1d8de7")
-		)
-		(pin "10"
-			(uuid "52f001b1-8d51-40f7-bbac-9e3f59bba2ef")
-		)
-		(pin "4"
-			(uuid "19d4bf75-f628-46dc-b11e-3e957b05962b")
-		)
-		(pin "1"
-			(uuid "c991f18c-fff1-444b-8f5c-9fa095d23930")
-		)
-		(pin "11"
-			(uuid "c60744ba-a0f9-4466-9d0a-1c10d8b576fa")
-		)
-		(pin "12"
-			(uuid "0d9838df-9d3b-445a-84b4-c4cabf278afc")
-		)
-		(pin "3"
-			(uuid "618b057f-72d8-49d4-bc36-c96e8cc63ef6")
-		)
-		(pin "13"
-			(uuid "974cdef8-fcc5-445b-b388-bfded0b6ae18")
-		)
-		(instances
-			(project ""
-				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
-					(reference "U7")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4081")
-		(at 138.43 54.61 0)
+		(lib_id "power:+5V")
+		(at 201.93 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57deef15-f776-45a8-a7ea-cd880c86905a")
-		(property "Reference" "U7"
-			(at 138.4217 45.72 0)
+		(uuid "39b7613d-2800-43a1-9f41-e03b01484d0e")
+		(property "Reference" "#PWR017"
+			(at 201.93 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "4081"
-			(at 138.4217 48.26 0)
+		(property "Value" "+5V"
+			(at 201.676 20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 54.61 0)
+			(at 201.93 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,8 +3725,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
-			(at 138.43 54.61 0)
+		(property "Datasheet" ""
+			(at 201.93 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,78 +3734,160 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad And 2 inputs"
-			(at 138.43 54.61 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 201.93 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "9"
-			(uuid "e918c03e-7d61-45d4-ab10-8b0942169467")
-		)
-		(pin "14"
-			(uuid "ae18a07f-2fb1-4bfc-9cb5-2640e7dbf93a")
-		)
-		(pin "5"
-			(uuid "5332fe9d-19be-4a89-a1c3-0aad8b46a1e0")
-		)
-		(pin "7"
-			(uuid "a818dca3-c400-44aa-8464-6126fc9fbfc6")
-		)
-		(pin "8"
-			(uuid "c76a0c61-ccb5-48b8-8bde-513ce691d651")
-		)
-		(pin "6"
-			(uuid "06e05f4d-7fd6-42ce-abc6-31dec2898e60")
-		)
-		(pin "2"
-			(uuid "0f45bd7a-73e8-4d13-840d-d737dc1d8de7")
-		)
-		(pin "10"
-			(uuid "52f001b1-8d51-40f7-bbac-9e3f59bba2ef")
-		)
-		(pin "4"
-			(uuid "19d4bf75-f628-46dc-b11e-3e957b05962b")
 		)
 		(pin "1"
-			(uuid "c991f18c-fff1-444b-8f5c-9fa095d23930")
-		)
-		(pin "11"
-			(uuid "c60744ba-a0f9-4466-9d0a-1c10d8b576fa")
-		)
-		(pin "12"
-			(uuid "0d9838df-9d3b-445a-84b4-c4cabf278afc")
-		)
-		(pin "3"
-			(uuid "618b057f-72d8-49d4-bc36-c96e8cc63ef6")
-		)
-		(pin "13"
-			(uuid "974cdef8-fcc5-445b-b388-bfded0b6ae18")
+			(uuid "7953a007-bc2e-4b11-8ab6-b44b215a92ba")
 		)
 		(instances
-			(project ""
+			(project "BSPD"
 				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
-					(reference "U7")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4072")
-		(at 176.53 73.66 0)
-		(unit 2)
+		(lib_id "74xx:74HC00")
+		(at 158.75 69.85 0)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "49b38e51-7a2b-4c67-b45f-e95c7d9c913c")
+		(property "Reference" "U9"
+			(at 158.7417 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 158.7417 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HCS00DR/12342949?s=N4IgTCBcDaIMoDkDsAWAEgYTgBmwEQCUQBdAXyA"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "NAND Gate"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "fce07894-b638-4eff-baea-3dce47f41874")
+		)
+		(pin "8"
+			(uuid "2ee6eb4a-1536-49aa-bac4-7e34de566909")
+		)
+		(pin "14"
+			(uuid "ecdd9219-10d8-4fea-b1cb-967b43138777")
+		)
+		(pin "1"
+			(uuid "291d650e-c96e-4d64-979f-87450363afba")
+		)
+		(pin "2"
+			(uuid "56580030-426f-4de7-9f9e-0de317005954")
+		)
+		(pin "13"
+			(uuid "89633a51-0ae3-4766-8723-040a05aae7a7")
+		)
+		(pin "11"
+			(uuid "b5d70dc8-cce2-43ec-b6b9-4fc6199f4772")
+		)
+		(pin "7"
+			(uuid "3d226239-f751-4342-8441-a5cf7d01270a")
+		)
+		(pin "12"
+			(uuid "ed4e3b93-e93e-40c0-b804-546af568eb0a")
+		)
+		(pin "3"
+			(uuid "15a1aab3-7679-4033-89be-3396e7f2f0ae")
+		)
+		(pin "4"
+			(uuid "e024ad76-90a6-4688-a9ec-5ae2a5859d18")
+		)
+		(pin "5"
+			(uuid "3dbb5597-2633-4d4b-b3a8-af25772e7c8f")
+		)
+		(pin "6"
+			(uuid "69a4bbd8-e4ae-4184-81b1-14dea3bbe546")
+		)
+		(pin "9"
+			(uuid "a1ea8be3-c44c-44d6-a6a3-52134c73a21f")
+		)
+		(instances
+			(project ""
+				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
+					(reference "U9")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4072")
+		(at 124.46 96.52 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "678682ec-ec4b-40f1-a2f1-16b5afdd1003")
 		(property "Reference" "U6"
-			(at 176.53 64.77 0)
+			(at 123.19 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,15 +3895,15 @@
 			)
 		)
 		(property "Value" "4072"
-			(at 176.53 67.31 0)
+			(at 123.19 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 176.53 73.66 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3912,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
-			(at 176.53 73.66 0)
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3921,25 @@
 			)
 		)
 		(property "Description" "Dual 4 input OR gate"
-			(at 176.53 73.66 0)
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/texas-instruments/CD4072BM96/1691320"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "OR Gate"
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,6 +3988,92 @@
 				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
 					(reference "U6")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69fe8c81-79b7-4e1c-9b07-3887057e10bf")
+		(property "Reference" "C10"
+			(at 196.85 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1μF"
+			(at 196.85 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 200.66 25.7048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "Capacitor"
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df04b332-0238-40f3-9d7f-19ab42b81a8e")
+		)
+		(pin "1"
+			(uuid "38ba628b-b8e8-4a44-a812-ee9579ccf23a")
+		)
+		(instances
+			(project "BSPD"
+				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
+					(reference "C10")
+					(unit 1)
 				)
 			)
 		)
@@ -3668,42 +4145,33 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4081")
-		(at 115.57 26.67 90)
-		(unit 5)
+		(lib_id "4xxx:4072")
+		(at 182.88 85.09 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6f83a620-793d-4b65-96bf-159fe84a61e9")
-		(property "Reference" "U7"
-			(at 115.57 16.51 90)
+		(uuid "6e0a097b-b4e5-41f9-9d65-7d2705058ba5")
+		(property "Reference" "U10"
+			(at 182.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4081"
-			(at 115.57 19.05 90)
+		(property "Value" "4072"
+			(at 182.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 115.57 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf"
-			(at 115.57 26.67 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 182.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,8 +4179,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad And 2 inputs"
-			(at 115.57 26.67 0)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
+			(at 182.88 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,53 +4188,140 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "e918c03e-7d61-45d4-ab10-8b0942169467")
+		(property "Description" "Dual 4 input OR gate"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "14"
-			(uuid "ae18a07f-2fb1-4bfc-9cb5-2640e7dbf93a")
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/texas-instruments/CD4072BM96/1691320"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "5"
-			(uuid "5332fe9d-19be-4a89-a1c3-0aad8b46a1e0")
-		)
-		(pin "7"
-			(uuid "a818dca3-c400-44aa-8464-6126fc9fbfc6")
-		)
-		(pin "8"
-			(uuid "c76a0c61-ccb5-48b8-8bde-513ce691d651")
-		)
-		(pin "6"
-			(uuid "06e05f4d-7fd6-42ce-abc6-31dec2898e60")
+		(property "Part Name" "OR Gate"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "0f45bd7a-73e8-4d13-840d-d737dc1d8de7")
-		)
-		(pin "10"
-			(uuid "52f001b1-8d51-40f7-bbac-9e3f59bba2ef")
-		)
-		(pin "4"
-			(uuid "19d4bf75-f628-46dc-b11e-3e957b05962b")
+			(uuid "685670ab-1963-487a-8272-7fa24974c24f")
 		)
 		(pin "1"
-			(uuid "c991f18c-fff1-444b-8f5c-9fa095d23930")
+			(uuid "4e71b4ae-086e-43c9-9840-c684fecbd61b")
+		)
+		(pin "4"
+			(uuid "a51ef0a4-89f5-4a21-a803-51e534e8e2fb")
 		)
 		(pin "11"
-			(uuid "c60744ba-a0f9-4466-9d0a-1c10d8b576fa")
+			(uuid "6ef5b4dc-b337-4ad5-81d6-5f749e72c2f7")
 		)
-		(pin "12"
-			(uuid "0d9838df-9d3b-445a-84b4-c4cabf278afc")
+		(pin "5"
+			(uuid "3735962e-9ea8-4468-a626-3455144786f9")
 		)
 		(pin "3"
-			(uuid "618b057f-72d8-49d4-bc36-c96e8cc63ef6")
+			(uuid "d5ce77ab-eddd-4f1b-b704-becb124ad4ef")
+		)
+		(pin "7"
+			(uuid "e300011a-a2bf-4a91-90a9-b1592cdb96ab")
+		)
+		(pin "10"
+			(uuid "918d2c42-168a-4b7e-8fb1-5f993d04cecf")
 		)
 		(pin "13"
-			(uuid "974cdef8-fcc5-445b-b388-bfded0b6ae18")
+			(uuid "5321c54e-b959-4a79-85c9-4832f1b28fb3")
+		)
+		(pin "14"
+			(uuid "0d2e769b-8b0a-48a3-9213-4470f8dfd45d")
+		)
+		(pin "12"
+			(uuid "fe133ede-34b2-4822-8db2-3ff0eeb15184")
+		)
+		(pin "9"
+			(uuid "99fd22c1-e2ab-440e-9b05-f47cd503b986")
 		)
 		(instances
 			(project ""
 				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
-					(reference "U7")
-					(unit 5)
+					(reference "U10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78bd41c1-5bc8-43c5-ae20-de6a436c0907")
+		(property "Reference" "#PWR015"
+			(at 237.49 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.346 28.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dab1a1d8-5ec4-45fb-9ec8-aec44c6b4918")
+		)
+		(instances
+			(project "BSPD"
+				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
+					(reference "#PWR015")
+					(unit 1)
 				)
 			)
 		)
@@ -3789,7 +4344,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1μF"
 			(at 96.52 21.59 90)
 			(effects
 				(font
@@ -3797,7 +4352,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 100.33 25.7048 0)
 			(effects
 				(font
@@ -3806,7 +4361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -3816,6 +4371,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 96.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"
+			(at 96.52 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "Capacitor"
 			(at 96.52 26.67 0)
 			(effects
 				(font
@@ -3841,15 +4414,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 26.67 90)
+		(at 173.99 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "989bf2a1-2950-4669-af7b-5f5b2cfd4127")
-		(property "Reference" "#PWR057"
-			(at 191.77 26.67 0)
+		(uuid "7f2e3678-4926-46f6-811d-807468fa13bb")
+		(property "Reference" "#PWR014"
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +4431,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.626 28.194 90)
+			(at 176.022 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +4440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 26.67 0)
+			(at 173.99 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +4449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 26.67 0)
+			(at 173.99 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,7 +4458,195 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 26.67 0)
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d037096-7901-4473-a1b1-c0d9922b7deb")
+		)
+		(instances
+			(project "BSPD"
+				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC00")
+		(at 248.92 27.94 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8be2083e-f434-4492-b796-62fe07ffedd8")
+		(property "Reference" "U9"
+			(at 248.9117 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 248.9117 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 248.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
+			(at 248.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 248.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/texas-instruments/SN74HCS00DR/12342949?s=N4IgTCBcDaIMoDkDsAWAEgYTgBmwEQCUQBdAXyA"
+			(at 248.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "NAND Gate"
+			(at 248.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "fce07894-b638-4eff-baea-3dce47f41875")
+		)
+		(pin "8"
+			(uuid "2ee6eb4a-1536-49aa-bac4-7e34de56690a")
+		)
+		(pin "14"
+			(uuid "ecdd9219-10d8-4fea-b1cb-967b43138778")
+		)
+		(pin "1"
+			(uuid "291d650e-c96e-4d64-979f-87450363afbb")
+		)
+		(pin "2"
+			(uuid "56580030-426f-4de7-9f9e-0de317005955")
+		)
+		(pin "13"
+			(uuid "89633a51-0ae3-4766-8723-040a05aae7a8")
+		)
+		(pin "11"
+			(uuid "b5d70dc8-cce2-43ec-b6b9-4fc6199f4773")
+		)
+		(pin "7"
+			(uuid "3d226239-f751-4342-8441-a5cf7d01270b")
+		)
+		(pin "12"
+			(uuid "ed4e3b93-e93e-40c0-b804-546af568eb0b")
+		)
+		(pin "3"
+			(uuid "15a1aab3-7679-4033-89be-3396e7f2f0af")
+		)
+		(pin "4"
+			(uuid "e024ad76-90a6-4688-a9ec-5ae2a5859d19")
+		)
+		(pin "5"
+			(uuid "3dbb5597-2633-4d4b-b3a8-af25772e7c90")
+		)
+		(pin "6"
+			(uuid "69a4bbd8-e4ae-4184-81b1-14dea3bbe547")
+		)
+		(pin "9"
+			(uuid "a1ea8be3-c44c-44d6-a6a3-52134c73a220")
+		)
+		(instances
+			(project ""
+				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
+					(reference "U9")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "989bf2a1-2950-4669-af7b-5f5b2cfd4127")
+		(property "Reference" "#PWR057"
+			(at 187.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 178.816 28.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,33 +4667,34 @@
 		)
 	)
 	(symbol
-		(lib_id "4xxx:4072")
-		(at 120.65 72.39 0)
+		(lib_id "power:GND")
+		(at 107.95 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9a22403-be4d-426c-9a62-d876b9efc3b1")
-		(property "Reference" "U6"
-			(at 120.65 63.5 0)
+		(uuid "a2ca86ae-1b5b-4d25-baed-16aa1dedd5e3")
+		(property "Reference" "#PWR013"
+			(at 101.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "4072"
-			(at 120.65 66.04 0)
+		(property "Value" "GND"
+			(at 108.712 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 72.39 0)
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,8 +4702,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
-			(at 120.65 72.39 0)
+		(property "Datasheet" ""
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,8 +4711,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual 4 input OR gate"
-			(at 120.65 72.39 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,40 +4721,123 @@
 			)
 		)
 		(pin "1"
-			(uuid "be1f4bd4-9cf2-4665-9130-60cf9400a9db")
+			(uuid "58b51be7-0f1e-4bc3-a910-f3712ec9e4bb")
+		)
+		(instances
+			(project "BSPD"
+				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4072")
+		(at 124.46 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9a22403-be4d-426c-9a62-d876b9efc3b1")
+		(property "Reference" "U6"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4072"
+			(at 124.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 4 input OR gate"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/texas-instruments/CD4072BM96/1691320"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "OR Gate"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be1f4bd4-9cf2-4665-9130-60cf9400a9dc")
 		)
 		(pin "12"
-			(uuid "35e742fb-c847-4a4e-8382-a80d34536dd3")
+			(uuid "35e742fb-c847-4a4e-8382-a80d34536dd4")
 		)
 		(pin "7"
-			(uuid "92e358fa-3079-4dd0-89d4-de5eab49e28f")
+			(uuid "92e358fa-3079-4dd0-89d4-de5eab49e290")
 		)
 		(pin "2"
-			(uuid "438b2627-5fb0-4c85-8a51-c700ed070365")
+			(uuid "438b2627-5fb0-4c85-8a51-c700ed070366")
 		)
 		(pin "10"
-			(uuid "20db8674-0c55-46aa-825f-45ba35dc0ebb")
+			(uuid "20db8674-0c55-46aa-825f-45ba35dc0ebc")
 		)
 		(pin "5"
-			(uuid "acd4f07b-ec8a-414f-a856-973b569eb44d")
+			(uuid "acd4f07b-ec8a-414f-a856-973b569eb44e")
 		)
 		(pin "13"
-			(uuid "89449a8a-dce4-4e37-8d7b-0105415342de")
+			(uuid "89449a8a-dce4-4e37-8d7b-0105415342df")
 		)
 		(pin "3"
-			(uuid "93212d12-a1a1-4353-9afb-c228961119bc")
+			(uuid "93212d12-a1a1-4353-9afb-c228961119bd")
 		)
 		(pin "14"
-			(uuid "cc8221f4-8266-4fbf-8ea8-e27be950bf36")
+			(uuid "cc8221f4-8266-4fbf-8ea8-e27be950bf37")
 		)
 		(pin "9"
-			(uuid "44115f30-62c5-4838-ae4e-ac5485aae7e8")
+			(uuid "44115f30-62c5-4838-ae4e-ac5485aae7e9")
 		)
 		(pin "4"
-			(uuid "3aa06bb9-6961-4a85-896f-6e8c27886501")
+			(uuid "3aa06bb9-6961-4a85-896f-6e8c27886502")
 		)
 		(pin "11"
-			(uuid "12a8188d-3c6b-4ed7-ba81-f3c80256c330")
+			(uuid "12a8188d-3c6b-4ed7-ba81-f3c80256c331")
 		)
 		(instances
 			(project ""
@@ -4005,7 +4850,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4072")
-		(at 170.18 26.67 90)
+		(at 166.37 26.67 90)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4014,7 +4859,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca61ba91-7fef-4256-8b95-1494e5b803ed")
 		(property "Reference" "U6"
-			(at 170.18 16.51 90)
+			(at 166.37 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,15 +4867,15 @@
 			)
 		)
 		(property "Value" "4072"
-			(at 170.18 19.05 90)
+			(at 166.37 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 170.18 26.67 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 166.37 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +4884,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
-			(at 170.18 26.67 0)
+			(at 166.37 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4048,7 +4893,25 @@
 			)
 		)
 		(property "Description" "Dual 4 input OR gate"
-			(at 170.18 26.67 0)
+			(at 166.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/texas-instruments/CD4072BM96/1691320"
+			(at 166.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "OR Gate"
+			(at 166.37 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4057,40 +4920,40 @@
 			)
 		)
 		(pin "1"
-			(uuid "be1f4bd4-9cf2-4665-9130-60cf9400a9db")
+			(uuid "be1f4bd4-9cf2-4665-9130-60cf9400a9dd")
 		)
 		(pin "12"
-			(uuid "35e742fb-c847-4a4e-8382-a80d34536dd3")
+			(uuid "35e742fb-c847-4a4e-8382-a80d34536dd5")
 		)
 		(pin "7"
-			(uuid "92e358fa-3079-4dd0-89d4-de5eab49e28f")
+			(uuid "92e358fa-3079-4dd0-89d4-de5eab49e291")
 		)
 		(pin "2"
-			(uuid "438b2627-5fb0-4c85-8a51-c700ed070365")
+			(uuid "438b2627-5fb0-4c85-8a51-c700ed070367")
 		)
 		(pin "10"
-			(uuid "20db8674-0c55-46aa-825f-45ba35dc0ebb")
+			(uuid "20db8674-0c55-46aa-825f-45ba35dc0ebd")
 		)
 		(pin "5"
-			(uuid "acd4f07b-ec8a-414f-a856-973b569eb44d")
+			(uuid "acd4f07b-ec8a-414f-a856-973b569eb44f")
 		)
 		(pin "13"
-			(uuid "89449a8a-dce4-4e37-8d7b-0105415342de")
+			(uuid "89449a8a-dce4-4e37-8d7b-0105415342e0")
 		)
 		(pin "3"
-			(uuid "93212d12-a1a1-4353-9afb-c228961119bc")
+			(uuid "93212d12-a1a1-4353-9afb-c228961119be")
 		)
 		(pin "14"
-			(uuid "cc8221f4-8266-4fbf-8ea8-e27be950bf36")
+			(uuid "cc8221f4-8266-4fbf-8ea8-e27be950bf38")
 		)
 		(pin "9"
-			(uuid "44115f30-62c5-4838-ae4e-ac5485aae7e8")
+			(uuid "44115f30-62c5-4838-ae4e-ac5485aae7ea")
 		)
 		(pin "4"
-			(uuid "3aa06bb9-6961-4a85-896f-6e8c27886501")
+			(uuid "3aa06bb9-6961-4a85-896f-6e8c27886503")
 		)
 		(pin "11"
-			(uuid "12a8188d-3c6b-4ed7-ba81-f3c80256c330")
+			(uuid "12a8188d-3c6b-4ed7-ba81-f3c80256c332")
 		)
 		(instances
 			(project ""
@@ -4169,7 +5032,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 26.67 90)
+		(at 147.32 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4178,23 +5041,23 @@
 		(fields_autoplaced yes)
 		(uuid "d56d6300-93eb-49f0-982b-c8929e5f1982")
 		(property "Reference" "C7"
-			(at 151.13 19.05 90)
+			(at 147.32 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100nF"
-			(at 151.13 21.59 90)
+		(property "Value" "0.1μF"
+			(at 147.32 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 154.94 25.7048 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 151.13 25.7048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,8 +5065,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 151.13 26.67 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 147.32 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +5075,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 151.13 26.67 0)
+			(at 147.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R9BB104/302874"
+			(at 147.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "Capacitor"
+			(at 147.32 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,6 +5111,304 @@
 			(project "BSPD"
 				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4072")
+		(at 118.11 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec9d78ff-1fb5-4ffe-bcd1-1a9571849d9c")
+		(property "Reference" "U10"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4072"
+			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 4 input OR gate"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/texas-instruments/CD4072BM96/1691320"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "OR Gate"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "685670ab-1963-487a-8272-7fa24974c250")
+		)
+		(pin "1"
+			(uuid "4e71b4ae-086e-43c9-9840-c684fecbd61c")
+		)
+		(pin "4"
+			(uuid "a51ef0a4-89f5-4a21-a803-51e534e8e2fc")
+		)
+		(pin "11"
+			(uuid "6ef5b4dc-b337-4ad5-81d6-5f749e72c2f8")
+		)
+		(pin "5"
+			(uuid "3735962e-9ea8-4468-a626-3455144786fa")
+		)
+		(pin "3"
+			(uuid "d5ce77ab-eddd-4f1b-b704-becb124ad4f0")
+		)
+		(pin "7"
+			(uuid "e300011a-a2bf-4a91-90a9-b1592cdb96ac")
+		)
+		(pin "10"
+			(uuid "918d2c42-168a-4b7e-8fb1-5f993d04ced0")
+		)
+		(pin "13"
+			(uuid "5321c54e-b959-4a79-85c9-4832f1b28fb4")
+		)
+		(pin "14"
+			(uuid "0d2e769b-8b0a-48a3-9213-4470f8dfd45e")
+		)
+		(pin "12"
+			(uuid "fe133ede-34b2-4822-8db2-3ff0eeb15185")
+		)
+		(pin "9"
+			(uuid "99fd22c1-e2ab-440e-9b05-f47cd503b987")
+		)
+		(instances
+			(project ""
+				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:4072")
+		(at 215.9 26.67 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f15b5343-7015-4989-96c9-5526e0048e34")
+		(property "Reference" "U10"
+			(at 215.9 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4072"
+			(at 215.9 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 215.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
+			(at 215.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 4 input OR gate"
+			(at 215.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/texas-instruments/CD4072BM96/1691320"
+			(at 215.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Name" "OR Gate"
+			(at 215.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "685670ab-1963-487a-8272-7fa24974c251")
+		)
+		(pin "1"
+			(uuid "4e71b4ae-086e-43c9-9840-c684fecbd61d")
+		)
+		(pin "4"
+			(uuid "a51ef0a4-89f5-4a21-a803-51e534e8e2fd")
+		)
+		(pin "11"
+			(uuid "6ef5b4dc-b337-4ad5-81d6-5f749e72c2f9")
+		)
+		(pin "5"
+			(uuid "3735962e-9ea8-4468-a626-3455144786fb")
+		)
+		(pin "3"
+			(uuid "d5ce77ab-eddd-4f1b-b704-becb124ad4f1")
+		)
+		(pin "7"
+			(uuid "e300011a-a2bf-4a91-90a9-b1592cdb96ad")
+		)
+		(pin "10"
+			(uuid "918d2c42-168a-4b7e-8fb1-5f993d04ced1")
+		)
+		(pin "13"
+			(uuid "5321c54e-b959-4a79-85c9-4832f1b28fb5")
+		)
+		(pin "14"
+			(uuid "0d2e769b-8b0a-48a3-9213-4470f8dfd45f")
+		)
+		(pin "12"
+			(uuid "fe133ede-34b2-4822-8db2-3ff0eeb15186")
+		)
+		(pin "9"
+			(uuid "99fd22c1-e2ab-440e-9b05-f47cd503b988")
+		)
+		(instances
+			(project ""
+				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
+					(reference "U10")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 26.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdb24030-2c3b-43ad-919b-b1cdca2e67cf")
+		(property "Reference" "#PWR016"
+			(at 184.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.548 28.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c767e01f-7b3a-463a-8f5a-ef5cc66f48b1")
+		)
+		(instances
+			(project "BSPD"
+				(path "/036fa82d-d367-4948-a0e8-60bb61467abb/4b379394-dc7d-4a6a-9b14-d9cfbfa74afc"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
