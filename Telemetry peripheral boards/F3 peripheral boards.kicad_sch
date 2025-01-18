@@ -7254,6 +7254,16 @@
 		)
 		(uuid "2cce1de5-f4dd-46ed-8fe4-66782d8571d5")
 	)
+	(text "Connectors should all be molex nanofit.\nSpecify diode and resistors better. Make sure every single one has a value\nor a marked purpose.\nMore consideration should also go into where the connectors are placed on the PCB."
+		(exclude_from_sim no)
+		(at 131.064 109.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54bc2cda-5c6c-4bba-aec3-e388c9c9562d")
+	)
 	(text "Wheatstone Bridge\n"
 		(exclude_from_sim no)
 		(at 58.166 79.248 0)
@@ -10454,7 +10464,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330nf"
+		(property "Value" "330nF"
 			(at 233.68 29.21 0)
 			(effects
 				(font
