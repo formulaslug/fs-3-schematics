@@ -1,7 +1,13 @@
 # Notes
 
-Please complete KiCad training before beginning or working on any projects in this repository.
+This Branch Contains the Tractive System Status Indicator (TSSI) board Schematic and PCB
 
-Only edit another person's work if you have spoke about it with them first and they have given you permission. This applies to Leads and Captains as well.
+Description:
 
-Contact Cole Lewis, Nathaniel Platt, or Wesley Rodriguez Kronmiller for information/help relating to this repository.
+The TSSI indicates via an array of Red/Green Light the status of the Tractive System (ETC).
+In the event that there is a falure In either the BMS or IMD as signaled by the ETC
+board the indicator will flash Red at ~2Hz signaling the driver and crew that the vehicle
+is fault. The function of the board is also to hold the Ready-To-Drive-Sound (RTDS) Piezo and 
+Ready-To-Drive-Light(s) RTDL where logic and power for both indicators is off of the ETC board.
+
+Direct Questions to : Ethan James - Shutdown Subteam
