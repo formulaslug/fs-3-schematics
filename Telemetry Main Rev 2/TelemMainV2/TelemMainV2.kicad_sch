@@ -4493,10 +4493,6 @@
 		(uuid "21fb191c-7462-48c7-8a34-71e56d6afcaa")
 	)
 	(no_connect
-		(at 166.37 60.96)
-		(uuid "2ab22976-18a2-4a75-8880-f63b07b6544a")
-	)
-	(no_connect
 		(at 201.93 22.86)
 		(uuid "2ab8ed34-7070-46c7-8e69-300dc1888e29")
 	)
@@ -4529,10 +4525,6 @@
 		(uuid "579214df-3124-41b8-b81b-6cd16f694603")
 	)
 	(no_connect
-		(at 201.93 35.56)
-		(uuid "652d5653-8ba8-40cc-b65e-dd6acf14f33d")
-	)
-	(no_connect
 		(at 166.37 116.84)
 		(uuid "76a34e95-9a52-4195-ba78-3628a87f591b")
 	)
@@ -4545,10 +4537,6 @@
 		(uuid "81516448-80ec-41bf-a46d-9615282833e9")
 	)
 	(no_connect
-		(at 166.37 81.28)
-		(uuid "81e6580a-026d-4bbd-a889-57c6eaa843b4")
-	)
-	(no_connect
 		(at 166.37 27.94)
 		(uuid "858d6c8a-dd23-4f2c-b859-a34f0e2bed1f")
 	)
@@ -4559,10 +4547,6 @@
 	(no_connect
 		(at 201.93 30.48)
 		(uuid "8cb79019-3ffb-41f2-bc36-6a2559dce4c2")
-	)
-	(no_connect
-		(at 166.37 45.72)
-		(uuid "8e7ac177-9916-4e7c-9686-1e41264c237b")
 	)
 	(no_connect
 		(at 166.37 114.3)
@@ -4617,10 +4601,6 @@
 		(uuid "bf547dee-23c5-4595-8473-48a5692cb59a")
 	)
 	(no_connect
-		(at 201.93 33.02)
-		(uuid "c3f8a94a-0fef-4137-8578-a97ec65809cb")
-	)
-	(no_connect
 		(at 67.31 187.96)
 		(uuid "c78595a4-e0a1-46c4-8a63-c0049cd171d5")
 	)
@@ -4649,10 +4629,6 @@
 		(uuid "e27abc0c-eccb-4a70-a3dc-396aef7893ae")
 	)
 	(no_connect
-		(at 166.37 101.6)
-		(uuid "e2ae23f0-905a-4821-9b9a-d3f44d9b0cba")
-	)
-	(no_connect
 		(at 166.37 91.44)
 		(uuid "ec21bd7d-bcf2-4f81-a4ab-ae990fd5d7ea")
 	)
@@ -4677,7 +4653,7 @@
 		(uuid "fe14e833-7ee8-4176-bf2f-66ea4b998ce4")
 	)
 	(no_connect
-		(at 201.93 81.28)
+		(at 201.93 83.82)
 		(uuid "ff8a56f7-86c0-4712-bb9c-0f8bae8c1e5d")
 	)
 	(wire
@@ -5291,6 +5267,16 @@
 		)
 		(uuid "4576919b-0684-4313-908d-2f005b1d0640")
 	)
+	(text "Voltage check"
+		(exclude_from_sim no)
+		(at 153.67 128.016 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58f7e35b-a858-4439-b854-d46ae9bbe441")
+	)
 	(text "CAN2 transceiver"
 		(exclude_from_sim no)
 		(at 84.328 101.6 0)
@@ -5364,7 +5350,29 @@
 			)
 		)
 	)
-	(global_label "SPI2_MISO"
+	(global_label "Dash CS3"
+		(shape output)
+		(at 166.37 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0960c488-5da0-4364-b360-48bdd571316a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.1321 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD MISO2"
 		(shape input)
 		(at 201.93 53.34 0)
 		(fields_autoplaced yes)
@@ -5376,7 +5384,7 @@
 		)
 		(uuid "10660a1a-8dad-41fa-bb4c-6a79acf1458a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.7728 53.34 0)
+			(at 214.168 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,28 +5548,6 @@
 			)
 		)
 	)
-	(global_label "Radio CTS"
-		(shape input)
-		(at 166.37 20.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2bdd85c8-ab94-4ecc-9910-eb06a9a8e0fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.6483 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN1_H"
 		(shape bidirectional)
 		(at 26.67 24.13 0)
@@ -5580,6 +5566,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Radio TX1"
+		(shape output)
+		(at 166.37 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a2d6541-8eea-4759-a7b6-62b6c21c0897")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.7088 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5628,6 +5636,28 @@
 			)
 		)
 	)
+	(global_label "Dash MOSI3"
+		(shape output)
+		(at 166.37 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45468d1a-c954-4b7c-851e-46cf58b22b06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.0154 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Acc Intake Temp"
 		(shape input)
 		(at 201.93 121.92 0)
@@ -5646,6 +5676,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Dash SCK3"
+		(shape output)
+		(at 166.37 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d79e11e-a6d5-4c36-bb3a-7bf2c593cb7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.8621 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5760,6 +5812,28 @@
 			)
 		)
 	)
+	(global_label "Radio CTS1"
+		(shape input)
+		(at 201.93 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56f68442-c83a-4958-a390-76bf2c7a355c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.8612 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Acc Intake Flow Rate"
 		(shape input)
 		(at 201.93 114.3 0)
@@ -5782,7 +5856,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_CS"
+	(global_label "SD CS2"
 		(shape output)
 		(at 201.93 38.1 0)
 		(fields_autoplaced yes)
@@ -5794,7 +5868,7 @@
 		)
 		(uuid "67e352ed-5d48-45d8-aa19-51f0b0043d03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.6561 38.1 0)
+			(at 212.0513 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,28 +5913,6 @@
 		(uuid "6cf6274c-4192-454b-8930-e64d0b42437b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.1679 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Radio RX"
-		(shape input)
-		(at 201.93 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6e6afec6-7879-4feb-9dc5-e6e480a2227c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.6841 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +6054,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_MISO"
+	(global_label "SD MISO2"
 		(shape output)
 		(at 48.26 95.25 0)
 		(fields_autoplaced yes)
@@ -6014,7 +6066,7 @@
 		)
 		(uuid "7e85e0cc-9eef-4346-8030-90ac8d3fef98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.1028 95.25 0)
+			(at 60.498 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6164,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_SCK"
+	(global_label "SD SCK2"
 		(shape input)
 		(at 35.56 95.25 180)
 		(fields_autoplaced yes)
@@ -6124,7 +6176,7 @@
 		)
 		(uuid "8e71b896-eb9b-4e75-ad00-128f0759cf42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.5639 95.25 0)
+			(at 24.1687 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6200,28 +6252,6 @@
 			)
 		)
 	)
-	(global_label "Radio RTS"
-		(shape input)
-		(at 201.93 20.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "afb52893-2b97-464d-a4c0-8b323184e55e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.6517 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SD Card Detect T{slash}F"
 		(shape output)
 		(at 35.56 102.87 180)
@@ -6288,7 +6318,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_SCK"
+	(global_label "SD SCK2"
 		(shape output)
 		(at 201.93 55.88 0)
 		(fields_autoplaced yes)
@@ -6300,7 +6330,7 @@
 		)
 		(uuid "b56a7986-3206-4193-9332-a9fb0f9536c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.9261 55.88 0)
+			(at 213.3213 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,6 +6384,28 @@
 			)
 		)
 	)
+	(global_label "Radio RX1"
+		(shape input)
+		(at 166.37 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce866a39-a923-474a-a6ef-afd25804ccd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.4064 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Brake Sensor F"
 		(shape input)
 		(at 35.56 123.19 180)
@@ -6376,24 +6428,24 @@
 			)
 		)
 	)
-	(global_label "Radio TX"
-		(shape output)
-		(at 166.37 83.82 180)
+	(global_label "Radio RTS1"
+		(shape input)
+		(at 201.93 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "d1856395-2f48-41d6-8949-4e25ca8cc5f3")
+		(uuid "d42e245e-6471-49d7-9aa1-f65b55cfb2fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.9183 83.82 0)
+			(at 215.8612 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6420,7 +6472,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_MOSI"
+	(global_label "SD MOSI2"
 		(shape output)
 		(at 201.93 50.8 0)
 		(fields_autoplaced yes)
@@ -6432,7 +6484,7 @@
 		)
 		(uuid "d98a68a1-c165-4a23-96b9-a946432d696c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.7728 50.8 0)
+			(at 214.168 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +6516,29 @@
 			)
 		)
 	)
-	(global_label "SPI2_CS"
+	(global_label "Dash MISO3"
+		(shape input)
+		(at 201.93 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dac3df14-1c16-4c99-a7ba-866d154eacb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.2846 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD CS2"
 		(shape input)
 		(at 48.26 97.79 0)
 		(fields_autoplaced yes)
@@ -6476,7 +6550,7 @@
 		)
 		(uuid "db9e82f7-24ce-465b-a4a2-bab83722d893")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.9861 97.79 0)
+			(at 58.3813 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,7 +6626,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_MOSI"
+	(global_label "SD MOSI2"
 		(shape input)
 		(at 35.56 97.79 180)
 		(fields_autoplaced yes)
@@ -6564,7 +6638,7 @@
 		)
 		(uuid "e0d487cd-3431-417c-b79c-e0979f06674d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.7172 97.79 0)
+			(at 23.322 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11793,7 +11867,7 @@
 		)
 	)
 	(sheet
-		(at 227.33 17.78)
+		(at 227.965 15.24)
 		(size 15.24 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -11805,7 +11879,7 @@
 		)
 		(uuid "afb62af2-9a01-4084-a636-6a5e26b390a1")
 		(property "Sheetname" "Radio"
-			(at 227.33 17.0684 0)
+			(at 227.965 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11814,7 +11888,7 @@
 			)
 		)
 		(property "Sheetfile" "radio.kicad_sch"
-			(at 227.33 28.5246 0)
+			(at 227.965 25.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11831,7 +11905,7 @@
 		)
 	)
 	(sheet
-		(at 241.3 52.07)
+		(at 227.33 33.655)
 		(size 19.05 13.97)
 		(fields_autoplaced yes)
 		(stroke
@@ -11843,7 +11917,7 @@
 		)
 		(uuid "b582ba12-49c7-4e7f-8076-9a6fdb596e73")
 		(property "Sheetname" "Dash components"
-			(at 241.3 51.3584 0)
+			(at 227.33 32.9434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11852,7 +11926,7 @@
 			)
 		)
 		(property "Sheetfile" "dash.kicad_sch"
-			(at 241.3 66.6246 0)
+			(at 227.33 48.2096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
