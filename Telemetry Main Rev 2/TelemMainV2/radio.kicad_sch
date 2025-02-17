@@ -798,12 +798,16 @@
 		(uuid "314916a7-2e14-44ac-9f18-5533d20f6b87")
 	)
 	(no_connect
-		(at 34.29 66.04)
-		(uuid "92be067a-482f-4c2f-9ba3-d6ed08086085")
+		(at 34.29 45.72)
+		(uuid "3e95158a-dfdd-4ec9-9d9c-ad83a742a56c")
 	)
 	(no_connect
-		(at 34.29 68.58)
-		(uuid "ae448085-cd44-4c90-bb1d-006089e8b966")
+		(at 34.29 60.96)
+		(uuid "68e071bb-ae2a-4e87-aba3-08eec7079453")
+	)
+	(no_connect
+		(at 34.29 43.18)
+		(uuid "955e4b88-0e4e-4503-9610-3449a19cf6cb")
 	)
 	(no_connect
 		(at 34.29 50.8)
@@ -818,16 +822,8 @@
 		(uuid "cc76d05c-a803-4a85-8f43-63248288e501")
 	)
 	(no_connect
-		(at 34.29 48.26)
-		(uuid "d2a86477-62b5-44d5-9fda-b62b3a02b2c6")
-	)
-	(no_connect
-		(at 34.29 58.42)
-		(uuid "e791dc90-4f25-4c17-bb81-e0a4746fc12b")
-	)
-	(no_connect
-		(at 34.29 71.12)
-		(uuid "f083db1a-a30b-49aa-961c-51c68b1a09ed")
+		(at 34.29 33.02)
+		(uuid "de7cff08-cbdc-4afc-9edb-92d541356e00")
 	)
 	(no_connect
 		(at 34.29 55.88)
@@ -873,9 +869,9 @@
 		)
 		(uuid "dbbe3b14-99ae-42b5-bd36-5349513e3d9e")
 	)
-	(global_label "Radio RTS"
+	(global_label "Radio CS1"
 		(shape input)
-		(at 34.29 33.02 180)
+		(at 34.29 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -883,9 +879,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1df2f992-241f-4398-851b-d6202d156942")
+		(uuid "2078239b-bf53-4029-a3d4-87294671da8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.5683 33.02 0)
+			(at 21.3264 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,9 +891,9 @@
 			)
 		)
 	)
-	(global_label "Radio CTS"
+	(global_label "Radio ATTN"
 		(shape output)
-		(at 34.29 60.96 180)
+		(at 34.29 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -905,31 +901,9 @@
 			)
 			(justify right)
 		)
-		(uuid "37119e65-9151-438c-85ca-d06ab1e23116")
+		(uuid "4007ee10-047e-4b69-81cc-01880aa46624")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.5683 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Radio TX"
-		(shape input)
-		(at 34.29 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a87c265-c76b-4bb9-bd4c-ccf63aa290be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.8383 43.18 0)
+			(at 20.6611 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,9 +935,9 @@
 			)
 		)
 	)
-	(global_label "Radio RX"
-		(shape output)
-		(at 34.29 45.72 180)
+	(global_label "Radio MOSI1"
+		(shape input)
+		(at 34.29 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -971,9 +945,53 @@
 			)
 			(justify right)
 		)
-		(uuid "f68a90e9-471a-47ab-8338-b3854df8a9c1")
+		(uuid "a3149d02-0e43-4d33-8947-ee9e965768b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.5359 45.72 0)
+			(at 19.2097 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Radio MISO1"
+		(shape output)
+		(at 34.29 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa22a586-6cc9-41ac-8e48-e34cc2c5df91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.2097 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Radio SCK1"
+		(shape input)
+		(at 34.29 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffaa59f7-bb8f-4c24-973e-01d672282fdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.0564 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
