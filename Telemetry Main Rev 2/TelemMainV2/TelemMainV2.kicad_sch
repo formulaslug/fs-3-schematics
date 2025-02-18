@@ -4639,6 +4639,10 @@
 		(uuid "4c28d122-6e76-474a-b211-15c282c526de")
 	)
 	(no_connect
+		(at 166.37 45.72)
+		(uuid "57757b2c-6726-4027-bba4-61ec225ef64a")
+	)
+	(no_connect
 		(at 201.93 60.96)
 		(uuid "579214df-3124-41b8-b81b-6cd16f694603")
 	)
@@ -4661,6 +4665,10 @@
 	(no_connect
 		(at 166.37 27.94)
 		(uuid "858d6c8a-dd23-4f2c-b859-a34f0e2bed1f")
+	)
+	(no_connect
+		(at 201.93 35.56)
+		(uuid "87b99b07-363c-4f11-9a33-0fe11f0eedfe")
 	)
 	(no_connect
 		(at 35.56 100.33)
@@ -4711,6 +4719,10 @@
 		(uuid "af440206-8523-49b2-a385-489257e665a8")
 	)
 	(no_connect
+		(at 201.93 33.02)
+		(uuid "b39a2c0d-a8de-4da3-a925-c4ec77d0f323")
+	)
+	(no_connect
 		(at 201.93 101.6)
 		(uuid "bbd222fc-8d5a-4a1c-a4d4-ffc339da3908")
 	)
@@ -4737,6 +4749,10 @@
 	(no_connect
 		(at 166.37 58.42)
 		(uuid "e27abc0c-eccb-4a70-a3dc-396aef7893ae")
+	)
+	(no_connect
+		(at 166.37 60.96)
+		(uuid "e9d88a44-5611-4bd8-8745-7f73f366b797")
 	)
 	(no_connect
 		(at 166.37 91.44)
@@ -5810,28 +5826,6 @@
 			)
 		)
 	)
-	(global_label "Radio TX1"
-		(shape output)
-		(at 166.37 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a2d6541-8eea-4759-a7b6-62b6c21c0897")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.7088 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Radio CS1"
 		(shape output)
 		(at 166.37 101.6 180)
@@ -6092,28 +6086,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Radio CTS1"
-		(shape input)
-		(at 201.93 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "56f68442-c83a-4958-a390-76bf2c7a355c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.8612 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6668,28 +6640,6 @@
 			)
 		)
 	)
-	(global_label "Radio RX1"
-		(shape input)
-		(at 166.37 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ce866a39-a923-474a-a6ef-afd25804ccd4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.4064 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Brake Sensor F"
 		(shape input)
 		(at 35.56 123.19 180)
@@ -6713,7 +6663,7 @@
 		)
 	)
 	(global_label "Radio ATTN"
-		(shape output)
+		(shape input)
 		(at 166.37 96.52 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6730,28 +6680,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Radio RTS1"
-		(shape input)
-		(at 201.93 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d42e245e-6471-49d7-9aa1-f65b55cfb2fb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.8612 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
