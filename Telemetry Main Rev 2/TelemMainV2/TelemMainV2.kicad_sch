@@ -4643,10 +4643,6 @@
 		(uuid "57757b2c-6726-4027-bba4-61ec225ef64a")
 	)
 	(no_connect
-		(at 201.93 60.96)
-		(uuid "579214df-3124-41b8-b81b-6cd16f694603")
-	)
-	(no_connect
 		(at 166.37 116.84)
 		(uuid "76a34e95-9a52-4195-ba78-3628a87f591b")
 	)
@@ -4661,6 +4657,10 @@
 	(no_connect
 		(at 201.93 91.44)
 		(uuid "81516448-80ec-41bf-a46d-9615282833e9")
+	)
+	(no_connect
+		(at 166.37 101.6)
+		(uuid "8563871f-8994-4f57-8636-e9c2499d4a08")
 	)
 	(no_connect
 		(at 166.37 27.94)
@@ -5672,6 +5672,28 @@
 			)
 		)
 	)
+	(global_label "Radio CS1"
+		(shape output)
+		(at 201.93 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e312a73-5925-4d5e-b3eb-0b2d36c2fe5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.8936 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Acc Intake Temp"
 		(shape output)
 		(at 260.35 22.86 0)
@@ -5822,28 +5844,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Radio CS1"
-		(shape output)
-		(at 166.37 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ada6422-6d79-4b45-b69a-e2872d24d169")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.4064 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
