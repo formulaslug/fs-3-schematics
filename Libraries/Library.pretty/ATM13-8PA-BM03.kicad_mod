@@ -67,16 +67,29 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start 0 -27)
-		(end 30 0)
+	(fp_poly
+		(pts
+			(xy -11.5 -27) (xy -11.5 -7.5) (xy 0 -7.5) (xy 0 0) (xy 30 0) (xy 30 -7.5) (xy 41.5 -7.5) (xy 41.5 -27)
+		)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "6ce3b2eb-66ea-4db4-b731-a089544980ed")
+		(uuid "22ed51ae-c093-42e3-b8d1-2d7e969de582")
+	)
+	(fp_poly
+		(pts
+			(xy 30 0) (xy 30 -7.5) (xy 41.5 -7.5) (xy 41.5 -27) (xy -11.5 -27) (xy -11.5 -7.5) (xy 0 -7.5) (xy 0 0)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a406026f-60cb-4fa7-8453-076932af9ebb")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0.8 0)
@@ -89,6 +102,39 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.CrtYd")
+		(uuid "f900de43-f4c8-4079-a386-fb8bac617b9c")
+		(pts
+			(xy 30 0) (xy 30 -27)
+		)
+		(height 27.5)
+		(gr_text "27.0000 mm"
+			(at 56.35 -13.5 90)
+			(layer "F.CrtYd")
+			(uuid "f900de43-f4c8-4079-a386-fb8bac617b9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(pad "" np_thru_hole circle
 		(at 1.8 -1.5)
