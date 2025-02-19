@@ -4639,10 +4639,6 @@
 		(uuid "4c28d122-6e76-474a-b211-15c282c526de")
 	)
 	(no_connect
-		(at 166.37 45.72)
-		(uuid "57757b2c-6726-4027-bba4-61ec225ef64a")
-	)
-	(no_connect
 		(at 166.37 116.84)
 		(uuid "76a34e95-9a52-4195-ba78-3628a87f591b")
 	)
@@ -4765,6 +4761,10 @@
 	(no_connect
 		(at 166.37 121.92)
 		(uuid "f7a90011-db05-4fab-826e-d9e96835d39a")
+	)
+	(no_connect
+		(at 166.37 96.52)
+		(uuid "f91ed85b-b027-4679-b535-f647d520b8c9")
 	)
 	(no_connect
 		(at 166.37 48.26)
@@ -5414,16 +5414,6 @@
 		)
 		(uuid "29e8c852-d2c3-43ff-9f51-581e2175d018")
 	)
-	(text "out to steering sensor"
-		(exclude_from_sim no)
-		(at 44.958 62.484 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2ea844ad-143d-4742-b8f7-f003d88ab78f")
-	)
 	(text "CAN1 transceiver"
 		(exclude_from_sim no)
 		(at 85.09 66.04 0)
@@ -5455,6 +5445,16 @@
 			(justify left bottom)
 		)
 		(uuid "60dc59ca-4fc8-474e-81a1-9ba8ab343bc4")
+	)
+	(text "out to steering sensor"
+		(exclude_from_sim no)
+		(at 44.958 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dc9abd98-410a-4fe3-ac83-ff11aac9b91f")
 	)
 	(label "CAN1_H"
 		(at 64.77 40.64 270)
@@ -5495,28 +5495,6 @@
 			(justify right bottom)
 		)
 		(uuid "d3eaa185-2d3a-4f21-9871-d01fdbdf869b")
-	)
-	(global_label "Brake Sensor B"
-		(shape output)
-		(at 26.67 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "008dcb08-1103-44a0-98ca-5c359906b2d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.5927 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "CAN2_H"
 		(shape bidirectional)
@@ -5602,6 +5580,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Radio ATTN"
+		(shape input)
+		(at 166.37 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "158fa2f1-442a-4f83-81c7-39250c01e218")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.7411 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5848,28 +5848,6 @@
 			)
 		)
 	)
-	(global_label "Acc Intake Pressure"
-		(shape output)
-		(at 26.67 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e3b9bff-8056-4ddf-a4a0-a3d6bb5e2f2b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.8262 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Acc Exhaust Temp"
 		(shape output)
 		(at 260.35 25.4 0)
@@ -5980,28 +5958,6 @@
 			)
 		)
 	)
-	(global_label "Acc Intake Temp"
-		(shape output)
-		(at 26.67 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "503814e3-1899-4bc6-bcfb-067d4ab70a28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.4999 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Brake Sensor B"
 		(shape input)
 		(at 35.56 147.32 180)
@@ -6086,28 +6042,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Acc Exhaust Temp"
-		(shape output)
-		(at 26.67 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5b1a2fbb-c07f-4182-9293-c5510a654541")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.1326 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6354,6 +6288,50 @@
 			)
 		)
 	)
+	(global_label "Acc Intake Temp"
+		(shape output)
+		(at 26.67 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8062ddd9-456a-4bf3-a691-bb4c28d26bcc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.4999 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Acc Intake Flow Rate"
+		(shape output)
+		(at 26.67 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8127126a-479b-4938-9ea3-bf206b7e3a4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0356 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Acc Intake Pressure"
 		(shape input)
 		(at 201.93 116.84 0)
@@ -6464,6 +6442,28 @@
 			)
 		)
 	)
+	(global_label "Brake Sensor F"
+		(shape output)
+		(at 26.67 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96eec957-82cc-4007-89a9-9fac5cb9e7c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.4113 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN2_L"
 		(shape bidirectional)
 		(at 26.67 36.83 0)
@@ -6486,28 +6486,6 @@
 			)
 		)
 	)
-	(global_label "Brake Sensor F"
-		(shape output)
-		(at 26.67 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9dd727d2-6045-43f2-84f8-4221421218e6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.4113 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Brake Sensor F 3V3"
 		(shape input)
 		(at 201.93 124.46 0)
@@ -6521,6 +6499,50 @@
 		(uuid "9f187a05-0723-4ea3-b932-1040a75c4f43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 224.1465 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Acc Exhaust Temp"
+		(shape output)
+		(at 26.67 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a40700a6-d4c7-4d60-a42e-06c9beac9836")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.1326 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Brake Sensor B"
+		(shape output)
+		(at 26.67 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adc95d60-5af9-4b07-99e6-d1cf78816020")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.5927 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6653,28 +6675,6 @@
 		(uuid "d1337a11-d34d-4eb9-95ec-575461a64afa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 17.8187 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Radio ATTN"
-		(shape input)
-		(at 166.37 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d301ece7-9012-479d-aba5-cdcc1c15bafc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.7411 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,6 +6838,28 @@
 			)
 		)
 	)
+	(global_label "Acc Intake Pressure"
+		(shape output)
+		(at 26.67 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0a8aed9-58c4-4ebf-8803-b9dea28d31ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.8262 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD MOSI2"
 		(shape input)
 		(at 35.56 97.79 180)
@@ -6961,28 +6983,6 @@
 		(uuid "ee0814ca-af8b-4a85-87f2-f989f8e5be09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.4098 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Acc Intake Flow Rate"
-		(shape output)
-		(at 26.67 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f179a727-87ab-49e1-87be-d19e6cd42e18")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.0356 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8032,6 +8032,71 @@
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "U6")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a5637a5-c1ad-4291-b10b-c1da8e3f153d")
+		(property "Reference" "#PWR087"
+			(at 33.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "088f61ea-9fe3-4747-9c59-e15347c96c7f")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "#PWR087")
+					(unit 1)
 				)
 			)
 		)
@@ -11892,71 +11957,6 @@
 			(project "Telemetry Main Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f58cf73c-8e8f-482c-a405-88b1d5e67516")
-		(property "Reference" "#PWR087"
-			(at 33.02 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44cf7a33-e8e7-47bb-9af5-2b01e8f7b11b")
-		)
-		(instances
-			(project "TelemMainV2"
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
-					(reference "#PWR087")
 					(unit 1)
 				)
 			)
