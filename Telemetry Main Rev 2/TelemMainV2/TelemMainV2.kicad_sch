@@ -2023,6 +2023,274 @@
 				)
 			)
 		)
+		(symbol "FS_3_Global_Symbol_Library:Adafruit_E336755_10DoF_IMU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.588 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FS_3_Global_Footprint_Library:Adafruit_E336755_10DoF_IMU"
+				(at -0.762 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.adafruit.com/product/1604"
+				(at -0.762 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Adafruit_E336755_10DoF_IMU_1_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Adafruit E336755 \n10DoF IMU"
+					(at -1.016 9.652 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(color 0 72 72 1)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "LRDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "GINT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "GRDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "LINT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "LINT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 3.81)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "FS_3_Global_Symbol_Library:NUCLEO-F446RE"
 			(pin_names
 				(offset 1.016)
@@ -4587,10 +4855,6 @@
 		(uuid "1cf65b3d-a3bc-4a37-8483-7e7f64ffcf4d")
 	)
 	(no_connect
-		(at 166.37 119.38)
-		(uuid "1d66604c-9cd6-43f5-b784-f36c1df00729")
-	)
-	(no_connect
 		(at 201.93 93.98)
 		(uuid "21997225-b189-46a4-80ea-083eb2b57769")
 	)
@@ -4615,16 +4879,12 @@
 		(uuid "4c28d122-6e76-474a-b211-15c282c526de")
 	)
 	(no_connect
-		(at 166.37 99.06)
-		(uuid "741c9a49-dc37-4249-bc3b-ed4fca03526c")
-	)
-	(no_connect
-		(at 166.37 116.84)
-		(uuid "76a34e95-9a52-4195-ba78-3628a87f591b")
-	)
-	(no_connect
 		(at 48.26 100.33)
 		(uuid "7a4cf3a3-ea70-436f-8764-1d148b379ee8")
+	)
+	(no_connect
+		(at 114.3 153.67)
+		(uuid "7f4dab5e-6c57-4086-a91c-13e928802919")
 	)
 	(no_connect
 		(at 166.37 20.32)
@@ -4637,10 +4897,6 @@
 	(no_connect
 		(at 26.67 36.83)
 		(uuid "8162ef8e-2c38-4523-a800-f25b9248ca85")
-	)
-	(no_connect
-		(at 166.37 101.6)
-		(uuid "8563871f-8994-4f57-8636-e9c2499d4a08")
 	)
 	(no_connect
 		(at 166.37 27.94)
@@ -4723,10 +4979,6 @@
 		(uuid "bbd222fc-8d5a-4a1c-a4d4-ffc339da3908")
 	)
 	(no_connect
-		(at 166.37 50.8)
-		(uuid "bf547dee-23c5-4595-8473-48a5692cb59a")
-	)
-	(no_connect
 		(at 166.37 40.64)
 		(uuid "c3f78ec2-4538-40cf-98a0-fcb3a665a971")
 	)
@@ -4747,10 +4999,6 @@
 		(uuid "e26642ca-d0ea-45cf-ac93-a1f8037e1d17")
 	)
 	(no_connect
-		(at 166.37 58.42)
-		(uuid "e27abc0c-eccb-4a70-a3dc-396aef7893ae")
-	)
-	(no_connect
 		(at 166.37 60.96)
 		(uuid "e9d88a44-5611-4bd8-8745-7f73f366b797")
 	)
@@ -4765,10 +5013,6 @@
 	(no_connect
 		(at 166.37 121.92)
 		(uuid "f7a90011-db05-4fab-826e-d9e96835d39a")
-	)
-	(no_connect
-		(at 166.37 96.52)
-		(uuid "f91ed85b-b027-4679-b535-f647d520b8c9")
 	)
 	(no_connect
 		(at 166.37 48.26)
@@ -5235,6 +5479,17 @@
 		)
 		(uuid "58f7e35b-a858-4439-b854-d46ae9bbe441")
 	)
+	(text "<- optional output interrupt/ready\npins for the IMU's gyroscope (G) and\naccelerometer/magnotomer (L1/L2)"
+		(exclude_from_sim no)
+		(at 148.082 157.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "604a325c-f81d-47ee-b4f5-6aaa03082f6c")
+	)
 	(text "out to steering sensor"
 		(exclude_from_sim no)
 		(at 44.958 77.724 0)
@@ -5441,6 +5696,28 @@
 			)
 		)
 	)
+	(global_label "IMU SDA"
+		(shape input)
+		(at 114.3 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e92ab45-c4d8-4b4a-a82b-2414f3bac844")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.3924 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Acc Intake Temp"
 		(shape output)
 		(at 260.35 22.86 0)
@@ -5569,6 +5846,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU SDA"
+		(shape input)
+		(at 166.37 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29c2766d-d8af-430a-a9a1-14fbe7faaa99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.4624 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5771,6 +6070,28 @@
 			)
 		)
 	)
+	(global_label "IMU LINT1"
+		(shape input)
+		(at 166.37 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63555e46-4a64-4726-8928-ca2cd01f487b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Acc Intake Flow Rate"
 		(shape input)
 		(at 201.93 114.3 0)
@@ -5881,6 +6202,50 @@
 			)
 		)
 	)
+	(global_label "IMU LINT2"
+		(shape input)
+		(at 134.62 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "723b3828-c5c4-4042-a708-d5b5c2a2e23b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU LRDY"
+		(shape input)
+		(at 134.62 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73f9d006-0213-4f5c-8f49-2e0d000e4df0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.6162 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN1_H"
 		(shape bidirectional)
 		(at 26.67 29.21 0)
@@ -5894,6 +6259,50 @@
 		(uuid "78dcf6c7-1b37-4f63-af8b-54be204fee1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 37.9632 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU LRDY"
+		(shape input)
+		(at 166.37 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78eb0e18-7e95-49ec-bc80-7f392fac9c9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.3738 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU GRDY"
+		(shape input)
+		(at 134.62 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c81b57e-706d-4fa3-8452-c19156e9b06f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.8581 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,6 +6488,72 @@
 			)
 		)
 	)
+	(global_label "IMU LINT1"
+		(shape input)
+		(at 134.62 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91635975-9e9f-4710-b005-c378da5ac7c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU GINT"
+		(shape input)
+		(at 166.37 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9185e08b-e881-4c86-abf4-55031eb8251b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.8576 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU LINT2"
+		(shape input)
+		(at 166.37 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93714182-7e58-43e6-b60c-eae9105e2d70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Brake Sensor F"
 		(shape output)
 		(at 26.67 62.23 0)
@@ -6141,6 +6616,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU SCL"
+		(shape input)
+		(at 166.37 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acf397da-c3c5-497b-881e-a739ffe9e788")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.5229 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6277,6 +6774,50 @@
 			)
 		)
 	)
+	(global_label "IMU GRDY"
+		(shape input)
+		(at 166.37 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9e7b606-1d3e-44a1-a97c-49696bb39222")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.1319 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU GINT"
+		(shape input)
+		(at 134.62 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "caf71319-c469-4197-bb22-b77fc7c38b86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.1324 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Brake Sensor F"
 		(shape input)
 		(at 35.56 123.19 180)
@@ -6317,6 +6858,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU SCL"
+		(shape input)
+		(at 114.3 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9fc852c-1802-483a-9af7-5195f8748762")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.4529 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8553,6 +9116,101 @@
 		)
 	)
 	(symbol
+		(lib_id "FS_3_Global_Symbol_Library:Adafruit_E336755_10DoF_IMU")
+		(at 124.46 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84ea44a0-e32e-4d07-8932-684fe98e2dca")
+		(property "Reference" "U8"
+			(at 123.444 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 123.444 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FS_3_Global_Footprint_Library:Adafruit_E336755_10DoF_IMU"
+			(at 123.698 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adafruit.com/product/1604"
+			(at 123.698 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "acf76990-9791-4bca-b213-c434d1c937ba")
+		)
+		(pin "GND"
+			(uuid "89d4085e-4bad-48aa-a3a5-6132db1b52db")
+		)
+		(pin "2"
+			(uuid "357468eb-3460-42a6-aff8-0920558cc991")
+		)
+		(pin "5"
+			(uuid "29de7f7b-53c7-48f4-a45f-485afd72ffbc")
+		)
+		(pin "1"
+			(uuid "006c594d-994e-4557-a28c-9961a6904e4e")
+		)
+		(pin "10"
+			(uuid "7788462f-c0de-4e6d-9391-77fc9fd8e51b")
+		)
+		(pin "8"
+			(uuid "01a1dcb2-68b4-42d8-9b41-74692fbfe3a3")
+		)
+		(pin "6"
+			(uuid "e48aa391-34e2-4aaa-a289-f3b1c58bd466")
+		)
+		(pin "7"
+			(uuid "0c827e53-4984-4651-9b19-e6b19365023c")
+		)
+		(pin "9"
+			(uuid "d539848f-96fc-4261-8ed0-51631b0b85da")
+		)
+		(pin "4"
+			(uuid "235df25a-cbe6-4566-8de2-19202c3e6554")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
 		(at 21.59 29.21 0)
 		(unit 1)
@@ -8762,6 +9420,136 @@
 			(project "Telemetry Main Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9859a46d-5259-4092-9554-df3c49aa9d7b")
+		(property "Reference" "#PWR019"
+			(at 124.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bc95abd-1222-4e36-8309-083548708ec6")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a10e066f-fc88-4153-b541-b6cab6e56f35")
+		(property "Reference" "#PWR018"
+			(at 107.95 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c857dc66-73a2-4af7-a59e-1d6ed0efba05")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9296,10 +10084,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b523b404-2d2d-4e67-a7ca-a71d1828f07c")
 		(property "Reference" "R1"
-			(at 152.4 118.11 90)
+			(at 152.146 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9307,7 +10094,7 @@
 			)
 		)
 		(property "Value" "1 kΩ"
-			(at 152.4 120.65 90)
+			(at 152.146 122.174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,6 +11804,73 @@
 			(project "Telemetry Main Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 114.3 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2493e71-6685-4c0e-8864-56eb51468983")
+		(property "Reference" "#PWR017"
+			(at 118.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 110.49 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3855ac51-41ec-4381-8d69-96131294a130")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
