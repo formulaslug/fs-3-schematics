@@ -5215,16 +5215,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 54.61) (xy 26.67 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e229052-7138-42e3-a255-dd44a8eb4635")
-	)
-	(wire
-		(pts
 			(xy 50.8 172.72) (xy 50.8 179.07)
 		)
 		(stroke
@@ -5425,26 +5415,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 48.26) (xy 49.53 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "628fab62-b8e0-41f0-9879-4eaefdac3e47")
-	)
-	(wire
-		(pts
-			(xy 55.88 38.1) (xy 55.88 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "649119ef-5128-4fb6-9d4f-83b0c200f7f5")
-	)
-	(wire
-		(pts
 			(xy 78.74 58.42) (xy 82.55 58.42)
 		)
 		(stroke
@@ -5535,16 +5505,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 29.21) (xy 55.88 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc9e6219-5f97-46ec-bec9-ef3a02331f2c")
-	)
-	(wire
-		(pts
 			(xy 161.29 129.54) (xy 161.29 124.46)
 		)
 		(stroke
@@ -5562,16 +5522,6 @@
 			(type default)
 		)
 		(uuid "c484c389-be8a-497a-b2be-3d90e6649a9e")
-	)
-	(wire
-		(pts
-			(xy 41.91 48.26) (xy 41.91 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca0d8a89-c0d8-425d-adb6-0ddb9c633c47")
 	)
 	(wire
 		(pts
@@ -5717,6 +5667,7 @@
 	)
 	(label "CAN1_H"
 		(at 64.77 40.64 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5727,6 +5678,7 @@
 	)
 	(label "CAN1_L"
 		(at 72.39 40.64 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8112,7 +8064,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 45.72 48.26 180)
+		(at 67.31 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8121,23 +8073,25 @@
 		(fields_autoplaced yes)
 		(uuid "39e07156-ac2e-4fed-a6bd-2bb69185f89a")
 		(property "Reference" "D3"
-			(at 47.3075 40.64 0)
+			(at 71.12 86.6774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "QBLP631-R3A"
-			(at 47.3075 43.18 0)
+			(at 71.12 89.2174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 45.72 48.26 0)
+			(at 67.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +8100,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.qt-brightek.com/datasheet/QBLP631-R3A.pdf"
-			(at 45.72 48.26 0)
+			(at 67.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8155,7 +8109,7 @@
 			)
 		)
 		(property "Description" "12VIN Status LED"
-			(at 45.72 48.26 0)
+			(at 67.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8303,6 +8257,71 @@
 			(project "Telemetry Main Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "468f5ccb-2721-483e-b115-e37c1c0aabdb")
+		(property "Reference" "#PWR092"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8fbe9e4-bc53-44a2-9633-bf79e6fa6d48")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -8674,6 +8693,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 91.44 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e106b89-e324-4cb9-a617-a7872fa99d67")
+		(property "Reference" "R15"
+			(at 97.028 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R 1/4W"
+			(at 100.076 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 92.456 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b85c2c19-28a3-4654-bc13-7d5aefd78aa3")
+		)
+		(pin "2"
+			(uuid "b009d1a8-daa1-4991-97cb-c05cab672dff")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 35.56 88.9 180)
 		(unit 1)
@@ -8802,6 +8888,71 @@
 			(project "Telemetry Main Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 67.31 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "620065c9-7503-4dff-b01f-bfc69f5c3504")
+		(property "Reference" "#PWR090"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12VIN"
+			(at 67.31 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61cbb89c-ed8f-4ef4-a282-146555edf38a")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -9466,6 +9617,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 91.44 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8016939a-4770-4654-9f57-2db7eb71c7d2")
+		(property "Reference" "D4"
+			(at 95.25 86.6774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "QBLP631-R3A"
+			(at 95.25 89.2174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.qt-brightek.com/datasheet/QBLP631-R3A.pdf"
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12VIN Status LED"
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "610eeee4-21bc-49f9-93da-b4c7206a91df")
+		)
+		(pin "2"
+			(uuid "9b0a40ed-1c13-4f76-84dd-26a63adceb82")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 166.37 30.48 270)
 		(unit 1)
@@ -9711,16 +9932,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 55.88 29.21 0)
+		(lib_id "power:GND")
+		(at 67.31 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8d0b25a6-bba1-422a-8207-c1a89d15fd79")
-		(property "Reference" "#PWR05"
-			(at 55.88 33.02 0)
+		(uuid "8c431616-ce29-4288-9ce0-c0eaa9950ff2")
+		(property "Reference" "#PWR089"
+			(at 67.31 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9728,8 +9949,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12VIN"
-			(at 55.88 24.892 0)
+		(property "Value" "GND"
+			(at 67.31 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9737,7 +9958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 29.21 0)
+			(at 67.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9746,7 +9967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 29.21 0)
+			(at 67.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9754,8 +9975,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 55.88 29.21 0)
+		(property "Description" ""
+			(at 67.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9764,12 +9985,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "982a4e3c-ecbb-4cb9-82d7-dbdda59f4503")
+			(uuid "f0c5f7fe-eeae-402e-a53d-e3f04aead053")
 		)
 		(instances
-			(project "Telemetry Main Board"
+			(project "TelemMainV2"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
-					(reference "#PWR05")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -9967,6 +10188,71 @@
 			(project "TelemMainV2"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 26.67 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f0ad8a1-7166-45c0-8b0d-2820a5f9e594")
+		(property "Reference" "#PWR05"
+			(at 22.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12VIN"
+			(at 33.02 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 26.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fa8bf57-573a-402d-a45c-b4102f9831e2")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11288,7 +11574,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 55.88 34.29 180)
+		(at 67.31 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11296,15 +11582,15 @@
 		(dnp no)
 		(uuid "d6eb9ded-422e-44ae-9120-b7979d7ffedb")
 		(property "Reference" "R14"
-			(at 51.308 34.544 90)
+			(at 72.898 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1 kΩ"
-			(at 53.594 34.544 90)
+		(property "Value" "470R 1/4W"
+			(at 75.946 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11312,7 +11598,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 54.864 34.036 90)
+			(at 68.326 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11321,7 +11607,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 34.29 0)
+			(at 67.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11330,7 +11616,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 55.88 34.29 0)
+			(at 67.31 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11348,6 +11634,72 @@
 			(project "TelemMainV2"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 91.44 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d756dcaa-fec2-48b9-a461-616222beba38")
+		(property "Reference" "#PWR091"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ac04084-2873-45cd-8456-b308b627224a")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
