@@ -1853,6 +1853,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -5046,6 +5215,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 54.61) (xy 26.67 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e229052-7138-42e3-a255-dd44a8eb4635")
+	)
+	(wire
+		(pts
 			(xy 50.8 172.72) (xy 50.8 179.07)
 		)
 		(stroke
@@ -5246,6 +5425,26 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 48.26) (xy 49.53 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628fab62-b8e0-41f0-9879-4eaefdac3e47")
+	)
+	(wire
+		(pts
+			(xy 55.88 38.1) (xy 55.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649119ef-5128-4fb6-9d4f-83b0c200f7f5")
+	)
+	(wire
+		(pts
 			(xy 78.74 58.42) (xy 82.55 58.42)
 		)
 		(stroke
@@ -5336,6 +5535,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 29.21) (xy 55.88 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9e6219-5f97-46ec-bec9-ef3a02331f2c")
+	)
+	(wire
+		(pts
 			(xy 161.29 129.54) (xy 161.29 124.46)
 		)
 		(stroke
@@ -5356,6 +5565,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 48.26) (xy 41.91 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0d8a89-c0d8-425d-adb6-0ddb9c633c47")
+	)
+	(wire
+		(pts
 			(xy 210.82 109.22) (xy 207.01 109.22)
 		)
 		(stroke
@@ -5363,16 +5582,6 @@
 			(type default)
 		)
 		(uuid "ca3c8237-cbd5-48ea-ab6a-4aef08b8fc19")
-	)
-	(wire
-		(pts
-			(xy 26.67 54.61) (xy 43.18 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb7df59b-9f3d-4d07-91cf-285eb696801e")
 	)
 	(wire
 		(pts
@@ -7902,6 +8111,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 45.72 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39e07156-ac2e-4fed-a6bd-2bb69185f89a")
+		(property "Reference" "D3"
+			(at 47.3075 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QBLP631-R3A"
+			(at 47.3075 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.qt-brightek.com/datasheet/QBLP631-R3A.pdf"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12VIN Status LED"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49f57d95-defc-4e9d-80d3-2e153c205d11")
+		)
+		(pin "2"
+			(uuid "7f1d46e1-6825-44f2-810f-43ba9632c5d6")
+		)
+		(instances
+			(project ""
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 201.93 88.9 90)
 		(unit 1)
@@ -9435,7 +9712,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 43.18 54.61 0)
+		(at 55.88 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9443,7 +9720,7 @@
 		(dnp no)
 		(uuid "8d0b25a6-bba1-422a-8207-c1a89d15fd79")
 		(property "Reference" "#PWR05"
-			(at 43.18 58.42 0)
+			(at 55.88 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9452,7 +9729,7 @@
 			)
 		)
 		(property "Value" "+12VIN"
-			(at 43.18 50.292 0)
+			(at 55.88 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9460,7 +9737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 54.61 0)
+			(at 55.88 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9469,7 +9746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 54.61 0)
+			(at 55.88 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,7 +9755,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 43.18 54.61 0)
+			(at 55.88 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,6 +11281,73 @@
 			(project "Telemetry Main Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 55.88 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6eb9ded-422e-44ae-9120-b7979d7ffedb")
+		(property "Reference" "R14"
+			(at 51.308 34.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 kΩ"
+			(at 53.594 34.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.864 34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca514ed2-c120-4afa-a5fe-faaec43ba101")
+		)
+		(pin "2"
+			(uuid "7383a9c4-de28-4daa-af69-a69cb4b621b3")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "R14")
 					(unit 1)
 				)
 			)
