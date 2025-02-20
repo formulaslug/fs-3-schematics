@@ -4805,6 +4805,12 @@
 		(uuid "81d22824-dbc8-4f5d-8831-59ccafd85c8e")
 	)
 	(junction
+		(at 58.42 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "839938b3-ad6c-469d-b7cb-1b4e51513291")
+	)
+	(junction
 		(at 40.64 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5270,16 +5276,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 172.72) (xy 64.77 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "825973db-5c1a-4201-ad7e-ae57b621618e")
-	)
-	(wire
-		(pts
 			(xy 102.87 55.88) (xy 105.41 55.88)
 		)
 		(stroke
@@ -5397,6 +5393,16 @@
 			(type default)
 		)
 		(uuid "d1e5ed64-ebe2-45fc-91f7-a678d3e49ae0")
+	)
+	(wire
+		(pts
+			(xy 58.42 172.72) (xy 64.77 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60c821f-061b-43d2-bf9b-8430645e2db4")
 	)
 	(wire
 		(pts
@@ -7282,6 +7288,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 58.42 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0879216e-e9ac-4478-8c85-a95badd6d6d6")
+		(property "Reference" "#PWR023"
+			(at 58.42 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddfba381-c9c2-4c33-921b-453aa213ff37")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 102.87 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7340,6 +7411,73 @@
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 54.61 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ebf6a59-56bb-4aa7-8ce1-f3ac14856285")
+		(property "Reference" "R12"
+			(at 54.61 167.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 54.61 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.864 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97360bff-6311-4564-9b39-cfed7c6e80b9")
+		)
+		(pin "2"
+			(uuid "34893fa5-27ad-4ff0-9346-db4854033f0e")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9426,6 +9564,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 58.42 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "976cfe11-3d48-4146-a42e-df706d7eca69")
+		(property "Reference" "R13"
+			(at 61.722 175.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 61.722 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 57.404 176.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d184fbf-7918-4725-98c1-dc6c47eab4d0")
+		)
+		(pin "2"
+			(uuid "4529dcb6-8817-4200-b513-4c075f81c12a")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 124.46 166.37 0)
 		(unit 1)
@@ -10077,73 +10282,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 152.4 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b523b404-2d2d-4e67-a7ca-a71d1828f07c")
-		(property "Reference" "R1"
-			(at 152.146 119.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1 kΩ"
-			(at 152.146 122.174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 152.654 123.444 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 152.4 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d698f777-ea74-4aee-b79d-0a1752e8ade1")
-		)
-		(pin "2"
-			(uuid "af70e83a-2e2e-4e99-85f6-dc55cc6180cb")
-		)
-		(instances
-			(project ""
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 201.93 58.42 90)
 		(unit 1)
@@ -10466,6 +10604,73 @@
 			(project "Telemetry Main Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 161.29 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2aaa0be-eec9-4990-8529-eb22ff3fdd08")
+		(property "Reference" "R1"
+			(at 156.718 133.604 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 kΩ"
+			(at 159.004 133.604 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 160.274 133.096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fec92759-9b46-4550-9fac-a25668a217a5")
+		)
+		(pin "2"
+			(uuid "694e9759-aff1-4ff9-9783-a9ce8768c13a")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11877,6 +12082,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 152.4 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2726db8-05f8-4e34-a5f1-4ebc97bd9acf")
+		(property "Reference" "R2"
+			(at 152.654 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3 kΩ"
+			(at 153.6699 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 152.146 125.476 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 152.4 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "131be2b3-3638-4af9-abb8-23ed456ab0cb")
+		)
+		(pin "2"
+			(uuid "582e503e-cbba-44ef-9a3c-a7559e4f8557")
+		)
+		(instances
+			(project "TelemMainV2"
+				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 71.12 22.86 90)
 		(unit 1)
@@ -11938,76 +12212,6 @@
 			(project "Telemetry Board"
 				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 161.29 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb73a77c-41fe-454a-8f93-8c30944c5f38")
-		(property "Reference" "R2"
-			(at 163.83 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3 kΩ"
-			(at 163.83 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 160.274 133.096 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 161.29 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f742596c-ab77-402d-abd4-89dce19c7d08")
-		)
-		(pin "2"
-			(uuid "1825a114-3530-409d-9ef4-50597dee7338")
-		)
-		(instances
-			(project "Telemetry Main Board"
-				(path "/dde73ecd-f7ea-407a-a1ab-cf1927044ecb"
-					(reference "R2")
 					(unit 1)
 				)
 			)
