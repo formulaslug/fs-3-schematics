@@ -4963,16 +4963,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 140.97) (xy 148.59 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "787e4cff-e1bc-42d3-a0fe-a4709467d42f")
-	)
-	(wire
-		(pts
 			(xy 196.85 146.05) (xy 189.23 146.05)
 		)
 		(stroke
@@ -5123,7 +5113,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 160.02) (xy 148.59 160.02)
+			(xy 189.23 160.02) (xy 157.48 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5190,16 +5180,6 @@
 			(type default)
 		)
 		(uuid "9db82007-12f4-4817-87cc-939868d7c80e")
-	)
-	(wire
-		(pts
-			(xy 149.86 140.97) (xy 148.59 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a064b813-1d31-4648-bb22-abd6d5646104")
 	)
 	(wire
 		(pts
@@ -5290,16 +5270,6 @@
 			(type default)
 		)
 		(uuid "b66bf434-18d7-40c4-a902-adb498935b5f")
-	)
-	(wire
-		(pts
-			(xy 157.48 146.05) (xy 157.48 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6b14a02-0569-4ab4-93cb-da804823ae1f")
 	)
 	(wire
 		(pts
@@ -5453,16 +5423,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 133.35) (xy 157.48 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e497c69a-d9e7-46fa-8ad0-ec410e3d69fc")
-	)
-	(wire
-		(pts
 			(xy 218.44 107.95) (xy 218.44 114.3)
 		)
 		(stroke
@@ -5480,6 +5440,16 @@
 			(type default)
 		)
 		(uuid "ebf8e723-81c7-466e-8500-3013f46426c3")
+	)
+	(wire
+		(pts
+			(xy 157.48 133.35) (xy 157.48 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f401178d-b160-449f-961e-503c79076d19")
 	)
 	(wire
 		(pts
@@ -5628,9 +5598,9 @@
 		)
 		(uuid "5a4905b8-cd78-4493-ba71-89d654aace8c")
 	)
-	(text "HPZR-C50-QX"
+	(text "50V\n"
 		(exclude_from_sim no)
-		(at 71.882 122.682 0)
+		(at 73.66 121.412 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6467,99 +6437,6 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library_2:2N7002-TP")
-		(at 149.86 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fb12fd1-0a0c-48a3-9796-c4b11cc29261")
-		(property "Reference" "Q1"
-			(at 161.29 139.6999 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STS6NF20V"
-			(at 161.29 142.2399 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "STS6NF20V:SO-8_STM"
-			(at 149.86 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "2N7002-TP"
-			(at 149.86 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 149.86 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 149.86 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bee0ad4-e423-4f08-85f3-447fc29cd280")
-		)
-		(pin "2"
-			(uuid "4ea52f41-981e-4765-82c7-73216d27c3e2")
-		)
-		(pin "3"
-			(uuid "bb76bb2e-96f4-4979-a82f-136f4fe07866")
-		)
-		(instances
-			(project "Discharge"
-				(path "/dc0f9272-e025-432b-a444-53b3815238aa"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 214.63 48.26 0)
 		(unit 1)
@@ -6639,72 +6516,6 @@
 			(project ""
 				(path "/dc0f9272-e025-432b-a444-53b3815238aa"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 157.48 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5872b600-6e16-4e73-b933-7052f186ebf6")
-		(property "Reference" "#PWR08"
-			(at 157.48 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GLV"
-			(at 157.48 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 157.48 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "743c44fb-df04-46a6-ba36-e398603d2874")
-		)
-		(instances
-			(project "Discharge"
-				(path "/dc0f9272-e025-432b-a444-53b3815238aa"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8416,10 +8227,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e6b005b6-3122-4c16-a242-5c55dbd3e611")
 		(property "Reference" "TP3"
-			(at 163.83 128.7779 0)
+			(at 154.178 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +8238,7 @@
 			)
 		)
 		(property "Value" "RTM"
-			(at 163.83 131.3179 0)
+			(at 154.178 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8685,7 +8495,7 @@
 				)
 			)
 		)
-		(property "Value" "50V"
+		(property "Value" "HPZR-C50-QX"
 			(at 73.66 114.3 0)
 			(effects
 				(font
