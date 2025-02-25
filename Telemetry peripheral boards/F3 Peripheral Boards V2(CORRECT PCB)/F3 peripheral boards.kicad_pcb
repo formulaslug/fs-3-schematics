@@ -9877,7 +9877,7 @@
 		(descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296W")
 		(property "Reference" "RV1"
-			(at 0.1 -3.4 360)
+			(at 0.1 -3.4 0)
 			(layer "F.SilkS")
 			(uuid "e67fa047-6c93-4e79-8648-4ca7fb7bd790")
 			(effects
@@ -9888,7 +9888,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at -2.54 3.67 360)
+			(at -2.54 3.67 0)
 			(layer "F.Fab")
 			(uuid "7d8bb9e4-4158-4080-bdd3-311d48145853")
 			(effects
@@ -10094,7 +10094,7 @@
 			(uuid "aa0a1519-4ce9-4e14-bfe4-ae3046a7a03d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -3.175 0.005 360)
+			(at -3.175 0.005 0)
 			(layer "F.Fab")
 			(uuid "5cc1fc00-b125-441f-91f5-c4e8142eba43")
 			(effects
@@ -15710,6 +15710,72 @@
 		)
 		(style
 			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Eco1.User")
+		(uuid "a136cea8-ceb4-4ec9-8aa7-2b39cb1fc70b")
+		(pts
+			(xy 179.618 31.5) (xy 58.5 31.5)
+		)
+		(height 6.799999)
+		(gr_text "121.1180 mm"
+			(at 119.059 23.550001 0)
+			(layer "Eco1.User")
+			(uuid "a136cea8-ceb4-4ec9-8aa7-2b39cb1fc70b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Eco1.User")
+		(uuid "b48577c7-55aa-4b6e-a500-e69ef6b23d8a")
+		(pts
+			(xy 58.429 31.4746) (xy 58.5 80)
+		)
+		(height 8.074424)
+		(gr_text "48.5255 mm"
+			(at 51.540084 55.747431 270.0838323)
+			(layer "Eco1.User")
+			(uuid "b48577c7-55aa-4b6e-a500-e69ef6b23d8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
 			(extension_height 0.58642)
