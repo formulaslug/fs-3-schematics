@@ -14737,16 +14737,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 234.95) (xy 157.48 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "348057c6-36ba-4b76-b981-729ab916e172")
-	)
-	(wire
-		(pts
 			(xy 236.22 303.53) (xy 236.22 318.77)
 		)
 		(stroke
@@ -15747,7 +15737,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 234.95) (xy 123.19 234.95)
+			(xy 111.76 234.95) (xy 157.48 234.95)
 		)
 		(stroke
 			(width 0)
@@ -20215,7 +20205,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "7.2k"
 			(at 251.968 318.77 90)
 			(effects
 				(font
@@ -25945,7 +25935,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7.2k"
+		(property "Value" "10k"
 			(at 244.602 318.77 90)
 			(effects
 				(font
@@ -26505,7 +26495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12V"
 			(at 105.41 255.27 0)
 			(effects
 				(font
@@ -27093,110 +27083,6 @@
 				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
 					(reference "J8")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4069")
-		(at 130.81 234.95 180)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cad45f53-04a7-4233-a169-fbef7d75c8d3")
-		(property "Reference" "U16"
-			(at 130.81 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4069"
-			(at 130.81 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 130.81 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4069ubms.pdf"
-			(at 130.81 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex inverter"
-			(at 130.81 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "fd96b1b9-61c4-4576-90ea-7b751f61f77f")
-		)
-		(pin "7"
-			(uuid "3ef56c0e-a3a8-4a43-8c89-e749eccdc959")
-		)
-		(pin "12"
-			(uuid "328ee5fd-bcde-451b-90bb-89cd80ef7b72")
-		)
-		(pin "4"
-			(uuid "471097fb-e879-4154-a1f5-0e5f997cea59")
-		)
-		(pin "2"
-			(uuid "ca09d8bf-7996-4ad7-b7f8-0aab5aeb23a8")
-		)
-		(pin "8"
-			(uuid "86f9c22e-7911-4601-b917-c5bc59d027f5")
-		)
-		(pin "5"
-			(uuid "78264840-a568-4a47-83cd-611e66b06161")
-		)
-		(pin "10"
-			(uuid "7e59b11e-41c6-4e8f-a589-c9b607216ec2")
-		)
-		(pin "14"
-			(uuid "5efec2d4-57e1-4bbf-b648-1177c657166c")
-		)
-		(pin "1"
-			(uuid "c13f2c2b-2eba-41b5-bf6b-46cb851f87f3")
-		)
-		(pin "6"
-			(uuid "541b71ed-2853-4f85-99cc-69c98ab74470")
-		)
-		(pin "11"
-			(uuid "bc28add7-6477-4c2a-a14b-54588df54a77")
-		)
-		(pin "3"
-			(uuid "576c2c6b-4118-4d75-92c0-2cad2423b4e5")
-		)
-		(pin "13"
-			(uuid "d1400e13-03dd-430f-b490-3c3affc15d3d")
-		)
-		(instances
-			(project ""
-				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
-					(reference "U16")
-					(unit 2)
 				)
 			)
 		)
@@ -29377,7 +29263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12V"
 			(at 40.64 256.54 0)
 			(effects
 				(font
