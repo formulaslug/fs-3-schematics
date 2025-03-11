@@ -13974,6 +13974,10 @@
 		(uuid "74b23996-64e2-42eb-9c83-4a20d650dc92")
 	)
 	(no_connect
+		(at 93.98 57.15)
+		(uuid "75010566-2adb-4efb-8900-4fa56c454874")
+	)
+	(no_connect
 		(at 116.84 279.4)
 		(uuid "76494b18-638d-4f95-88c0-96f51c25bbb0")
 	)
@@ -13984,10 +13988,6 @@
 	(no_connect
 		(at 93.98 49.53)
 		(uuid "9005316f-4fe2-45e1-9d69-8992fef99c5d")
-	)
-	(no_connect
-		(at 63.5 59.69)
-		(uuid "9c845b2e-f5a7-4f3d-9616-ae025f31db88")
 	)
 	(no_connect
 		(at 234.95 59.69)
@@ -14184,16 +14184,6 @@
 			(type default)
 		)
 		(uuid "0f187be7-0eb0-4742-adeb-c2aac24a84bc")
-	)
-	(wire
-		(pts
-			(xy 93.98 57.15) (xy 113.03 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f3e5df5-1e70-41f3-96b3-fa5a0732c387")
 	)
 	(wire
 		(pts
@@ -15654,6 +15644,16 @@
 			(type default)
 		)
 		(uuid "8b53f4d4-6a1c-4ae3-ae74-ce4cd878789d")
+	)
+	(wire
+		(pts
+			(xy 45.72 59.69) (xy 63.5 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b818b19-6a4a-489d-b4df-d1e4e880b7e1")
 	)
 	(wire
 		(pts
@@ -17697,6 +17697,17 @@
 		)
 		(uuid "0e5cb66d-1ea9-4e5d-bc28-2c8d61f41d3f")
 	)
+	(label "Fan_PWM"
+		(at 45.72 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c6a174c-34aa-43bf-83d2-9db04ac90d73")
+	)
 	(label "Current_Vref"
 		(at 81.28 97.79 270)
 		(fields_autoplaced yes)
@@ -17905,17 +17916,6 @@
 			(justify left bottom)
 		)
 		(uuid "4b0c670a-dfbd-4316-baba-98306b25ac15")
-	)
-	(label "Fan_PWM"
-		(at 113.03 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4b107751-0014-4397-a691-e4d73d3b3288")
 	)
 	(label "IMD_Status"
 		(at 38.1 248.92 0)
