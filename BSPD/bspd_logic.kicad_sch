@@ -2152,6 +2152,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 17.78) (xy 74.93 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2597d8df-e4a8-4fca-ad86-ac08e68d1bb9")
+	)
+	(wire
+		(pts
 			(xy 151.13 67.31) (xy 146.05 67.31)
 		)
 		(stroke
@@ -2439,16 +2449,6 @@
 			(type default)
 		)
 		(uuid "aa30fd8b-458c-40b8-863f-95bb83fa1b62")
-	)
-	(wire
-		(pts
-			(xy 44.45 17.78) (xy 74.93 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab5324a6-dd97-4af1-8f24-bd5a475a7ce5")
 	)
 	(wire
 		(pts
@@ -2899,6 +2899,17 @@
 		)
 		(uuid "6e6b3463-6fc7-4812-9c66-b1858b9eae97")
 	)
+	(label "front_hard_braking"
+		(at 74.93 17.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "715c0bbc-a5b1-48f9-b9da-b55edc600268")
+	)
 	(label "current_opens_shorts"
 		(at 132.08 96.52 0)
 		(fields_autoplaced yes)
@@ -2966,18 +2977,6 @@
 			(justify left bottom)
 		)
 		(uuid "a3f0a214-b4f0-4630-95c8-781988129413")
-	)
-	(label "front_hard_braking"
-		(at 74.93 17.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right bottom)
-		)
-		(uuid "a998f243-0ffa-4f21-a453-d0533dee5b72")
 	)
 	(label "rear_brake_open"
 		(at 93.98 87.63 0)
