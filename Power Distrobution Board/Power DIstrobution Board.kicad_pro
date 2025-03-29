@@ -445,7 +445,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "FS_3_Global_Footprint_Library"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -481,11 +483,11 @@
         "microvia_diameter": 3.048,
         "microvia_drill": 1.524,
         "name": "10a",
-        "pcb_color": "rgb(0, 4, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0574,
-        "via_diameter": 3.048,
-        "via_drill": 1.524,
+        "track_width": 1.125,
+        "via_diameter": 0.75,
+        "via_drill": 0.5,
         "wire_width": 6
       },
       {
@@ -498,7 +500,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "1a",
-        "pcb_color": "rgb(60, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -515,16 +517,16 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "20a",
-        "pcb_color": "rgb(255, 0, 48)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 6.1468,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 3.0,
+        "via_diameter": 1.5,
+        "via_drill": 0.5,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -532,7 +534,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "3a",
-        "pcb_color": "rgb(255, 0, 206)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "via_diameter": 0.6,
@@ -549,7 +551,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "signal",
-        "pcb_color": "rgb(0, 251, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,

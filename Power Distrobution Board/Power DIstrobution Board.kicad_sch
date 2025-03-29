@@ -906,6 +906,16 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 265.43 76.2) (xy 267.97 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c17cd00-6501-400d-806e-8ed144c824f8")
+	)
 	(global_label "CAN H"
 		(shape bidirectional)
 		(at 262.89 97.79 180)
@@ -1214,7 +1224,7 @@
 			)
 		)
 	)
-	(global_label "set+"
+	(global_label "set-_in"
 		(shape input)
 		(at 262.89 92.71 180)
 		(fields_autoplaced yes)
@@ -1226,7 +1236,7 @@
 		)
 		(uuid "bc4d3a49-606b-4917-8788-70a74cda3e0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.49 92.71 0)
+			(at 252.7686 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1348,7 +1358,7 @@
 	)
 	(global_label "tractive_out"
 		(shape input)
-		(at 267.97 76.2 180)
+		(at 265.43 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1358,7 +1368,7 @@
 		)
 		(uuid "f9ed3e8f-8f35-48af-8c6a-eceb84c64410")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.8573 76.2 0)
+			(at 251.3173 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,8 +1378,8 @@
 			)
 		)
 	)
-	(global_label "set-"
-		(shape input)
+	(global_label "set-_out"
+		(shape output)
 		(at 262.89 90.17 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1380,7 +1390,7 @@
 		)
 		(uuid "fa4f6789-c01d-4e13-ba24-eb76e1272ce5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.49 90.17 0)
+			(at 251.4987 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,6 +1437,29 @@
 		(uuid "2289bab3-dfb8-4c2c-8e0a-8639668d1267")
 		(property "Netclass" "10A"
 			(at 269.24 47.5615 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 266.7 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "509e391d-349e-4777-be1f-0d8d6385ecd4")
+		(property "Netclass" "10A"
+			(at 267.3985 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

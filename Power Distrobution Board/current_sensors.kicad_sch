@@ -1119,7 +1119,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 101.6) (xy 218.44 101.6)
+			(xy 214.63 101.6) (xy 218.44 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1429,6 +1429,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 101.6) (xy 242.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff446e8-dc7b-471f-ae6f-f6437a443026")
+	)
+	(wire
+		(pts
 			(xy 266.7 22.86) (xy 228.6 22.86)
 		)
 		(stroke
@@ -1709,7 +1719,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 101.6) (xy 208.28 101.6)
+			(xy 205.74 101.6) (xy 207.01 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2229,16 +2239,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 101.6) (xy 240.03 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f03a268f-0bca-4aef-8664-8019f1d630dd")
-	)
-	(wire
-		(pts
 			(xy 92.71 76.2) (xy 93.98 76.2)
 		)
 		(stroke
@@ -2489,7 +2489,7 @@
 	)
 	(global_label "tractive_out"
 		(shape output)
-		(at 240.03 101.6 0)
+		(at 242.57 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2499,7 +2499,7 @@
 		)
 		(uuid "65834e9f-34f9-4548-b58d-388193fb0f93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.1427 101.6 0)
+			(at 256.6827 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,29 +3304,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 238.76 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73bfbe26-bf6f-45a8-8722-9776342ac913")
-		(property "Netclass" "10A"
-			(at 239.4585 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 69.85 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3614,6 +3591,29 @@
 		(uuid "a620858e-e76c-4229-81ef-21c6ddc385da")
 		(property "Netclass" "20a"
 			(at 135.3185 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 238.76 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a947e4bf-0ab0-45f9-969b-8e3305fb95a2")
+		(property "Netclass" "10a"
+			(at 239.4585 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4483,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "01530008LXN"
 			(at 212.09 134.62 90)
 			(effects
 				(font
@@ -4491,7 +4491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project lib:CNM-03-BT mini blade fuse holder"
+		(property "Footprint" "FS_3_Global_Footprint_Library:01530008LXN"
 			(at 212.09 140.208 90)
 			(effects
 				(font
@@ -4500,7 +4500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.optifuse.com/optifuse_ecommerce_tools/datasheets/CNM-03.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-commercial-vehicle-products/01530008LXN/3425426?s=N4IgTCBcDaIAwEYCsBmO6AcAZAGgORAF0BfIA"
 			(at 212.09 138.43 0)
 			(effects
 				(font
@@ -5088,7 +5088,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "01530008LXN"
 			(at 66.04 99.06 90)
 			(effects
 				(font
@@ -5096,7 +5096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project lib:CNM-03-BT mini blade fuse holder"
+		(property "Footprint" "FS_3_Global_Footprint_Library:01530008LXN"
 			(at 66.04 104.648 90)
 			(effects
 				(font
@@ -5105,7 +5105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.optifuse.com/optifuse_ecommerce_tools/datasheets/CNM-03.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-commercial-vehicle-products/01530008LXN/3425426?s=N4IgTCBcDaIAwEYCsBmO6AcAZAGgORAF0BfIA"
 			(at 66.04 102.87 0)
 			(effects
 				(font
@@ -5964,7 +5964,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "01530008LXN"
 			(at 212.09 60.96 90)
 			(effects
 				(font
@@ -5972,7 +5972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project lib:CNM-03-BT mini blade fuse holder"
+		(property "Footprint" "FS_3_Global_Footprint_Library:01530008LXN"
 			(at 212.09 66.548 90)
 			(effects
 				(font
@@ -5981,7 +5981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.optifuse.com/optifuse_ecommerce_tools/datasheets/CNM-03.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-commercial-vehicle-products/01530008LXN/3425426?s=N4IgTCBcDaIAwEYCsBmO6AcAZAGgORAF0BfIA"
 			(at 212.09 64.77 0)
 			(effects
 				(font
@@ -6234,7 +6234,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "01530008LXN"
 			(at 212.09 24.13 90)
 			(effects
 				(font
@@ -6242,7 +6242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project lib:CNM-03-BT mini blade fuse holder"
+		(property "Footprint" "FS_3_Global_Footprint_Library:01530008LXN"
 			(at 212.09 29.718 90)
 			(effects
 				(font
@@ -6251,7 +6251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.optifuse.com/optifuse_ecommerce_tools/datasheets/CNM-03.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-commercial-vehicle-products/01530008LXN/3425426?s=N4IgTCBcDaIAwEYCsBmO6AcAZAGgORAF0BfIA"
 			(at 212.09 27.94 0)
 			(effects
 				(font
@@ -6963,7 +6963,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "01530008LXN"
 			(at 66.04 135.89 90)
 			(effects
 				(font
@@ -6971,7 +6971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project lib:CNM-03-BT mini blade fuse holder"
+		(property "Footprint" "FS_3_Global_Footprint_Library:01530008LXN"
 			(at 66.04 141.478 90)
 			(effects
 				(font
@@ -6980,7 +6980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.optifuse.com/optifuse_ecommerce_tools/datasheets/CNM-03.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-commercial-vehicle-products/01530008LXN/3425426?s=N4IgTCBcDaIAwEYCsBmO6AcAZAGgORAF0BfIA"
 			(at 66.04 139.7 0)
 			(effects
 				(font
@@ -7432,7 +7432,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "01530008LXN"
 			(at 140.97 62.23 90)
 			(effects
 				(font
@@ -7440,7 +7440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project lib:CNM-03-BT mini blade fuse holder"
+		(property "Footprint" "FS_3_Global_Footprint_Library:01530008LXN"
 			(at 140.97 67.818 90)
 			(effects
 				(font
@@ -7449,7 +7449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.optifuse.com/optifuse_ecommerce_tools/datasheets/CNM-03.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-commercial-vehicle-products/01530008LXN/3425426?s=N4IgTCBcDaIAwEYCsBmO6AcAZAGgORAF0BfIA"
 			(at 140.97 66.04 0)
 			(effects
 				(font
@@ -7634,7 +7634,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "01530008LXN"
 			(at 140.97 99.06 90)
 			(effects
 				(font
@@ -7642,7 +7642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project lib:CNM-03-BT mini blade fuse holder"
+		(property "Footprint" "FS_3_Global_Footprint_Library:01530008LXN"
 			(at 140.97 104.648 90)
 			(effects
 				(font
@@ -7651,7 +7651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.optifuse.com/optifuse_ecommerce_tools/datasheets/CNM-03.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-commercial-vehicle-products/01530008LXN/3425426?s=N4IgTCBcDaIAwEYCsBmO6AcAZAGgORAF0BfIA"
 			(at 140.97 102.87 0)
 			(effects
 				(font
@@ -8195,7 +8195,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "01530008LXN"
 			(at 140.97 135.89 90)
 			(effects
 				(font
@@ -8203,7 +8203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project lib:CNM-03-BT mini blade fuse holder"
+		(property "Footprint" "FS_3_Global_Footprint_Library:01530008LXN"
 			(at 140.97 141.478 90)
 			(effects
 				(font
@@ -8212,7 +8212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.optifuse.com/optifuse_ecommerce_tools/datasheets/CNM-03.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-commercial-vehicle-products/01530008LXN/3425426?s=N4IgTCBcDaIAwEYCsBmO6AcAZAGgORAF0BfIA"
 			(at 140.97 139.7 0)
 			(effects
 				(font
@@ -8533,7 +8533,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "01530008LXN"
 			(at 140.97 25.4 90)
 			(effects
 				(font
@@ -8541,7 +8541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project lib:CNM-03-BT mini blade fuse holder"
+		(property "Footprint" "FS_3_Global_Footprint_Library:01530008LXN"
 			(at 140.97 30.988 90)
 			(effects
 				(font
@@ -8550,7 +8550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.optifuse.com/optifuse_ecommerce_tools/datasheets/CNM-03.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-commercial-vehicle-products/01530008LXN/3425426?s=N4IgTCBcDaIAwEYCsBmO6AcAZAGgORAF0BfIA"
 			(at 140.97 29.21 0)
 			(effects
 				(font
@@ -9137,7 +9137,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "01530008LXN"
 			(at 66.04 62.23 90)
 			(effects
 				(font
@@ -9145,7 +9145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project lib:CNM-03-BT mini blade fuse holder"
+		(property "Footprint" "FS_3_Global_Footprint_Library:01530008LXN"
 			(at 66.04 67.818 90)
 			(effects
 				(font
@@ -9154,7 +9154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.optifuse.com/optifuse_ecommerce_tools/datasheets/CNM-03.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-commercial-vehicle-products/01530008LXN/3425426?s=N4IgTCBcDaIAwEYCsBmO6AcAZAGgORAF0BfIA"
 			(at 66.04 66.04 0)
 			(effects
 				(font
@@ -10386,7 +10386,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 212.09 101.6 90)
+		(at 210.82 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10395,23 +10395,23 @@
 		(fields_autoplaced yes)
 		(uuid "e9c0097c-6d6f-4308-b5ed-a7895c23d8d1")
 		(property "Reference" "F12"
-			(at 212.09 95.25 90)
+			(at 210.82 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 212.09 97.79 90)
+		(property "Value" "01530008LXN"
+			(at 210.82 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "project lib:CNM-03-BT mini blade fuse holder"
-			(at 212.09 103.378 90)
+		(property "Footprint" "FS_3_Global_Footprint_Library:01530008LXN"
+			(at 210.82 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10419,8 +10419,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.optifuse.com/optifuse_ecommerce_tools/datasheets/CNM-03.pdf"
-			(at 212.09 101.6 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-commercial-vehicle-products/01530008LXN/3425426?s=N4IgTCBcDaIAwEYCsBmO6AcAZAGgORAF0BfIA"
+			(at 210.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,7 +10429,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 212.09 101.6 0)
+			(at 210.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +10562,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "01530008LXN"
 			(at 66.04 25.4 90)
 			(effects
 				(font
@@ -10570,7 +10570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project lib:CNM-03-BT mini blade fuse holder"
+		(property "Footprint" "FS_3_Global_Footprint_Library:01530008LXN"
 			(at 66.04 30.988 90)
 			(effects
 				(font
@@ -10579,7 +10579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.optifuse.com/optifuse_ecommerce_tools/datasheets/CNM-03.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/littelfuse-commercial-vehicle-products/01530008LXN/3425426?s=N4IgTCBcDaIAwEYCsBmO6AcAZAGgORAF0BfIA"
 			(at 66.04 29.21 0)
 			(effects
 				(font
