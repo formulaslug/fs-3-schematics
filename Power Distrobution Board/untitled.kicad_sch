@@ -3117,28 +3117,6 @@
 			)
 		)
 	)
-	(global_label "set-_in"
-		(shape output)
-		(at 116.84 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fdc34067-46d9-4a95-8680-059f2182a31c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.9614 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
@@ -3249,73 +3227,6 @@
 					(italic yes)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 90.17 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b009222-c69e-4b90-a5eb-f7f0236296bf")
-		(property "Reference" "#PWR074"
-			(at 110.49 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6265816-f996-41ec-8a6a-9322f4af588c")
-		)
-		(instances
-			(project "Power DIstrobution Board"
-				(path "/cd827802-ab32-49ad-ad84-bccf81c569e7/5e60819f-ad8d-4ea9-981f-2629d0d45dd9"
-					(reference "#PWR074")
-					(unit 1)
-				)
 			)
 		)
 	)
