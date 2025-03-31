@@ -9965,6 +9965,146 @@
 				)
 			)
 		)
+		(symbol "FS_3_Global_Symbol_Library:ZXTR2005ZQ-13"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U11"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ZXTR2005ZQ-13"
+				(at 0.635 4.191 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "FS_3_Global_Footprint_Library:SOT-89_4P5X2P45_DIO"
+				(at -22.098 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZXTR2005ZQ.pdf"
+				(at -18.288 18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Voltage 5V Linear Regulator"
+				(at -31.496 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ZXTR2005ZQ-13"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT-89_4P5X2P45_DIO SOT-89_4P5X2P45_DIO-M SOT-89_4P5X2P45_DIO-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZXTR2005ZQ-13_0_1"
+				(rectangle
+					(start -6.35 2.54)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ZXTR2005ZQ-13_1_1"
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "GND_1"
 			(power)
 			(pin_numbers hide)
@@ -13854,6 +13994,12 @@
 		(uuid "c1c032a9-ae06-466b-89d3-e4c50e7ad46b")
 	)
 	(junction
+		(at 330.2 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2158c00-4146-4e4e-b7cd-a87dd5ccdfba")
+	)
+	(junction
 		(at 297.18 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13864,12 +14010,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2df5213-bc19-4467-9556-5075887fa943")
-	)
-	(junction
-		(at 330.2 242.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf72523e-8e11-4501-bb14-99ccf189a1dc")
 	)
 	(junction
 		(at 316.23 254)
@@ -14367,13 +14507,13 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 166.37) (xy 280.67 165.1)
+			(xy 325.12 242.57) (xy 330.2 242.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17b01cdc-31a4-48e0-8371-ce19598371e6")
+		(uuid "176654b5-deb2-49de-af5b-3e6341054a5c")
 	)
 	(wire
 		(pts
@@ -14594,16 +14734,6 @@
 			(type default)
 		)
 		(uuid "2a66248e-df44-47a6-820d-71236d65c932")
-	)
-	(wire
-		(pts
-			(xy 280.67 166.37) (xy 281.94 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2afda8fb-df53-4d5b-9542-1555abd62887")
 	)
 	(wire
 		(pts
@@ -15387,7 +15517,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 165.1) (xy 260.35 165.1)
+			(xy 260.35 166.37) (xy 281.94 166.37)
 		)
 		(stroke
 			(width 0)
@@ -15987,7 +16117,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 250.19) (xy 316.23 254)
+			(xy 316.23 248.92) (xy 316.23 254)
 		)
 		(stroke
 			(width 0)
@@ -16407,16 +16537,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 242.57) (xy 330.2 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc66498e-47e1-4e3f-8209-3fa9e4ed8b3d")
-	)
-	(wire
-		(pts
 			(xy 118.11 121.92) (xy 113.03 121.92)
 		)
 		(stroke
@@ -16467,7 +16587,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 242.57) (xy 308.61 242.57)
+			(xy 302.26 242.57) (xy 307.34 242.57)
 		)
 		(stroke
 			(width 0)
@@ -18191,7 +18311,7 @@
 		(uuid "927fbcde-9a5e-4084-aa48-f1c1e0fb1df3")
 	)
 	(label "Precharge_Control"
-		(at 260.35 165.1 0)
+		(at 260.35 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20977,6 +21097,79 @@
 		)
 	)
 	(symbol
+		(lib_id "FS_3_Global_Symbol_Library:ZXTR2005ZQ-13")
+		(at 316.23 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e9182e4-49b0-402e-96a1-a8c20c835f2f")
+		(property "Reference" "U15"
+			(at 316.23 234.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ZXTR2005ZQ-13"
+			(at 316.23 237.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "FS_3_Global_Footprint_Library:SOT-89_4P5X2P45_DIO"
+			(at 294.132 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZXTR2005ZQ.pdf"
+			(at 297.942 224.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Voltage 5V Linear Regulator"
+			(at 284.734 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f797a2f0-82f2-4de7-bfe1-7aeb24c0df5e")
+		)
+		(pin "2"
+			(uuid "78facf7c-34fe-4b3e-8450-8b1159bf6fed")
+		)
+		(pin "3"
+			(uuid "d6d69686-bee4-42b9-ac05-fcecf68745c6")
+		)
+		(instances
+			(project ""
+				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Timer:LM555xN")
 		(at 210.82 307.34 0)
 		(unit 1)
@@ -22679,78 +22872,6 @@
 			(project "Accumulator_Board"
 				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM7809_TO220")
-		(at 316.23 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dfc6b72-4b1e-4219-beb6-c611fb10e283")
-		(property "Reference" "U15"
-			(at 316.23 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ZXTR2005ZQ-13"
-			(at 316.23 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FS_3_Global_Footprint_Library:SOT-89_4P5X2P45_DIO"
-			(at 316.23 236.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZXTR2005ZQ.pdf"
-			(at 316.23 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 316.23 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03e2d3ad-bcf8-4f4d-a8ab-9e4e85cd6f81")
-		)
-		(pin "2"
-			(uuid "8969621d-efb8-42b1-a74a-efbcdc775651")
-		)
-		(pin "3"
-			(uuid "0e0c21d3-9f31-4e5a-94aa-47bce96c297b")
-		)
-		(instances
-			(project "Accumulator_Board"
-				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
-					(reference "U15")
 					(unit 1)
 				)
 			)
