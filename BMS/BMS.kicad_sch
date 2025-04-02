@@ -4685,12 +4685,6 @@
 		(uuid "146f1d8e-4521-4db6-a063-b2cd73248131")
 	)
 	(junction
-		(at 71.12 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19904dc9-aa86-4713-a676-673dc79ff643")
-	)
-	(junction
 		(at 170.18 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4701,6 +4695,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "246f4210-e031-4587-8299-290f24566379")
+	)
+	(junction
+		(at 146.05 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "262167b7-e995-4753-b7e6-7be3ef4dc492")
 	)
 	(junction
 		(at 304.8 162.56)
@@ -4791,12 +4791,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aa13a3d-cb48-4ea9-bed2-2a02a597a536")
-	)
-	(junction
-		(at 72.39 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "648e51b0-d116-4965-a8fb-e500032f8cf9")
 	)
 	(junction
 		(at 130.81 146.05)
@@ -5310,7 +5304,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 66.04) (xy 71.12 66.04)
+			(xy 53.34 66.04) (xy 76.2 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5337,6 +5331,16 @@
 			(type default)
 		)
 		(uuid "30e90b49-e26e-4c6b-88a1-85547c90882d")
+	)
+	(wire
+		(pts
+			(xy 146.05 66.04) (xy 156.21 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ed9823-97bc-41fe-97d1-17efa6ae03ee")
 	)
 	(polyline
 		(pts
@@ -5800,16 +5804,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 60.96) (xy 71.12 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62b79058-cbc1-4a97-94fd-2b8a9fe54abc")
-	)
-	(wire
-		(pts
 			(xy 127 90.17) (xy 156.21 90.17)
 		)
 		(stroke
@@ -5827,16 +5821,6 @@
 			(type default)
 		)
 		(uuid "63d9cee4-a19c-46e3-88a1-ab20a83ae4c9")
-	)
-	(wire
-		(pts
-			(xy 83.82 88.9) (xy 90.17 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6586e061-2a30-4077-a0f8-9330141f0dca")
 	)
 	(wire
 		(pts
@@ -5967,16 +5951,6 @@
 			(type default)
 		)
 		(uuid "700e9973-a4f7-41ca-a838-fa75f0e9a36d")
-	)
-	(wire
-		(pts
-			(xy 71.12 66.04) (xy 76.2 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "724ce984-b911-4cab-b569-86269beea906")
 	)
 	(wire
 		(pts
@@ -6350,16 +6324,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 156.21 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2c8b036-e5a2-4583-8e97-3adcae728d4d")
-	)
-	(wire
-		(pts
 			(xy 157.48 101.6) (xy 157.48 113.03)
 		)
 		(stroke
@@ -6367,16 +6331,6 @@
 			(type default)
 		)
 		(uuid "a3763c7b-0719-4d52-9af2-9504f39a66c9")
-	)
-	(wire
-		(pts
-			(xy 72.39 88.9) (xy 76.2 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a54f3bb7-3742-4c40-8a9e-f175afd7bb1b")
 	)
 	(wire
 		(pts
@@ -6440,6 +6394,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 66.04) (xy 105.41 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3ede54-9b15-4c10-b61f-6627c7bfb2ab")
+	)
+	(wire
+		(pts
 			(xy 130.81 129.54) (xy 127 129.54)
 		)
 		(stroke
@@ -6460,7 +6424,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 88.9) (xy 72.39 88.9)
+			(xy 53.34 88.9) (xy 76.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6560,16 +6524,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 60.96) (xy 156.21 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba55515d-45e1-435c-bf38-0678033b2a0b")
-	)
-	(wire
-		(pts
 			(xy 316.23 95.25) (xy 311.15 95.25)
 		)
 		(stroke
@@ -6577,16 +6531,6 @@
 			(type default)
 		)
 		(uuid "bacc25fb-df5d-4a4f-874f-413790cb27c5")
-	)
-	(wire
-		(pts
-			(xy 72.39 92.71) (xy 76.2 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb4dc163-aaa3-44d7-bdba-49a4b82afd2c")
 	)
 	(wire
 		(pts
@@ -6637,16 +6581,6 @@
 			(type default)
 		)
 		(uuid "bfbff104-8b7b-40b3-857b-3a5f05a65b40")
-	)
-	(wire
-		(pts
-			(xy 71.12 60.96) (xy 71.12 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c19ad4df-afa1-4772-85e7-8b6791707385")
 	)
 	(wire
 		(pts
@@ -7080,26 +7014,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 88.9) (xy 72.39 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edf8aebf-ac26-414a-add0-4eded96c7162")
-	)
-	(wire
-		(pts
-			(xy 83.82 92.71) (xy 86.36 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f00da34b-09fd-4103-9ab7-4269eeecc812")
-	)
-	(wire
-		(pts
 			(xy 292.1 124.46) (xy 292.1 114.3)
 		)
 		(stroke
@@ -7117,16 +7031,6 @@
 			(type default)
 		)
 		(uuid "f1d0b9b5-bb27-4ed3-b4e3-9ce7996c6524")
-	)
-	(wire
-		(pts
-			(xy 83.82 66.04) (xy 105.41 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4b1495c-6769-47f7-8f51-37f59e433dfb")
 	)
 	(wire
 		(pts
@@ -7150,6 +7054,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 88.9) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d31819-8f69-4775-91ab-94464f706860")
+	)
+	(wire
+		(pts
 			(xy 127 176.53) (xy 130.81 176.53)
 		)
 		(stroke
@@ -7157,16 +7071,6 @@
 			(type default)
 		)
 		(uuid "f6e8b9a2-f029-4120-b5b9-db426755f59c")
-	)
-	(wire
-		(pts
-			(xy 86.36 92.71) (xy 86.36 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9687de4-46d1-4038-8df6-4997f97055aa")
 	)
 	(wire
 		(pts
@@ -7900,7 +7804,7 @@
 			)
 		)
 	)
-	(global_label "V2-"
+	(global_label "V-"
 		(shape input)
 		(at 250.19 86.36 270)
 		(effects
@@ -7992,26 +7896,6 @@
 		(uuid "4b385694-6853-4d67-a55b-07e2d05cf367")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 226.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "V2-"
-		(shape input)
-		(at 86.36 96.52 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4b7e05d2-2c42-4c14-bf4b-861b83409166")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8140,7 +8024,7 @@
 			)
 		)
 	)
-	(global_label "V2-"
+	(global_label "V-"
 		(shape input)
 		(at 264.16 69.85 270)
 		(effects
@@ -11685,75 +11569,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 80.01 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a64b2bd1-36f4-4764-b54a-8837492f1224")
-		(property "Reference" "F8"
-			(at 83.82 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Polyfuse"
-			(at 80.01 57.5564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
-			(at 74.93 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ef0336d-a867-4319-9f8d-4ed5661e0f1b")
-		)
-		(pin "2"
-			(uuid "5d0ea4f1-4360-46c2-8b1b-1d9d4e121e2d")
-		)
-		(instances
-			(project "BMS"
-				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1"
-					(reference "F8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 66.04 81.28 90)
 		(unit 1)
@@ -11945,75 +11760,6 @@
 			(project "BMS"
 				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 80.01 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c618360e-0113-4c62-bbc2-c283aca3fe1d")
-		(property "Reference" "F9"
-			(at 83.82 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Polyfuse"
-			(at 80.01 89.3064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
-			(at 74.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "05a3b051-113c-4f2c-944f-b29dd82ba080")
-		)
-		(pin "1"
-			(uuid "7ca42a10-1c32-463c-9b6b-ad57d6ad7beb")
-		)
-		(instances
-			(project "BMS"
-				(path "/dc0b64a3-156e-446d-a433-c56b0c761cf1"
-					(reference "F9")
 					(unit 1)
 				)
 			)
