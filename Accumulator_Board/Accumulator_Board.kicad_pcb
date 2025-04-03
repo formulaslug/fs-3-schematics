@@ -19611,7 +19611,7 @@
 	(footprint "FS_3_Global_Footprint_Library:SOT-89_4P5X2P45_DIO"
 		(layer "F.Cu")
 		(uuid "bdde5dc8-dce9-4e1f-8f7f-2b33a2e3e4df")
-		(at 158.115 36.83 180)
+		(at 132.08 41.275 180)
 		(descr "5V Linear Regulator")
 		(tags "ZXTR2005ZQ-13 ")
 		(property "Reference" "U15"
@@ -19639,7 +19639,7 @@
 			)
 		)
 		(property "Footprint" "FS_3_Global_Footprint_Library:SOT-89_4P5X2P45_DIO"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f09eb0e0-bdb9-48b7-bb92-c790f5dd3450")
@@ -19651,7 +19651,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZXTR2005ZQ.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7986c24b-b26a-4196-8f32-936666f14bbc")
@@ -19663,7 +19663,7 @@
 			)
 		)
 		(property "Description" "High Voltage 5V Linear Regulator"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c4c2cc4c-e758-47b0-92b7-8ab2c0c8a709")
@@ -27856,8 +27856,8 @@
 		)
 	)
 	(gr_rect
-		(start 112.04 41.275)
-		(end 147.04 71.275)
+		(start 111.405 41.275)
+		(end 146.405 71.275)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -30915,14 +30915,6 @@
 		(uuid "b634e0ec-6058-4fc7-8dc5-eed48c983034")
 	)
 	(segment
-		(start 125.095 34.1644)
-		(end 130.58 39.6494)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 17)
-		(uuid "d6c45532-9158-4223-892d-06a78d2c0c5d")
-	)
-	(segment
 		(start 55.245 92.656)
 		(end 55.245 98.425)
 		(width 0.2)
@@ -32915,36 +32907,20 @@
 		(uuid "50dfc4f5-ff95-4368-b539-ea51d0842ee6")
 	)
 	(segment
-		(start 134.2106 39.6494)
-		(end 133.58 39.6494)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 61)
-		(uuid "5f13d863-4fee-41f3-958b-c65a5e48d6e8")
-	)
-	(segment
-		(start 137.03 36.83)
-		(end 134.2106 39.6494)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 61)
-		(uuid "fe42745b-cc74-4979-a2e4-0c467a1fa6d1")
-	)
-	(segment
-		(start 132.08 33.825)
-		(end 132.08 39.6494)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 62)
-		(uuid "0acd1ccf-d1f2-4f79-a61c-b71e9b62c1ba")
-	)
-	(segment
 		(start 138.43 25.4)
 		(end 138.27 25.24)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 62)
 		(uuid "1ac2136f-4620-4be6-8b55-9ad7829e1f83")
+	)
+	(segment
+		(start 134.2106 39.6494)
+		(end 133.58 39.6494)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 62)
+		(uuid "5f13d863-4fee-41f3-958b-c65a5e48d6e8")
 	)
 	(segment
 		(start 138.27 25.24)
