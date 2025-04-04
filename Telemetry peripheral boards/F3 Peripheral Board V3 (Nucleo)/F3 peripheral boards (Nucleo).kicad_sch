@@ -6053,28 +6053,6 @@
 			)
 		)
 	)
-	(global_label "CAN1_TX"
-		(shape output)
-		(at 116.84 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1857f76d-c59a-4f66-9d11-7a7fbdfcb346")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.8685 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CANH"
 		(shape input)
 		(at 204.47 66.04 180)
@@ -6110,6 +6088,28 @@
 		(uuid "4086733a-8499-4015-bf9a-557cc30cf815")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.0076 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN1_TX"
+		(shape input)
+		(at 127 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4305de14-6469-40e4-9d7b-0ad0eeeec397")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.9715 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
