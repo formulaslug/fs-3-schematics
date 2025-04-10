@@ -178,16 +178,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_MountingPin"
-				(at 1.27 -7.62 0)
+			(property "Reference" "J6"
+				(at 2.54 -0.3555 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -195,7 +187,16 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "1x1 Tire Air Temp Sensor"
+				(at 2.54 -2.8955 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -308,14 +309,6 @@
 						(type none)
 					)
 				)
-				(text "Mounting"
-					(at 0 -6.731 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
@@ -388,17 +381,210 @@
 						)
 					)
 				)
+			)
+		)
+		(symbol "Conn_01x04_MountingPin_2"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J7"
+				(at 2.54 -0.3555 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1x8 Tire Surface Temp Sensor"
+				(at 2.54 -2.8955 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_MountingPin_2_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 -10.16 90)
-					(length 3.048)
-					(name "MountPin"
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6709,7 +6895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07345492-f340-46b1-816d-a35e133ec500")
-		(property "Reference" "#PWR40"
+		(property "Reference" "#PWR040"
 			(at 210.82 121.92 0)
 			(effects
 				(font
@@ -6760,7 +6946,7 @@
 		(instances
 			(project "F3 peripheral boards (Nucleo)"
 				(path "/dca14ea9-6ab5-4637-ab7d-1bf40ef85725"
-					(reference "#PWR40")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6776,7 +6962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c6cd845-cbca-4f13-ac91-50e30c314236")
-		(property "Reference" "#PWR39"
+		(property "Reference" "#PWR039"
 			(at 210.82 102.87 0)
 			(effects
 				(font
@@ -6827,7 +7013,7 @@
 		(instances
 			(project "F3 peripheral boards (Nucleo)"
 				(path "/dca14ea9-6ab5-4637-ab7d-1bf40ef85725"
-					(reference "#PWR39")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6975,7 +7161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "102d69c0-d61b-4b8d-bff8-290949096a9b")
-		(property "Reference" "#PWR36"
+		(property "Reference" "#PWR036"
 			(at 200.66 119.38 0)
 			(effects
 				(font
@@ -7026,7 +7212,7 @@
 		(instances
 			(project "F3 peripheral boards (Nucleo)"
 				(path "/dca14ea9-6ab5-4637-ab7d-1bf40ef85725"
-					(reference "#PWR36")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10870,7 +11056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bff2394b-488e-4989-a9f8-095287ea0899")
-		(property "Reference" "#PWR35"
+		(property "Reference" "#PWR035"
 			(at 200.66 100.33 0)
 			(effects
 				(font
@@ -10921,7 +11107,7 @@
 		(instances
 			(project "F3 peripheral boards (Nucleo)"
 				(path "/dca14ea9-6ab5-4637-ab7d-1bf40ef85725"
-					(reference "#PWR35")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11063,7 +11249,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_01x04_MountingPin_1")
+		(lib_name "Conn_01x04_MountingPin_2")
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
 		(at 212.09 121.92 0)
 		(unit 1)
@@ -11120,9 +11306,6 @@
 		)
 		(pin "3"
 			(uuid "d5ea77a2-3e9e-4e3f-a647-01b527774af9")
-		)
-		(pin "MP"
-			(uuid "3fafc5f2-8796-40fa-bdea-67db059ac452")
 		)
 		(pin "4"
 			(uuid "c596cb37-7d3d-4cdd-90de-9e712730e0f5")
@@ -11344,9 +11527,6 @@
 		)
 		(pin "3"
 			(uuid "eaadb17e-b981-4409-b90f-7271bb8bea78")
-		)
-		(pin "MP"
-			(uuid "167f45f3-f839-4428-a947-0cbda8bf4881")
 		)
 		(pin "4"
 			(uuid "93dd82dc-0484-4256-bd54-58a92b27771b")
