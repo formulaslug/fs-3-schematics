@@ -4838,6 +4838,12 @@
 		(uuid "98f8f28b-7086-415c-bad4-b6f353a199ee")
 	)
 	(junction
+		(at 332.74 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9951477c-8d5f-475b-957a-e2d1bf1ec741")
+	)
+	(junction
 		(at 170.18 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4983,6 +4989,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 116.84) (xy 330.2 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e4a4cf-7264-4544-bcff-5f5d8e77f1c6")
+	)
+	(wire
+		(pts
 			(xy 311.15 77.47) (xy 311.15 85.09)
 		)
 		(stroke
@@ -4993,7 +5009,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 116.84) (xy 330.2 116.84)
+			(xy 335.28 116.84) (xy 332.74 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5393,7 +5409,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 180.34) (xy 232.41 129.54)
+			(xy 232.41 129.54) (xy 232.41 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5623,7 +5639,7 @@
 	)
 	(polyline
 		(pts
-			(xy 273.05 134.62) (xy 273.05 101.6)
+			(xy 269.24 134.62) (xy 269.24 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5843,6 +5859,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 129.54) (xy 226.06 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6215760c-5028-4a6c-8dd2-73b604ae930e")
+	)
+	(wire
+		(pts
 			(xy 127 93.98) (xy 175.26 93.98)
 		)
 		(stroke
@@ -5933,7 +5959,7 @@
 	)
 	(polyline
 		(pts
-			(xy 273.05 134.62) (xy 351.79 134.62)
+			(xy 269.24 134.62) (xy 351.79 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5990,16 +6016,6 @@
 			(type default)
 		)
 		(uuid "72e8eb8f-2960-458d-bea1-8a04942ba1f1")
-	)
-	(wire
-		(pts
-			(xy 226.06 129.54) (xy 232.41 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73120f59-b225-4241-a585-b4b214e0dad1")
 	)
 	(wire
 		(pts
@@ -6663,7 +6679,7 @@
 	)
 	(polyline
 		(pts
-			(xy 273.05 101.6) (xy 351.79 101.6)
+			(xy 269.24 101.6) (xy 351.79 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7063,6 +7079,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 121.92) (xy 332.74 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9615532-790c-4fea-8fc8-46a909e55e52")
+	)
+	(wire
+		(pts
 			(xy 256.54 116.84) (xy 259.08 116.84)
 		)
 		(stroke
@@ -7317,6 +7343,16 @@
 		)
 		(uuid "4b925f1a-63bf-4099-87ff-56b4255769fd")
 	)
+	(text "Molex Nano-Fit 2 pin Right Angle\n"
+		(exclude_from_sim no)
+		(at 35.814 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "514c22a4-3d33-4ae5-8e9e-6323736098e2")
+	)
 	(text "1: ISOSpi Termintion\n2: Address bit 2\n3: Address bit 1\n4: Address bit 0"
 		(exclude_from_sim no)
 		(at 325.12 96.52 0)
@@ -7549,7 +7585,7 @@
 		(uuid "ca1986cb-2bfd-4b63-9287-fd952245dbeb")
 	)
 	(label "C0"
-		(at 226.06 129.54 0)
+		(at 232.41 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7560,7 +7596,7 @@
 		(uuid "d00257ed-8f29-473e-b31f-6209a3604aba")
 	)
 	(label "extIsoSPI_N"
-		(at 332.74 116.84 270)
+		(at 332.74 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8795,13 +8831,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "IsoSPI"
+		(property "Value" "1053131202"
 			(at 343.5858 112.2934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal"
@@ -8932,7 +8969,7 @@
 			)
 		)
 		(property "Value" "NSV1C201MZ4"
-			(at 232.41 68.58 0)
+			(at 231.902 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10487,8 +10524,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "IsoSPI"
-			(at 343.5858 117.3734 0)
+		(property "Value" "1053131202"
+			(at 336.804 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10622,7 +10659,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "1812L110/33MR"
 			(at 80.01 62.6364 90)
 			(effects
 				(font
@@ -10691,7 +10728,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "1812L110/33MR"
 			(at 80.01 66.4464 90)
 			(effects
 				(font
@@ -10760,7 +10797,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "1812L110/33MR"
 			(at 80.01 70.2564 90)
 			(effects
 				(font
@@ -10829,7 +10866,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "1812L110/33MR"
 			(at 80.01 74.0664 90)
 			(effects
 				(font
@@ -10898,7 +10935,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "1812L110/33MR"
 			(at 80.01 77.8764 90)
 			(effects
 				(font
@@ -10967,7 +11004,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "1812L110/33MR"
 			(at 80.01 81.6864 90)
 			(effects
 				(font
@@ -11105,7 +11142,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "1812L110/33MR"
 			(at 80.01 85.4964 90)
 			(effects
 				(font
@@ -11443,12 +11480,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "S2B-XH-A"
 			(at 299.72 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
@@ -11510,12 +11548,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "S2B-XH-A"
 			(at 299.72 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
@@ -11577,12 +11616,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "S2B-XH-A"
 			(at 299.72 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
@@ -11637,20 +11677,19 @@
 		(dnp no)
 		(uuid "acac9574-68a4-4b3f-a89d-483b101d0e26")
 		(property "Reference" "F9"
-			(at 83.82 96.52 90)
+			(at 84.836 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
-			(at 80.01 91.8464 90)
+		(property "Value" "1812L110/33MR"
+			(at 74.676 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
@@ -11778,7 +11817,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "S2B-XH-A"
 			(at 299.72 170.18 0)
 			(effects
 				(font
@@ -11910,7 +11949,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "1812L110/33MR"
 			(at 80.01 57.5564 90)
 			(effects
 				(font
@@ -12252,12 +12291,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "S2B-XH-A"
 			(at 299.72 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
@@ -12472,12 +12512,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "S2B-XH-A"
 			(at 299.72 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
@@ -12530,7 +12571,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "facd7e5a-2d52-438c-a00f-da086cf80665")
 		(property "Reference" "J1"
 			(at 48.895 69.85 0)
@@ -12540,8 +12580,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 48.895 72.39 0)
+		(property "Value" "1053131202"
+			(at 46.228 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
