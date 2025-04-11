@@ -5532,6 +5532,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 31.75) (xy 170.18 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251b3491-db08-4401-bce6-9c1144902858")
+	)
+	(wire
+		(pts
 			(xy 176.53 154.94) (xy 176.53 152.4)
 		)
 		(stroke
@@ -5759,6 +5769,16 @@
 			(type default)
 		)
 		(uuid "416143f0-26dd-4990-8757-1e5e11422fa6")
+	)
+	(wire
+		(pts
+			(xy 175.26 24.13) (xy 172.72 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432e42a4-0a24-43c5-99e4-68a622f65f93")
 	)
 	(wire
 		(pts
@@ -6009,6 +6029,16 @@
 			(type default)
 		)
 		(uuid "5b029503-959e-4929-bbdd-bcab92f55355")
+	)
+	(wire
+		(pts
+			(xy 172.72 24.13) (xy 172.72 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c148b10-77f6-483f-89c3-a0ff8188abf7")
 	)
 	(wire
 		(pts
@@ -7267,7 +7297,6 @@
 	)
 	(label "Vin-"
 		(at 66.04 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7278,7 +7307,6 @@
 	)
 	(label "RG2"
 		(at 27.94 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7289,7 +7317,6 @@
 	)
 	(label "Shock position"
 		(at 40.64 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -7300,7 +7327,6 @@
 	)
 	(label "VrefBG"
 		(at 26.67 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7311,7 +7337,6 @@
 	)
 	(label "Vin+"
 		(at 27.94 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7322,7 +7347,6 @@
 	)
 	(label "Vin-"
 		(at 27.94 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7333,7 +7357,6 @@
 	)
 	(label "VrefBG"
 		(at 90.17 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7344,7 +7367,6 @@
 	)
 	(label "Strain"
 		(at 86.36 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7355,7 +7377,6 @@
 	)
 	(label "Wheel Speed"
 		(at 152.4 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7366,7 +7387,6 @@
 	)
 	(label "RG2"
 		(at 34.29 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7377,7 +7397,6 @@
 	)
 	(label "Vin+"
 		(at 73.66 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7388,7 +7407,6 @@
 	)
 	(label "RG1"
 		(at 34.29 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7399,7 +7417,6 @@
 	)
 	(label "RG1"
 		(at 27.94 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8068,6 +8085,28 @@
 			)
 		)
 	)
+	(global_label "CANH"
+		(shape input)
+		(at 175.26 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa727915-b53d-49df-920f-26a5b7d0e8e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.2552 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PA6"
 		(shape input)
 		(at 207.01 144.78 180)
@@ -8174,6 +8213,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CANL"
+		(shape input)
+		(at 175.26 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9642e1e-9a2c-45c3-b511-a4459c6b4c6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.5576 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -14014,6 +14075,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 172.72 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd7b9220-a849-4b26-bb24-9062c096fa63")
+		(property "Reference" "#PWR044"
+			(at 172.72 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 172.72 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 172.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a577a84c-4ed2-42e0-8ffe-06e8bbd5eaa9")
+		)
+		(instances
+			(project "F3 peripheral boards"
+				(path "/dca14ea9-6ab5-4637-ab7d-1bf40ef85725"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 137.16 45.72 0)
 		(unit 1)
@@ -15060,6 +15187,82 @@
 			(project "F3 peripheral boards"
 				(path "/dca14ea9-6ab5-4637-ab7d-1bf40ef85725"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
+		(at 180.34 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd10b190-ef39-4f81-863e-937c8ceaae04")
+		(property "Reference" "J6"
+			(at 182.88 27.0255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D6T-1A-02("
+			(at 182.88 29.5655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Molex Nanofit:Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6b614a3-c4d5-4b0b-b934-9fb30dee1b6a")
+		)
+		(pin "2"
+			(uuid "f2353391-cdd8-4d67-bcd3-11e5b56a623b")
+		)
+		(pin "4"
+			(uuid "3c8cf426-33b4-48e4-84bb-d49b2cff90dd")
+		)
+		(pin "3"
+			(uuid "55b636ad-4457-4fcd-b513-4eb0c5f5ed41")
+		)
+		(instances
+			(project "F3 peripheral boards"
+				(path "/dca14ea9-6ab5-4637-ab7d-1bf40ef85725"
+					(reference "J6")
 					(unit 1)
 				)
 			)
