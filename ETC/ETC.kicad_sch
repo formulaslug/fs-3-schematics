@@ -7,7 +7,7 @@
 	(title_block
 		(title "ETC")
 		(date "2025-03-25")
-		(rev "3.1")
+		(rev "3.2")
 		(company "Dustin Wang - Formula Slug")
 	)
 	(lib_symbols
@@ -6076,6 +6076,26 @@
 		)
 		(uuid ed34afb6-eff3-4849-beac-b60e15a2b4fc)
 	)
+	(text "Hall Effect 1"
+		(exclude_from_sim no)
+		(at 59.182 22.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16bd3f6f-d616-4e2f-97a7-6f5057723914")
+	)
+	(text "Hall Effect 2"
+		(exclude_from_sim no)
+		(at 58.928 24.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32910070-9485-4308-9249-4cb51ae9a968")
+	)
 	(text "Brake Light MOSFET"
 		(exclude_from_sim no)
 		(at 66.04 216.916 0)
@@ -6115,6 +6135,16 @@
 			)
 		)
 		(uuid "6c4edc19-2a61-4694-95a7-a493cbfd785c")
+	)
+	(text "Brake System Encoder"
+		(exclude_from_sim no)
+		(at 22.352 47.752 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+		)
+		(uuid "6e823d7c-ec6b-4f99-adb1-b02b73753c02")
 	)
 	(text "Reverse"
 		(exclude_from_sim no)
@@ -6315,6 +6345,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be802e03-e56f-44e1-afed-b5096715f66e")
+	)
+	(junction
+		(at 39.37 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3acb6e2-910e-40c1-b819-dc0681583629")
 	)
 	(junction
 		(at 250.19 118.11)
@@ -7198,6 +7234,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 198.12) (xy 41.91 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a61e96d-a322-46e9-ab2c-d7f9bfc021ec")
+	)
+	(wire
+		(pts
 			(xy 196.85 116.84) (xy 196.85 119.38)
 		)
 		(stroke
@@ -7548,7 +7594,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 198.12) (xy 41.91 198.12)
+			(xy 27.94 198.12) (xy 39.37 198.12)
 		)
 		(stroke
 			(width 0)
@@ -7926,7 +7972,7 @@
 		)
 		(uuid "3ad31088-698a-47b7-a3ab-6775141016c3")
 	)
-	(label "Brake_Signal"
+	(label "Brake_Switch"
 		(at 292.1 129.54 0)
 		(effects
 			(font
@@ -8026,7 +8072,7 @@
 		)
 		(uuid "7fa18d8e-a8ec-4b27-a8c9-22b752f3678d")
 	)
-	(label "RTDS_Signal"
+	(label "RTDS_Switch"
 		(at 292.1 127 0)
 		(effects
 			(font
@@ -8076,7 +8122,7 @@
 		)
 		(uuid "9e94691a-6172-4288-b134-3940a830670f")
 	)
-	(label "Brake_Light_In"
+	(label "Brake_Light"
 		(at 105.41 190.5 180)
 		(effects
 			(font
@@ -8096,7 +8142,7 @@
 		)
 		(uuid "ae943134-d575-4320-96a0-797d9d325a7e")
 	)
-	(label "Brake_Signal"
+	(label "Brake_Switch"
 		(at 27.94 198.12 0)
 		(effects
 			(font
@@ -8106,7 +8152,7 @@
 		)
 		(uuid "b1785a14-3977-43dd-b20d-ab1e7b625ad3")
 	)
-	(label "RTDS_Signal"
+	(label "RTDS_Switch"
 		(at 26.67 40.64 0)
 		(effects
 			(font
@@ -8146,7 +8192,7 @@
 		)
 		(uuid "e1fb378b-4025-46e6-a97a-d02210fbd2be")
 	)
-	(label "Brake_Light_In"
+	(label "Brake_Light"
 		(at 22.86 38.1 0)
 		(effects
 			(font
@@ -8375,7 +8421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 356.87 49.53 0)
 			(effects
 				(font
@@ -11132,7 +11178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 201.93 116.84 0)
 			(effects
 				(font
@@ -12986,7 +13032,7 @@
 		(at 293.37 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13009,7 +13055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 298.45 49.53 0)
 			(effects
 				(font
@@ -13143,7 +13189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 201.93 149.86 0)
 			(effects
 				(font
@@ -13177,6 +13223,142 @@
 			(project "ETC"
 				(path "/61e913ea-868b-4b77-8707-03788b798f2b"
 					(reference "BSE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d26f6d27-c2fa-4232-b888-b1af5ef39e88")
+		(property "Reference" "#PWR031"
+			(at 39.37 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1483902-c4e7-4968-a50f-bc331cdb85ce")
+		)
+		(instances
+			(project "ETC"
+				(path "/61e913ea-868b-4b77-8707-03788b798f2b"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 39.37 201.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8297901-2345-43e8-b26b-8902175af661")
+		(property "Reference" "R11"
+			(at 41.91 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 41.91 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 41.148 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 39.37 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "869c238b-6ef1-4607-abb7-b582ec9ebde2")
+		)
+		(pin "1"
+			(uuid "3f8fc577-d59a-47aa-b3f0-1491dcbbd6f3")
+		)
+		(instances
+			(project "ETC"
+				(path "/61e913ea-868b-4b77-8707-03788b798f2b"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13989,7 +14171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FS_3_Global_Footprint_Library:NUCLEO-L432KC"
+		(property "Footprint" "FS_Footprints:NUCLEO-L432KC"
 			(at 276.86 121.92 0)
 			(effects
 				(font
@@ -14232,7 +14414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 255.27 115.57 0)
 			(effects
 				(font
