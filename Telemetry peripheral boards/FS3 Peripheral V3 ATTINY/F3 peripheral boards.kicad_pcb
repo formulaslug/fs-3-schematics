@@ -2987,7 +2987,7 @@
 		(descr "SOP, 8 Pin (http://www.ti.com/lit/ds/symlink/iso1050.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOP SO")
 		(property "Reference" "U4"
-			(at -2.4 -5.4 0)
+			(at -0.092 5.62 0)
 			(layer "F.SilkS")
 			(uuid "5527ddb1-d41d-425d-80f1-38d3611d9af6")
 			(effects
@@ -5711,7 +5711,7 @@
 		(at 96.67 49.57)
 		(tags "INA125U ")
 		(property "Reference" "U2"
-			(at 0 0 0)
+			(at 0 -5.882 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ee5ff363-a268-4b61-bfbe-16a934a51454")
@@ -10778,7 +10778,7 @@
 		(descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296W")
 		(property "Reference" "RV1"
-			(at 0.1 -3.4 0)
+			(at -0.59 -3.4 0)
 			(layer "F.SilkS")
 			(uuid "e67fa047-6c93-4e79-8648-4ca7fb7bd790")
 			(effects
@@ -16764,6 +16764,17 @@
 			)
 		)
 	)
+	(gr_text "C5"
+		(at 90.932 47.752 90)
+		(layer "F.SilkS")
+		(uuid "7100c974-9dcb-4306-927b-3f8906a67a8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "FS-3 Telemetry Peripheral Board\nV3A\nRuandy Salazar, Shaunak Lal"
 		(at 123.6 37.6 0)
 		(layer "F.SilkS")
@@ -16808,7 +16819,7 @@
 			(xy 63.49 74.300001) (xy 165.1 74.300001)
 		)
 		(height 3.849999)
-		(gr_text "101.610 mm"
+		(gr_text "4.000 in"
 			(at 114.295 76.95 0)
 			(layer "F.SilkS")
 			(uuid "7ad5f2e5-6252-477d-a1b2-27323db61140")
@@ -16842,7 +16853,7 @@
 			(xy 62.649999 37.5) (xy 62.649999 75.6)
 		)
 		(height 1.999999)
-		(gr_text "38.1000 mm"
+		(gr_text "1.5000 in"
 			(at 59.45 56.55 90)
 			(layer "F.SilkS")
 			(uuid "9a25cfba-ae90-4de5-a1c0-62fadfe97838")
@@ -16876,7 +16887,7 @@
 			(xy 170.22 31.5) (xy 58.5 31.5)
 		)
 		(height 6.799999)
-		(gr_text "111.7200 mm"
+		(gr_text "4.3984 in"
 			(at 114.36 23.550001 0)
 			(layer "Eco1.User")
 			(uuid "a136cea8-ceb4-4ec9-8aa7-2b39cb1fc70b")
@@ -16909,7 +16920,7 @@
 			(xy 58.429 31.4746) (xy 58.5 80)
 		)
 		(height 8.074424)
-		(gr_text "48.5255 mm"
+		(gr_text "1.9105 in"
 			(at 51.540084 55.747431 270.0838323)
 			(layer "Eco1.User")
 			(uuid "b48577c7-55aa-4b6e-a500-e69ef6b23d8a")
@@ -17873,6 +17884,14 @@
 		(uuid "1b89e3cc-46ac-4cb2-811e-f9d657f5f5a2")
 	)
 	(segment
+		(start 111.5 44)
+		(end 111 44.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "1bb45458-831c-4ec2-ba1c-6e97b558ba50")
+	)
+	(segment
 		(start 81.534 48.861)
 		(end 81.534 60.034)
 		(width 0.2)
@@ -17881,36 +17900,12 @@
 		(uuid "20502c50-4d41-4237-a6bc-151fb34e3b76")
 	)
 	(segment
-		(start 94.3078 44.1922)
+		(start 94.9328 44.5)
 		(end 94.3078 45.125)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 5)
-		(uuid "27e21c74-e93b-4d72-b61c-0d278df704fd")
-	)
-	(segment
-		(start 104.5 44.5)
-		(end 103.5 43.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "2f23b4da-b170-452f-8ee8-3733f6b38135")
-	)
-	(segment
-		(start 95.5 44)
-		(end 94.5 44)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "3867e1d5-60c2-4789-8bdf-16c3b895138f")
-	)
-	(segment
-		(start 96 43.5)
-		(end 95.5 44)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "3885236d-d232-48da-a100-1ae258c30d22")
+		(uuid "264a5e44-ff66-485b-9c56-79a2ff3b21fc")
 	)
 	(segment
 		(start 94.3078 45.125)
@@ -17961,6 +17956,14 @@
 		(uuid "6d7911a2-fafb-4da8-a6ba-9e8790db1400")
 	)
 	(segment
+		(start 111 44.5)
+		(end 94.9328 44.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "6ec85369-6468-4763-a1a0-e6b5dbd4be0e")
+	)
+	(segment
 		(start 87.25 44.25)
 		(end 87.25 41.93)
 		(width 0.2)
@@ -17983,14 +17986,6 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "81c9cce6-8d34-44b5-a421-8f08b3a5fd3d")
-	)
-	(segment
-		(start 94.5 44)
-		(end 94.3078 44.1922)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "8dff0fff-fbb4-401c-b000-cd737e078b89")
 	)
 	(segment
 		(start 82.5 64)
@@ -18047,14 +18042,6 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "b7de004c-6bf2-4aaf-957a-b1bf1f99d356")
-	)
-	(segment
-		(start 111 44.5)
-		(end 104.5 44.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "b88b7345-b098-4a9a-a3a9-a10bba4df837")
 	)
 	(segment
 		(start 136.5 42)
@@ -18127,22 +18114,6 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "ea7523d5-951c-4c45-bd91-b8cc015332ae")
-	)
-	(segment
-		(start 111.5 44)
-		(end 111 44.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "ee1b2b35-9dc2-4d1b-9129-a40a07db3a68")
-	)
-	(segment
-		(start 103.5 43.5)
-		(end 96 43.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "ef014d26-58bc-44b1-be5b-863ded02a2c5")
 	)
 	(segment
 		(start 126.0375 44)
