@@ -9,8 +9,9 @@
 	(paper "A4")
 	(title_block
 		(title "FS-3 Battery Management System Bank Board")
-		(date "2024-10-27")
-		(rev "v1.4")
+		(date "2025-05-02")
+		(rev "3.1")
+		(company "Formula Slug")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -2112,7 +2113,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
-			(at 0.01 -1.61 -90)
+			(at -0.76 -1.61 -90)
 			(layer "F.SilkS")
 			(uuid "7a916d5c-a5a3-4bc1-a2b2-1878c63ee75b")
 			(effects
@@ -3647,7 +3648,7 @@
 		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F9"
-			(at 0 -2.65 360)
+			(at 1.74 -2.65 0)
 			(layer "F.SilkS")
 			(uuid "08a0ed8f-2dcc-466c-82a0-3952f502a08e")
 			(effects
@@ -3658,7 +3659,7 @@
 			)
 		)
 		(property "Value" "Polyfuse"
-			(at 0 2.65 360)
+			(at 0 2.65 0)
 			(layer "F.Fab")
 			(uuid "90301dea-be8d-449b-8c8c-9d82df8cb578")
 			(effects
@@ -3813,7 +3814,7 @@
 			(uuid "027a18f5-aeef-4259-b56c-13eb10f6844d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "77a738d3-98f0-4c95-8f76-fb1cf7298ad6")
 			(effects
@@ -3860,7 +3861,7 @@
 		(descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
 		(tags "fuse handsolder")
 		(property "Reference" "F1"
-			(at -3.6865 1.648 90)
+			(at -0.165 2.605 180)
 			(layer "F.SilkS")
 			(uuid "b3079553-b13f-4ffb-94bb-1692d8ad12b5")
 			(effects
@@ -3871,7 +3872,7 @@
 			)
 		)
 		(property "Value" "Polyfuse"
-			(at 0 2.65 360)
+			(at 0 2.65 0)
 			(layer "F.Fab")
 			(uuid "5454be76-da96-4b6e-8410-4a19d146d4c0")
 			(effects
@@ -4026,7 +4027,7 @@
 			(uuid "2ddf6d32-cc3a-4d68-800f-fc50d56ee311")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "58ae468c-91e9-4c6a-a456-9faaa4d5e0de")
 			(effects
@@ -5864,7 +5865,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R45"
-			(at 1.86 -1.51 0)
+			(at 2.445 -0.09 90)
 			(layer "F.SilkS")
 			(uuid "9296fac1-baca-40c5-b3d9-19222babca54")
 			(effects
@@ -10453,7 +10454,7 @@
 	(footprint "FS_3_Global_Footprint_Library:FORMULA SLUG"
 		(layer "F.Cu")
 		(uuid "7134fdc7-652c-42f8-a296-74878dbcb31e")
-		(at 46.64658 186.494544)
+		(at 43.85258 186.494544)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -20989,7 +20990,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R44"
-			(at -2.35 -1.4 180)
+			(at -1.165 -1.425 -90)
 			(layer "F.SilkS")
 			(uuid "b4946858-33f5-4ca9-9421-31781a1c8d86")
 			(effects
@@ -27198,13 +27199,13 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "FS-3 BMS Board\nFormula Slug\nv2.1\nDesigned by Lucas Balbuena, Abhi Chaubey\nSchematic by Abhi Chaubey, "
-		(at 45.466 188.976 0)
+	(gr_text "BMS Board V${REVISION}\n${COMPANY}\nFS-3\nDesigned by Lucas Balbuena, Abhi Chaubey"
+		(at 41.91 188.595 0)
 		(layer "F.SilkS")
 		(uuid "c2f12752-7b8a-4b8a-af60-ce1e6abea495")
 		(effects
 			(font
-				(size 0.5 0.5)
+				(size 0.6 0.6)
 				(thickness 0.125)
 				(bold yes)
 			)
