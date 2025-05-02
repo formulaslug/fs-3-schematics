@@ -1,0 +1,77 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "CPT-1625-80-SMT-TR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "LS" (id 0) (at -1.27 6.35 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "CPT-1625-80-SMT-TR" (id 1) (at -1.27 -8.255 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "CPT-1625-80-SMT-TR:XDCR_CPT-1625-80-SMT-TR" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.0" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "2.5mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "CUI Inc." (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "CPT-1625-80-SMT-TR_0_0"
+      (polyline
+        (pts (xy -3.175 1.905) (xy -3.175 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.175 -1.905) (xy -2.54 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -1.905) (xy 0.0 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.175 1.905) (xy -2.54 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -1.905) (xy 2.54 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -5.08) (xy 2.54 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 1.905) (xy 2.54 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy -2.54 -1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 -1.905) (xy 0.0 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 2.54) (xy -2.54 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.54 1.905) (xy 0.0 1.905)) (stroke (width 0.254))
+      )
+      (pin passive line (at -2.54 -5.08 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "N"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -2.54 5.08 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
