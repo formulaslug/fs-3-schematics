@@ -10,7 +10,7 @@
 	(title_block
 		(title "Charger Board")
 		(date "2025-05-02")
-		(rev "2.1")
+		(rev "2.2")
 		(company "Formula Slug")
 	)
 	(layers
@@ -281,7 +281,7 @@
 	(footprint "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "07a3b454-5908-4bfb-a749-395efd16af2c")
-		(at 166.3 123.17 180)
+		(at 166.3 118.09 180)
 		(descr "Molex Nano-Fit Power Connectors, 105309-xx02, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053091203_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Nano-Fit side entry")
 		(property "Reference" "J6"
@@ -2733,7 +2733,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "323ea15e-862e-4ac3-acdd-26f86e87c0a9")
-		(at 106.68 132.08)
+		(at 106.68 127)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "REF**"
@@ -3145,7 +3145,7 @@
 		(descr "Molex Nano-Fit Power Connectors, 105309-xx02, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053091203_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Nano-Fit side entry")
 		(property "Reference" "J4"
-			(at 0 -2.92 360)
+			(at 0 -2.92 0)
 			(layer "F.SilkS")
 			(uuid "81123805-4f90-41c7-948b-131f8c0463bf")
 			(effects
@@ -5312,7 +5312,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "7eb31585-3bac-46db-be8b-88e514d73373")
-		(at 167.64 132.08)
+		(at 167.64 127)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "REF**"
@@ -6946,7 +6946,7 @@
 			(uuid "a0be213a-6070-4005-b3c3-860a93ce595a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.1 1.25 360)
+			(at 1.1 1.25 0)
 			(layer "F.Fab")
 			(uuid "0ae302ca-8e05-4150-832b-98f840c33276")
 			(effects
@@ -7749,7 +7749,7 @@
 		(descr "Molex Nano-Fit Power Connectors, 105309-xx02, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053091203_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Nano-Fit side entry")
 		(property "Reference" "J8"
-			(at 0 -2.92 360)
+			(at 0 -2.92 0)
 			(layer "F.SilkS")
 			(uuid "debd739f-1fca-4e06-a2e3-1654d6f948f3")
 			(effects
@@ -9094,7 +9094,7 @@
 	(footprint "Connector_Molex:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f002d99c-0545-4ea2-902f-250396b6bd36")
-		(at 108.02 120.67)
+		(at 108.02 115.59)
 		(descr "Molex Nano-Fit Power Connectors, 105309-xx02, 2 Pins per row (http://www.molex.com/pdm_docs/sd/1053091203_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Nano-Fit side entry")
 		(property "Reference" "J7"
@@ -9631,7 +9631,7 @@
 	)
 	(gr_rect
 		(start 101.6 55.88)
-		(end 172.72 137.16)
+		(end 172.72 132.08)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -10275,52 +10275,84 @@
 		(uuid "e7e0abed-afd9-475c-9e9e-fbf36163a429")
 	)
 	(segment
-		(start 162.56 127)
-		(end 166.3 123.26)
+		(start 162.56 124.46)
+		(end 162.56 127)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 8)
-		(uuid "d8760d37-c7e5-4574-a9a8-6e353e747df0")
+		(uuid "04b8ca77-9621-4659-b36b-63d3fce050e8")
 	)
 	(segment
-		(start 162.56 116.84)
-		(end 166.3 120.58)
+		(start 166.3 118.09)
+		(end 166.3 120.72)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "07c6091f-3266-40bd-971a-8ceae6ed05bd")
+	)
+	(segment
+		(start 166.3 120.72)
+		(end 162.56 124.46)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "8bb39d00-7fa8-49d6-9d80-18df40020da8")
+	)
+	(segment
+		(start 163.81 115.59)
+		(end 166.3 115.59)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 9)
-		(uuid "515fed73-8798-49a8-a022-9e6684711894")
+		(uuid "be735552-4452-4037-b8a6-73628199a890")
 	)
 	(segment
-		(start 137.16 116.84)
-		(end 111.76 116.84)
+		(start 162.56 116.84)
+		(end 163.81 115.59)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "cbf5c3cb-f363-4576-a5a3-eaf4506015f1")
+	)
+	(segment
+		(start 135.91 115.59)
+		(end 137.16 116.84)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 10)
-		(uuid "3d2fe45b-1699-45a3-8a46-54095e8e8e69")
+		(uuid "db5ecfcd-9d5b-4dc9-983e-b9df014b5170")
 	)
 	(segment
-		(start 111.76 116.84)
-		(end 108.02 120.58)
+		(start 108.02 115.59)
+		(end 135.91 115.59)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 10)
-		(uuid "940b86d2-964e-49b6-993b-db4caff5f074")
+		(uuid "f2045190-0ae5-4bbf-9693-d4962bcfddd3")
+	)
+	(segment
+		(start 108.02 118.09)
+		(end 108.02 120.72)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 11)
+		(uuid "2f2f98ab-4725-490e-b1ae-64e3be496327")
 	)
 	(segment
 		(start 137.16 127)
-		(end 111.76 127)
+		(end 114.3 127)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 11)
-		(uuid "cb8c5441-78d0-4948-9d01-16775e448e9b")
+		(uuid "9727b477-a5f5-471d-a840-ca6f16140c4e")
 	)
 	(segment
-		(start 111.76 127)
-		(end 108.02 123.26)
+		(start 108.02 120.72)
+		(end 114.3 127)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 11)
-		(uuid "f3ad3be1-9e42-425c-96c9-1c88fa9d9c61")
+		(uuid "fa867a6e-725f-460d-84a5-17686bba0a7a")
 	)
 	(segment
 		(start 156.21 82.55)
