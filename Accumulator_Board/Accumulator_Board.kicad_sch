@@ -14689,6 +14689,10 @@
 		(uuid "5ca3013e-4207-4d6b-8e74-2f5d55c99c21")
 	)
 	(no_connect
+		(at 198.12 25.4)
+		(uuid "660401c4-4708-4347-962f-0469aa548a53")
+	)
+	(no_connect
 		(at 234.95 57.15)
 		(uuid "6e936718-6aa5-4d39-a30d-8b05adee8623")
 	)
@@ -15499,16 +15503,6 @@
 			(type default)
 		)
 		(uuid "365d6ab7-ff9d-403b-983d-63f752a5b56a")
-	)
-	(wire
-		(pts
-			(xy 198.12 25.4) (xy 219.71 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3779d3d4-b8bf-44a5-a1c8-09fd6e20ca17")
 	)
 	(wire
 		(pts
@@ -19458,17 +19452,6 @@
 			(justify right bottom)
 		)
 		(uuid "e7c3a76b-f270-4a55-a517-55457556eeea")
-	)
-	(label "LED_Ground"
-		(at 219.71 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e86aeb35-e734-4ce8-9410-86261d199ac6")
 	)
 	(label "SH_RESET"
 		(at 143.51 257.81 0)
@@ -30040,71 +30023,6 @@
 			(project ""
 				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 219.71 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd46de88-eeab-402e-89c8-0f44b396cac4")
-		(property "Reference" "#PWR023"
-			(at 226.06 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6428644c-5eeb-409b-a1b3-7939c1da7d37")
-		)
-		(instances
-			(project "Accumulator_Board"
-				(path "/ac087927-92f1-4fcc-b2b7-d2d4010e5b25"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
