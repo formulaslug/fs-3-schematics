@@ -18548,7 +18548,7 @@
 		)
 		(uuid "8fcb1111-e59e-44d8-902f-f959dc180c94")
 	)
-	(text "Schmitt Trigger, Delay before turn on ~8secs\n"
+	(text "Schmitt Trigger, Delay before turn on ~4secs worst case\n\n"
 		(exclude_from_sim no)
 		(at 275.59 229.87 0)
 		(effects
@@ -20508,7 +20508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS308PE-DS-v02_03-en.pdf?fileId=db3a304330f686060131099c80400073"
 			(at 217.17 243.84 0)
 			(effects
 				(font
@@ -20656,8 +20656,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
-			(at 242.57 252.476 90)
+		(property "Value" "1u"
+			(at 242.57 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20878,7 +20878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "STS6NF20V"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/42/8b/c9/ed/58/a5/4d/8d/CD00002342.pdf/files/CD00002342.pdf/jcr:content/translations/en.CD00002342.pdf"
 			(at 200.66 157.48 0)
 			(effects
 				(font
@@ -21816,7 +21816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "STS6NF20V"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/42/8b/c9/ed/58/a5/4d/8d/CD00002342.pdf/files/CD00002342.pdf/jcr:content/translations/en.CD00002342.pdf"
 			(at 304.8 158.75 0)
 			(effects
 				(font
@@ -21946,7 +21946,7 @@
 		(dnp no)
 		(uuid "3074ddff-724c-4848-9d69-c8c694443212")
 		(property "Reference" "R27"
-			(at 248.666 282.194 90)
+			(at 247.65 279.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21954,8 +21954,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7.2k"
-			(at 246.38 282.448 90)
+		(property "Value" "7.15k"
+			(at 247.65 281.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22243,7 +22243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.comchiptech.com/admin/files/product/ACGRAT101L-HF%20Thru%20ACGRAT105L-HF%20RevB849012.pdf"
 			(at 44.45 264.16 0)
 			(effects
 				(font
@@ -22847,7 +22847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.comchiptech.com/admin/files/product/ACGRAT101L-HF%20Thru%20ACGRAT105L-HF%20RevB849012.pdf"
 			(at 234.95 135.89 0)
 			(effects
 				(font
@@ -23049,7 +23049,7 @@
 				)
 			)
 		)
-		(property "Value" "50V"
+		(property "Value" "HPZR-C50X"
 			(at 387.35 40.64 0)
 			(effects
 				(font
@@ -23269,7 +23269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "STS6NF20V"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/42/8b/c9/ed/58/a5/4d/8d/CD00002342.pdf/files/CD00002342.pdf/jcr:content/translations/en.CD00002342.pdf"
 			(at 111.76 242.57 0)
 			(effects
 				(font
@@ -23725,7 +23725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.comchiptech.com/admin/files/product/ACGRAT101L-HF%20Thru%20ACGRAT105L-HF%20RevB849012.pdf"
 			(at 109.22 262.89 0)
 			(effects
 				(font
@@ -23793,7 +23793,7 @@
 				)
 			)
 		)
-		(property "Value" "4069"
+		(property "Value" "MC14069UBDR2G"
 			(at 326.136 273.812 0)
 			(effects
 				(font
@@ -24528,7 +24528,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.49M"
+		(property "Value" "10M"
 			(at 248.92 247.6499 0)
 			(effects
 				(font
@@ -26764,7 +26764,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "912c8913-3f12-4bee-87a6-81f9e70a6493")
 		(property "Reference" "U16"
 			(at 270.51 267.97 0)
@@ -26774,8 +26773,8 @@
 				)
 			)
 		)
-		(property "Value" "4069"
-			(at 270.51 270.51 0)
+		(property "Value" "MC14069UBDR2G"
+			(at 269.24 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27242,7 +27241,7 @@
 		(dnp no)
 		(uuid "9c723bb8-eadb-462b-a330-81916b40dc46")
 		(property "Reference" "R39"
-			(at 233.426 308.864 90)
+			(at 232.664 305.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27250,8 +27249,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7.2k"
-			(at 231.14 309.118 90)
+		(property "Value" "7.15k"
+			(at 232.664 308.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30169,7 +30168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "STS6NF20V"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/42/8b/c9/ed/58/a5/4d/8d/CD00002342.pdf/files/CD00002342.pdf/jcr:content/translations/en.CD00002342.pdf"
 			(at 152.4 316.23 0)
 			(effects
 				(font
@@ -30460,7 +30459,7 @@
 				)
 			)
 		)
-		(property "Value" "4069"
+		(property "Value" "MC14069UBDR2G"
 			(at 289.56 160.02 0)
 			(effects
 				(font
@@ -30705,7 +30704,7 @@
 				)
 			)
 		)
-		(property "Value" "4069"
+		(property "Value" "MC14069UBDR2G"
 			(at 383.54 87.63 90)
 			(effects
 				(font
