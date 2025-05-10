@@ -266,12 +266,7 @@
 		(at 7.5 0)
 		(size 2 2)
 		(drill 0.9)
-		(layers "*.Cu" "*.Mask" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
-			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
-			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
-			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
-			"In30.Cu"
-		)
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c35a0e51-2dd8-4615-a443-a0ead6dd8d49")
 	)
@@ -279,13 +274,19 @@
 		(at -7.5 0)
 		(size 2 2)
 		(drill 0.9)
-		(layers "*.Cu" "*.Mask" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
-			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
-			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
-			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
-			"In30.Cu"
-		)
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "d1dc68b0-b1c5-4c31-927c-314239e694f7")
+	)
+	(model "${FS_3_SCHEMATICS}/Libraries/3D Models/AI-3035-TT-12V-R.STEP"
+		(offset
+			(xyz 0 0 10.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )
