@@ -1,0 +1,240 @@
+** Drc report for TelemMainV2.kicad_pcb **
+** Created on 2025-02-18T18:04:29-0800 **
+
+** Found 54 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(120.7370 mm, 126.5324 mm): Track [MEM-CS] on F.Cu, length 0.2136 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(137.2460 mm, 133.6275 mm): Track [+5V] on F.Cu, length 0.0863 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(97.2650 mm, 114.7911 mm): Track [+9V] on F.Cu, length 0.4100 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(97.2550 mm, 111.3790 mm): Track [+9V] on F.Cu, length 0.0001 mm
+[shorting_items]: Items shorting two nets (nets CAN1_RX and unconnected-(U3B-PC9-PadCN10_1))
+    Local override; error
+    @(156.7500 mm, 99.1100 mm): Track [CAN1_RX] on B.Cu, length 8.2100 mm
+    @(156.7500 mm, 99.1100 mm): PTH pad CN10_1 [unconnected-(U3B-PC9-PadCN10_1)] of U3
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(55.9280 mm, 43.0280 mm): Rectangle on Edge.Cuts
+    @(97.8630 mm, 53.1500 mm): Polygon on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(55.9280 mm, 43.0280 mm): Rectangle on Edge.Cuts
+    @(161.5000 mm, 33.9500 mm): Rectangle on F.Silkscreen
+[lib_footprint_issues]: The current configuration does not include the library '1FS_2_Global_Footprint_Library'.
+    Local override; warning
+    @(201.8091 mm, 92.9087 mm): Footprint G1
+[lib_footprint_issues]: The current configuration does not include the library 'FSFootprints'.
+    Local override; warning
+    @(149.3520 mm, 61.2140 mm): Footprint G***
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(126.0000 mm, 65.5000 mm): PCB Text '100 μF' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(171.6960 mm, 63.3860 mm): PCB Text '100μF' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(135.7500 mm, 68.2500 mm): PCB Text '10KΩ' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(124.2500 mm, 70.0000 mm): PCB Text '10KΩ' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(143.0000 mm, 67.5000 mm): PCB Text '20KΩ' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(115.2500 mm, 65.5000 mm): PCB Text '330 μF' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(169.7500 mm, 82.5000 mm): PCB Text '20μF' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(107.1880 mm, 127.3810 mm): PCB Text '100μF' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(141.0000 mm, 74.0000 mm): PCB Text '100μF' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(120.0000 mm, 70.0000 mm): PCB Text '20KΩ' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(129.2500 mm, 63.7500 mm): PCB Text '330μF' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(179.9590 mm, 82.9310 mm): PCB Text '20μF' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(182.4460 mm, 63.3860 mm): PCB Text '100μF' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(136.7500 mm, 62.2500 mm): PCB Text '100μF' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.4433 mm, 135.6595 mm): Reference 'D2'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(109.9530 mm, 131.6990 mm): Reference 'C18'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(136.0460 mm, 136.5485 mm): Reference 'C24'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.2330 mm, 130.9595 mm): Reference 'L1'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(126.7750 mm, 132.9690 mm): Reference 'C17'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.3680 mm, 132.9690 mm): Reference 'C15'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(117.8620 mm, 153.1940 mm): Reference 'J2'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(133.8870 mm, 136.5485 mm): Reference 'C23'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(111.1540 mm, 131.6990 mm): Reference 'C20'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(144.9360 mm, 142.1790 mm): Reference 'C25'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(126.2090 mm, 132.9690 mm): Reference 'C16'
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(156.7500 mm, 99.1100 mm): Track [CAN1_RX] on B.Cu, length 8.2100 mm
+    @(156.7500 mm, 99.1100 mm): PTH pad CN10_1 [unconnected-(U3B-PC9-PadCN10_1)] of U3
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(109.9530 mm, 131.6990 mm): Reference 'C18'
+    @(110.2090 mm, 131.4377 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(110.8980 mm, 131.9603 mm): Segment on F.Silkscreen
+    @(111.1540 mm, 131.6990 mm): Reference 'C20'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(139.2330 mm, 130.9595 mm): Reference 'L1'
+    @(140.1080 mm, 131.0465 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(126.7750 mm, 132.9690 mm): Reference 'C17'
+    @(126.2110 mm, 132.7077 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(126.7750 mm, 132.9690 mm): Reference 'C17'
+    @(126.2090 mm, 132.9690 mm): Reference 'C16'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(126.7750 mm, 132.9690 mm): Reference 'C17'
+    @(127.1540 mm, 133.2303 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(126.2110 mm, 132.7077 mm): Segment on F.Silkscreen
+    @(126.2090 mm, 132.9690 mm): Reference 'C16'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(128.3680 mm, 132.9690 mm): Reference 'C15'
+    @(128.6240 mm, 133.2303 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(130.4625 mm, 60.3200 mm): Reference 'C2'
+    @(127.2900 mm, 59.6910 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(127.2900 mm, 59.6910 mm): Segment on F.Silkscreen
+    @(134.0000 mm, 60.2500 mm): Reference 'C4'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(173.0700 mm, 135.5000 mm): Reference 'C13'
+    @(173.4000 mm, 137.3800 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(173.0700 mm, 135.5000 mm): Reference 'C13'
+    @(173.1000 mm, 137.0800 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(140.2080 mm, 132.3365 mm): Reference 'U10'
+    @(136.6130 mm, 132.0395 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(144.8070 mm, 141.9177 mm): Segment on F.Silkscreen
+    @(144.9360 mm, 142.1790 mm): Reference 'C25'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(136.0460 mm, 136.5485 mm): Reference 'C24'
+    @(136.6130 mm, 137.0095 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(133.6310 mm, 136.2872 mm): Segment on F.Silkscreen
+    @(133.8870 mm, 136.5485 mm): Reference 'C23'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(143.3820 mm, 125.3725 mm): Reference 'R3'
+    @(143.7800 mm, 126.0575 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(143.3820 mm, 125.3725 mm): Reference 'R3'
+    @(144.4800 mm, 126.0575 mm): Arc on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(143.3820 mm, 125.3725 mm): Reference 'R3'
+    @(144.4800 mm, 124.6575 mm): Arc on F.Silkscreen
+
+** Found 8 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.7500 mm, 99.1100 mm): Track [CAN1_RX] on B.Cu, length 8.2100 mm
+    @(156.7500 mm, 101.6500 mm): PTH pad CN10_3 [CAN1_RX] of U3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.5607 mm, 141.0294 mm): Track [VCC1.2] on F.Cu, length 0.8867 mm
+    @(113.2121 mm, 133.3880 mm): Track [VCC1.2] on F.Cu, length 2.4316 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.7500 mm, 111.8100 mm): PTH pad CN10_11 [Radio SCK1] of U3
+    @(181.6590 mm, 143.6880 mm): PTH pad 18 [Radio SCK1] of U5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(203.6590 mm, 141.6880 mm): PTH pad 4 [Radio MISO1] of U5
+    @(156.3193 mm, 114.3500 mm): Track [Radio MISO1] on B.Cu, length 0.4307 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.7500 mm, 124.5100 mm): PTH pad CN10_21 [Radio ATTN] of U3
+    @(181.6590 mm, 145.6880 mm): PTH pad 19 [Radio ATTN] of U5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.2900 mm, 139.7500 mm): PTH pad CN10_34 [Radio CS1] of U3
+    @(181.6590 mm, 141.6880 mm): PTH pad 17 [Radio CS1] of U5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.7500 mm, 121.9700 mm): PTH pad CN10_19 [Radio Reset] of U3
+    @(203.6590 mm, 139.6880 mm): PTH pad 5 [Radio Reset] of U5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.7500 mm, 116.8900 mm): PTH pad CN10_15 [Radio MOSI1] of U3
+    @(181.6590 mm, 129.6880 mm): PTH pad 11 [Radio MOSI1] of U5
+
+** Found 4 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    Local override; warning
+    @(71.2500 mm, 47.5000 mm): Footprint REF**
+    @(71.2500 mm, 152.4000 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(71.2500 mm, 152.4000 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(149.3520 mm, 61.2140 mm): Footprint G***
+[extra_footprint]: Extra footprint
+    Local override; warning
+    @(71.2500 mm, 47.5000 mm): Footprint REF**
+
+** End of Report **
