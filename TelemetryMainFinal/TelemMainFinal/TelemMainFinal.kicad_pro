@@ -183,28 +183,28 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "mirrored_text_on_front_layer": "warning",
+        "mirrored_text_on_front_layer": "ignore",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "nonmirrored_text_on_back_layer": "warning",
+        "nonmirrored_text_on_back_layer": "ignore",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -843,7 +843,7 @@
     ],
     [
       "b582ba12-49c7-4e7f-8076-9a6fdb596e73",
-      "Dash components"
+      "Dash"
     ],
     [
       "79f62d39-94e4-4c20-83ac-c31908d26302",
@@ -856,6 +856,14 @@
     [
       "3a9496ec-61d0-4d7d-9750-f1fe396ccf19",
       "CAN"
+    ],
+    [
+      "2d9cdd5f-57ae-4ed3-9db6-e19365c5e770",
+      "SD"
+    ],
+    [
+      "2ef37fd7-30ad-4b29-b267-340898a64647",
+      "IMU"
     ]
   ],
   "text_variables": {}
